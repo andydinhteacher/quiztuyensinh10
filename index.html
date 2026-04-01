@@ -8,7 +8,7 @@
     <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- Kết nối trực tiếp với ngân hàng câu hỏi -->
+    <!-- Kết nối trực tiếp với ngân hàng câu hỏi questions.js -->
     <script src="questions.js"></script>
 
     <style>
@@ -27,9 +27,9 @@
             border-color: #2563eb;
             background-color: #eff6ff;
             color: #1e40af;
-            box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.1);
+            box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.1);
         }
-        /* Thanh cuộn nội bộ mượt mà chỉ xuất hiện khi thực sự cần (ví dụ câu hỏi quá dài) */
+        /* Thanh cuộn nội bộ tinh tế */
         .custom-scroll::-webkit-scrollbar { width: 4px; }
         .custom-scroll::-webkit-scrollbar-track { background: transparent; }
         .custom-scroll::-webkit-scrollbar-thumb { background: #e2e8f0; border-radius: 10px; }
@@ -38,16 +38,38 @@
 <body class="flex flex-col items-center justify-center">
 
     <!-- Màn hình chính (Home Screen) -->
-    <div id="home-screen" class="w-full max-w-md bg-white h-full md:h-auto md:rounded-[2.5rem] shadow-2xl p-8 flex flex-col items-center text-center border border-slate-100 animate-in fade-in duration-700 justify-center">
-        <div class="w-20 h-20 bg-blue-100 rounded-2xl flex items-center justify-center mb-6 flex-shrink-0">
+    <div id="home-screen" class="w-full max-w-md bg-white h-full md:h-auto md:rounded-[2.5rem] shadow-2xl p-8 flex flex-col items-center text-center border border-slate-100 animate-in fade-in duration-700 justify-center relative">
+        
+        <!-- Hiển thị Version ở góc trên màn hình Home -->
+        <div class="absolute top-6 right-8 bg-slate-100 text-slate-400 text-[10px] font-bold px-2 py-0.5 rounded-md uppercase tracking-tighter">
+            Ver 2.4
+        </div>
+
+        <!-- Logo -->
+        <div class="w-20 h-20 bg-blue-100 rounded-2xl flex items-center justify-center mb-4 flex-shrink-0">
             <i data-lucide="book-open" class="text-blue-600 w-10 h-10"></i>
         </div>
 
-        <h1 class="text-2xl font-extrabold text-slate-800 mb-1">Luyện Thi Tuyển Sinh 10</h1>
-        <p class="text-slate-500 font-medium mb-2 text-sm">Môn Tiếng Anh</p>
+        <h1 class="text-2xl font-extrabold text-slate-800 mb-1 leading-tight">Luyện Thi Tuyển Sinh 10</h1>
+        <p class="text-slate-500 font-medium mb-2 text-sm uppercase tracking-wider">Môn Tiếng Anh</p>
         
-        <div class="bg-amber-100/50 text-amber-700 px-4 py-1 rounded-full text-[12px] font-bold mb-6 italic border border-amber-200">
-            By Mr. Anh Đinh
+        <div class="bg-amber-100/50 text-amber-700 px-4 py-1.5 rounded-full text-[12px] font-bold mb-4 italic border border-amber-200">
+            By Mr. Anh Đinh - TOEIC: 955/990
+        </div>
+
+        <div class="mb-4 space-y-1">
+            <p class="text-slate-800 text-sm font-bold">Luyện trắc nghiệm từ vựng và ngữ pháp</p>
+            <p class="text-slate-500 text-[12px] leading-relaxed max-w-[260px]">
+                Hệ thống đảo câu hỏi và phương án trả lời ngẫu nhiên.
+            </p>
+        </div>
+
+        <div class="mb-6 w-full bg-slate-50 rounded-2xl p-4 border border-slate-100 flex flex-col items-center shadow-inner">
+            <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Dữ liệu hiện có</p>
+            <div class="flex items-baseline gap-1">
+                <span id="bank-count" class="text-3xl font-black text-blue-600">0</span>
+                <span class="text-[11px] font-bold text-blue-400 uppercase">Câu hỏi</span>
+            </div>
         </div>
 
         <div class="w-full space-y-3">
@@ -58,19 +80,30 @@
                 Luyện tập 20 câu <i data-lucide="chevron-right" class="w-5 h-5"></i>
             </button>
         </div>
-
-        <div class="mt-8 pt-4 border-t border-slate-50 w-full text-slate-400 text-[10px] font-bold tracking-widest uppercase">
-            Ngân hàng: <span id="bank-count" class="text-blue-500">0</span> câu hỏi
-        </div>
-        <p class="mt-4 text-slate-400 text-[9px]">© 2026 Mr. Anh Đinh English Class</p>
+        
+        <p class="mt-6 text-slate-400 text-[9px] font-medium">© 2026 Mr. Anh Đinh English Class</p>
     </div>
 
     <!-- Màn hình làm bài (Quiz Screen) -->
     <div id="quiz-screen" class="hidden w-full h-full max-w-5xl flex flex-col p-2 md:p-4">
-        <!-- Header -->
-        <div class="flex items-center justify-between mb-2 flex-shrink-0 px-2">
-            <button onclick="confirmExit()" class="text-slate-400 hover:text-slate-600 p-2"><i data-lucide="x" class="w-6 h-6"></i></button>
-            <div class="flex-1 mx-4">
+        <!-- Progress Header -->
+        <div class="flex items-center justify-between mb-2 flex-shrink-0 px-2 gap-2">
+            <div class="flex items-center gap-1">
+                <button onclick="confirmExit()" class="text-slate-400 hover:text-slate-600 p-2 transition-colors"><i data-lucide="x" class="w-6 h-6"></i></button>
+                
+                <!-- Cụm nút tăng giảm Font Size -->
+                <div class="flex bg-white border border-slate-200 rounded-lg p-0.5 ml-1">
+                    <button onclick="changeFontSize(-2)" class="p-1.5 hover:bg-slate-100 rounded text-slate-500 transition-colors" title="Giảm cỡ chữ">
+                        <i data-lucide="minus" class="w-4 h-4"></i>
+                    </button>
+                    <div class="w-px bg-slate-100 my-1"></div>
+                    <button onclick="changeFontSize(2)" class="p-1.5 hover:bg-slate-100 rounded text-slate-500 transition-colors" title="Tăng cỡ chữ">
+                        <i data-lucide="plus" class="w-4 h-4"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex-1 mx-2">
                 <div class="flex justify-between text-[10px] font-black text-blue-600 uppercase tracking-widest mb-1">
                     <span id="progress-text">Câu 1/10</span>
                     <span id="progress-percent">0%</span>
@@ -79,31 +112,31 @@
                     <div id="progress-bar" class="h-full bg-blue-600 transition-all duration-300" style="width: 10%"></div>
                 </div>
             </div>
-            <div class="hidden md:block text-[10px] font-bold bg-white px-2 py-1 rounded border border-slate-200 text-slate-400 uppercase">Ver 2.0</div>
+            <div class="hidden md:block text-[10px] font-bold bg-white px-2 py-1 rounded border border-slate-200 text-slate-400 uppercase tracking-tighter">Ver 2.4</div>
         </div>
 
-        <!-- Container chính -->
+        <!-- Khung làm bài chính -->
         <div class="bg-white rounded-[1.5rem] md:rounded-[2.5rem] shadow-2xl border border-slate-100 flex-1 flex flex-col overflow-hidden">
             
-            <!-- Question area -->
-            <div class="p-5 md:p-8 md:pb-4 border-b border-slate-50 flex-shrink-0 bg-white">
+            <!-- Phần Câu hỏi (Gọn hơn để nhường chỗ cho đáp án) -->
+            <div class="p-4 md:p-6 md:px-10 border-b border-slate-50 flex-shrink-0 bg-white">
                 <span class="inline-block px-3 py-1 bg-blue-50 text-blue-600 rounded-lg text-[9px] md:text-[10px] font-black uppercase mb-2 md:mb-3 tracking-tighter">Câu hỏi</span>
-                <h2 id="question-text" class="text-xl md:text-3xl font-extrabold text-slate-900 leading-tight">
-                    Đang tải...
+                <h2 id="question-text" class="text-xl md:text-3xl font-extrabold text-slate-900 leading-tight transition-all duration-200">
+                    Đang tải câu hỏi...
                 </h2>
             </div>
 
-            <!-- Options area (Laptop: Fit everything, Mobile: Scroll if needed) -->
-            <div class="flex-1 overflow-y-auto p-4 md:p-8 md:pt-4 custom-scroll bg-slate-50/20">
-                <div id="options-container" class="grid grid-cols-1 gap-3 md:gap-3">
+            <!-- Phần Đáp án (Tối ưu hóa không gian dọc) -->
+            <div class="flex-1 overflow-y-auto p-4 md:p-6 md:px-10 custom-scroll bg-slate-50/20">
+                <div id="options-container" class="grid grid-cols-1 gap-2 md:gap-3">
                     <!-- Đáp án A, B, C, D -->
                 </div>
             </div>
 
-            <!-- Footer Buttons -->
-            <div class="p-4 md:p-6 bg-white border-t border-slate-100 flex gap-3 md:gap-6 flex-shrink-0">
-                <button id="prev-btn" onclick="prevQuestion()" class="flex-1 bg-slate-100 text-slate-600 py-3 md:py-4 rounded-xl md:rounded-2xl font-bold hover:bg-slate-200 transition-all flex items-center justify-center gap-2 text-sm md:text-md">
-                    <i data-lucide="chevron-left" class="w-5 h-5"></i> Quay lại
+            <!-- Điều hướng -->
+            <div class="p-4 md:p-6 md:px-10 bg-white border-t border-slate-100 flex gap-3 md:gap-6 flex-shrink-0">
+                <button id="prev-btn" onclick="prevQuestion()" class="flex-1 bg-slate-100 text-slate-600 py-3 md:py-4 rounded-xl md:rounded-2xl font-bold hover:bg-slate-200 transition-all flex items-center justify-center gap-2 text-sm md:text-lg">
+                    <i data-lucide="chevron-left" class="w-5 h-5"></i> Trước
                 </button>
                 <button id="next-btn" onclick="nextQuestion()" class="flex-[2] bg-blue-600 text-white py-3 md:py-4 rounded-xl md:rounded-2xl font-bold hover:bg-blue-700 shadow-lg shadow-blue-200 transition-all flex items-center justify-center gap-2 text-sm md:text-lg">
                     Tiếp theo <i data-lucide="chevron-right" class="w-5 h-5"></i>
@@ -113,22 +146,35 @@
     </div>
 
     <!-- Màn hình Kết quả (Result Screen) -->
-    <div id="result-screen" class="hidden w-full h-full max-w-3xl flex flex-col p-4 md:p-6 overflow-hidden">
-        <div class="bg-white rounded-[2.5rem] shadow-2xl p-6 md:p-10 text-center flex-shrink-0 border border-slate-100 mb-4">
-            <div id="result-emoji" class="text-5xl mb-2">🎉</div>
-            <h2 class="text-2xl font-black text-slate-800 mb-1">Hoàn thành!</h2>
-            <div class="flex justify-center gap-4 my-4">
-                <div class="bg-blue-50 px-6 py-3 rounded-2xl border border-blue-100">
-                    <p class="text-[9px] font-bold text-blue-400 uppercase mb-1 tracking-widest">Điểm số</p>
-                    <p class="text-3xl font-black text-blue-600"><span id="final-score">0</span>/<span id="final-total">0</span></p>
+    <div id="result-screen" class="hidden w-full h-full max-w-4xl flex flex-col p-4 md:p-6 overflow-hidden">
+        <div class="bg-white rounded-[2rem] shadow-xl p-5 md:p-6 flex flex-row items-center justify-between border border-slate-100 mb-4 flex-shrink-0">
+            <div class="flex items-center gap-4">
+                <div class="w-12 h-12 md:w-16 md:h-16 bg-blue-50 rounded-2xl flex items-center justify-center">
+                    <i data-lucide="award" class="text-blue-600 w-8 h-8 md:w-10 md:h-10"></i>
+                </div>
+                <div class="text-left">
+                    <h2 class="text-lg md:text-2xl font-black text-slate-800 leading-tight">Hoàn thành!</h2>
+                    <p class="text-slate-400 text-[10px] md:text-xs font-bold uppercase tracking-widest">Kết quả luyện tập</p>
                 </div>
             </div>
-            <button onclick="location.reload()" class="w-full bg-slate-900 text-white py-4 rounded-2xl font-bold text-md hover:bg-black transition-all">
-                Làm bài mới
-            </button>
+
+            <div class="flex items-center gap-4 md:gap-8">
+                <div class="text-right">
+                    <p class="text-[10px] font-bold text-blue-400 uppercase mb-0.5 tracking-tighter">Điểm số</p>
+                    <p class="text-2xl md:text-4xl font-black text-blue-600 leading-none"><span id="final-score">0</span>/<span id="final-total">0</span></p>
+                </div>
+                <button onclick="location.reload()" class="bg-slate-900 text-white p-3 md:px-6 md:py-4 rounded-xl font-bold text-sm hover:bg-black transition-all flex items-center gap-2 active:scale-95 shadow-lg">
+                    <i data-lucide="rotate-ccw" class="w-4 h-4"></i> <span class="hidden md:inline">Làm bài mới</span>
+                </button>
+            </div>
         </div>
 
-        <div id="review-container" class="flex-1 overflow-y-auto space-y-4 custom-scroll pr-2">
+        <div class="flex-shrink-0 mb-2 px-2 flex justify-between items-center">
+            <p class="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">Xem lại chi tiết & Giải thích</p>
+            <span class="text-[10px] text-slate-300 font-bold uppercase">Ver 2.4</span>
+        </div>
+        
+        <div id="review-container" class="flex-1 overflow-y-auto space-y-4 custom-scroll pr-2 pb-12">
             <!-- Review items -->
         </div>
     </div>
@@ -140,18 +186,37 @@
         let selectedQuestions = [];
         let currentIdx = 0;
         let userAnswers = {};
+        let currentFontSizeOffset = 0; 
 
         window.onload = () => {
             if (typeof ALL_QUESTIONS !== 'undefined') {
                 quizData = ALL_QUESTIONS;
                 document.getElementById('bank-count').innerText = quizData.length;
-            } else {
-                alert("Lỗi: Không tìm thấy file questions.js.");
             }
         };
 
+        function changeFontSize(delta) {
+            currentFontSizeOffset += delta;
+            if (currentFontSizeOffset < -6) currentFontSizeOffset = -6;
+            if (currentFontSizeOffset > 20) currentFontSizeOffset = 20;
+            applyFontSize();
+        }
+
+        function applyFontSize() {
+            const questionEl = document.getElementById('question-text');
+            const optionTexts = document.querySelectorAll('.opt-text-content');
+            if (questionEl) {
+                const baseQ = window.innerWidth >= 768 ? 30 : 20;
+                questionEl.style.fontSize = (baseQ + currentFontSizeOffset) + 'px';
+            }
+            optionTexts.forEach(el => {
+                const baseOpt = window.innerWidth >= 768 ? 22 : 17;
+                el.style.fontSize = (baseOpt + (currentFontSizeOffset * 0.8)) + 'px';
+            });
+        }
+
         function initQuiz(count) {
-            if (quizData.length === 0) return;
+            if (!quizData.length) return;
             selectedQuestions = [...quizData].sort(() => Math.random() - 0.5).slice(0, Math.min(count, quizData.length));
             currentIdx = 0;
             userAnswers = {};
@@ -167,98 +232,72 @@
             document.getElementById('progress-text').innerText = `Câu ${currentIdx + 1}/${selectedQuestions.length}`;
             document.getElementById('progress-percent').innerText = Math.round(progress) + '%';
             document.getElementById('question-text').innerText = q.question;
-            
             const container = document.getElementById('options-container');
             container.innerHTML = '';
-            
             Object.entries(q.options).forEach(([key, value]) => {
                 const btn = document.createElement('button');
-                // Tinh chỉnh padding nút bấm trên laptop (md:p-4) để tiết kiệm diện tích dọc
-                btn.className = `option-btn w-full text-left p-4 md:p-4 rounded-xl md:rounded-2xl border-2 border-slate-100 bg-white hover:border-blue-400 font-bold flex items-start gap-3 md:gap-4 ${userAnswers[currentIdx] === key ? 'selected' : ''}`;
+                btn.className = `option-btn w-full text-left p-3 md:p-4 rounded-xl md:rounded-2xl border-2 border-slate-100 bg-white hover:border-blue-400 font-bold flex items-start gap-4 md:gap-6 ${userAnswers[currentIdx] === key ? 'selected' : ''}`;
                 btn.innerHTML = `
-                    <span class="flex-shrink-0 w-8 h-8 md:w-9 md:h-9 rounded-lg bg-slate-50 border border-slate-200 flex items-center justify-center text-[12px] md:text-base text-slate-500 font-black">${key}</span>
-                    <span class="text-slate-700 md:text-xl font-semibold leading-tight pt-1 md:pt-1">${value}</span>
+                    <span class="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 rounded-lg bg-slate-50 border border-slate-200 flex items-center justify-center text-[12px] md:text-base text-slate-500 font-black">${key}</span>
+                    <span class="opt-text-content text-slate-700 font-semibold leading-relaxed pt-0.5 md:pt-1.5">${value}</span>
                 `;
-                btn.onclick = () => selectOption(key);
+                btn.onclick = () => { userAnswers[currentIdx] = key; showQuestion(); };
                 container.appendChild(btn);
             });
-
             document.getElementById('prev-btn').style.visibility = currentIdx === 0 ? 'hidden' : 'visible';
-            document.getElementById('next-btn').innerHTML = currentIdx === selectedQuestions.length - 1 
-                ? 'Nộp bài <i data-lucide="check-circle" class="w-5 h-5 ml-1"></i>' 
-                : 'Tiếp theo <i data-lucide="chevron-right" class="w-5 h-5 ml-1"></i>';
+            document.getElementById('next-btn').innerHTML = currentIdx === selectedQuestions.length - 1 ? 'Nộp bài <i data-lucide="check-circle" class="w-5 h-5 ml-1"></i>' : 'Tiếp theo <i data-lucide="chevron-right" class="w-5 h-5 ml-1"></i>';
             lucide.createIcons();
-            
+            applyFontSize();
             document.querySelector('.overflow-y-auto').scrollTop = 0;
         }
 
-        function selectOption(key) {
-            userAnswers[currentIdx] = key;
-            showQuestion();
-        }
-
         function nextQuestion() {
-            if (currentIdx < selectedQuestions.length - 1) {
-                currentIdx++;
-                showQuestion();
-            } else {
-                finishQuiz();
-            }
+            if (currentIdx < selectedQuestions.length - 1) { currentIdx++; showQuestion(); } else { finishQuiz(); }
         }
 
         function prevQuestion() {
-            if (currentIdx > 0) {
-                currentIdx--;
-                showQuestion();
-            }
+            if (currentIdx > 0) { currentIdx--; showQuestion(); }
         }
 
         function finishQuiz() {
             document.getElementById('quiz-screen').classList.add('hidden');
             document.getElementById('result-screen').classList.remove('hidden');
-            
             let correct = 0;
-            selectedQuestions.forEach((q, i) => {
-                if (userAnswers[i] === q.key) correct++;
-            });
-
+            selectedQuestions.forEach((q, i) => { if (userAnswers[i] === q.key) correct++; });
             document.getElementById('final-score').innerText = correct;
             document.getElementById('final-total').innerText = selectedQuestions.length;
-            
-            const emoji = document.getElementById('result-emoji');
-            const percent = (correct / selectedQuestions.length) * 100;
-            if (percent >= 80) emoji.innerText = '🏆';
-            else if (percent >= 50) emoji.innerText = '🌟';
-            else emoji.innerText = '📚';
-
             renderReview();
         }
 
         function renderReview() {
             const container = document.getElementById('review-container');
             container.innerHTML = '';
-            
             selectedQuestions.forEach((q, i) => {
                 const userChoice = userAnswers[i];
                 const isCorrect = userChoice === q.key;
                 const card = document.createElement('div');
-                card.className = `bg-white p-6 rounded-3xl border ${isCorrect ? 'border-green-100' : 'border-red-100'} shadow-sm`;
+                card.className = `bg-white p-6 md:p-8 rounded-3xl border ${isCorrect ? 'border-green-100' : 'border-red-100'} shadow-sm`;
                 card.innerHTML = `
-                    <div class="flex justify-between items-start mb-2">
-                        <span class="text-[9px] font-black uppercase ${isCorrect ? 'text-green-500' : 'text-red-500'} tracking-widest">Câu ${i+1}: ${isCorrect ? 'ĐÚNG' : 'SAI'}</span>
-                        ${isCorrect ? '<i data-lucide="check" class="text-green-500 w-4 h-4"></i>' : '<i data-lucide="x" class="text-red-500 w-4 h-4"></i>'}
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="text-[9px] font-black uppercase ${isCorrect ? 'text-green-500' : 'text-red-500'} tracking-widest">Câu ${i+1}: ${isCorrect ? 'Chính xác' : 'Chưa đúng'}</span>
+                        ${isCorrect ? '<i data-lucide="check-circle" class="text-green-500 w-5 h-5"></i>' : '<i data-lucide="alert-circle" class="text-red-500 w-5 h-5"></i>'}
                     </div>
-                    <p class="font-bold text-slate-800 mb-4 text-sm md:text-lg">${q.question}</p>
-                    <div class="space-y-2 mb-4">
+                    <p class="font-bold text-slate-800 mb-6 text-base md:text-2xl leading-snug">${q.question}</p>
+                    <div class="grid grid-cols-1 gap-2 mb-6">
                         ${Object.entries(q.options).map(([k, v]) => `
-                            <div class="p-3 rounded-xl text-xs md:text-sm flex gap-3 ${k === q.key ? 'bg-green-50 text-green-700 font-bold border border-green-200' : (k === userChoice ? 'bg-red-50 text-red-700 font-bold border border-red-200' : 'bg-slate-50 text-slate-500 opacity-60')}">
-                                <span class="font-bold">${k}.</span> <span>${v}</span>
+                            <div class="p-3 md:p-4 rounded-xl text-sm md:text-xl flex gap-4 ${k === q.key ? 'bg-green-50 text-green-700 font-bold border border-green-200' : (k === userChoice ? 'bg-red-50 text-red-700 font-bold border border-red-200' : 'bg-slate-50 text-slate-400 opacity-60')}">
+                                <span class="font-black">${k}.</span> <span>${v}</span>
                             </div>
                         `).join('')}
                     </div>
-                    <div class="bg-blue-50/50 p-4 rounded-2xl border border-blue-100/50">
-                        <p class="text-[8px] font-black text-blue-400 uppercase mb-2 tracking-tight">Giải thích</p>
-                        <p class="text-xs md:text-sm text-blue-700 italic leading-relaxed">${q.explanation || 'Hãy xem kỹ cấu trúc này nhé.'}</p>
+                    <div class="bg-blue-50/80 p-5 md:p-7 rounded-2xl border border-blue-100">
+                        <div class="flex items-center gap-2 mb-3 text-blue-600">
+                            <i data-lucide="info" class="w-4 h-4 md:w-5 md:h-5"></i>
+                            <p class="text-[10px] md:text-xs font-black uppercase tracking-widest">Giải thích chi tiết</p>
+                        </div>
+                        <p class="text-base md:text-2xl text-blue-900 font-medium leading-relaxed italic">
+                            ${q.explanation || 'Vui lòng xem lại cấu trúc ngữ pháp và từ vựng của câu hỏi này.'}
+                        </p>
                     </div>
                 `;
                 container.appendChild(card);
@@ -266,11 +305,7 @@
             lucide.createIcons();
         }
 
-        function confirmExit() {
-            if (confirm("Bạn có muốn thoát và hủy bài làm này không?")) {
-                location.reload();
-            }
-        }
+        function confirmExit() { if (confirm("Bạn có muốn thoát và hủy kết quả bài làm này không?")) location.reload(); }
     </script>
 </body>
 </html>
