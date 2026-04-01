@@ -2278,5 +2278,1085 @@ const ALL_QUESTIONS = [
     },
     "key": "B",
     "explanation": "Sau \"feel\" dùng tính từ."
+  },
+  {
+    "id": 191,
+    "question": "By the time we arrived at the cinema, the movie __________.",
+    "options": {
+      "A": "has already started",
+      "B": "had already started",
+      "C": "already started",
+      "D": "was already starting"
+    },
+    "key": "B",
+    "explanation": "Dùng thì Quá khứ hoàn thành cho hành động xảy ra trước một hành động quá khứ khác."
+  },
+  {
+    "id": 192,
+    "question": "She suggested ___________ early so that we could avoid the traffic jam.",
+    "options": {
+      "A": "to leave",
+      "B": "leaving",
+      "C": "leave",
+      "D": "left"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc \"suggest + V-ing\" dùng để đưa ra một lời đề nghị."
+  },
+  {
+    "id": 193,
+    "question": "My parents always encourage me ___________ hard before important exams.",
+    "options": {
+      "A": "study",
+      "B": "studying",
+      "C": "to study",
+      "D": "studied"
+    },
+    "key": "C",
+    "explanation": "Cấu trúc \"encourage someone to do something\" (khuyến khích ai đó làm gì)."
+  },
+  {
+    "id": 194,
+    "question": "We have lived in this neighbourhood ___________ more than ten years.",
+    "options": {
+      "A": "since",
+      "B": "for",
+      "C": "in",
+      "D": "from"
+    },
+    "key": "B",
+    "explanation": "Dùng \"for\" đi kèm với một khoảng thời gian trong thì Hiện tại hoàn thành."
+  },
+  {
+    "id": 195,
+    "question": "The teacher reminded the students ___________ their homework before tomorrow morning.",
+    "options": {
+      "A": "hand in",
+      "B": "to hand in",
+      "C": "handing in",
+      "D": "handed in"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc \"remind someone to do something\" (nhắc nhở ai làm gì)."
+  },
+  {
+    "id": 196,
+    "question": "He is very good ___________ repairing electronic devices.",
+    "options": {
+      "A": "at",
+      "B": "in",
+      "C": "on",
+      "D": "with"
+    },
+    "key": "A",
+    "explanation": "Cụm từ \"be good at\" có nghĩa là giỏi về lĩnh vực gì đó."
+  },
+  {
+    "id": 197,
+    "question": "By next month, she ___________ English in Australia for six months.",
+    "options": {
+      "A": "will study",
+      "B": "will have studied",
+      "C": "studies",
+      "D": "has studied"
+    },
+    "key": "B",
+    "explanation": "Thì Tương lai hoàn thành diễn tả hành động hoàn tất trước một thời điểm tương lai."
+  },
+  {
+    "id": 198,
+    "question": "I look forward ___________ you again at the school festival next week.",
+    "options": {
+      "A": "to see",
+      "B": "to seeing",
+      "C": "see",
+      "D": "seeing"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc \"look forward to + V-ing\" mang nghĩa mong đợi làm việc gì."
+  },
+  {
+    "id": 199,
+    "question": "The children enjoy ___________ kites in the park on windy days.",
+    "options": {
+      "A": "fly",
+      "B": "to fly",
+      "C": "flying",
+      "D": "flew"
+    },
+    "key": "C",
+    "explanation": "Sau động từ \"enjoy\" ta luôn sử dụng danh động từ V-ing."
+  },
+  {
+    "id": 200,
+    "question": "She has been interested ___________ traditional Vietnamese music since she was a child.",
+    "options": {
+      "A": "on",
+      "B": "at",
+      "C": "in",
+      "D": "with"
+    },
+    "key": "C",
+    "explanation": "Cụm từ \"be interested in\" có nghĩa là quan tâm hoặc thích thú điều gì."
+  },
+  {
+    "id": 201,
+    "question": "The book ___________ you lent me last week is very interesting.",
+    "options": {
+      "A": "who",
+      "B": "whose",
+      "C": "which",
+      "D": "whom"
+    },
+    "key": "C",
+    "explanation": "Dùng đại từ quan hệ \"which\" để thay thế cho danh từ chỉ vật (The book)."
+  },
+  {
+    "id": 202,
+    "question": "This is the village ___________ my grandparents were born and grew up.",
+    "options": {
+      "A": "which",
+      "B": "where",
+      "C": "whose",
+      "D": "who"
+    },
+    "key": "B",
+    "explanation": "Dùng trạng từ quan hệ \"where\" để chỉ nơi chốn (the village)."
+  },
+  {
+    "id": 203,
+    "question": "The more you practise speaking English, ___________ your pronunciation becomes.",
+    "options": {
+      "A": "the better",
+      "B": "better",
+      "C": "the best",
+      "D": "best"
+    },
+    "key": "A",
+    "explanation": "Cấu trúc so sánh càng... càng...: \"The + comparative, the + comparative\"."
+  },
+  {
+    "id": 204,
+    "question": "Life in the countryside is usually ___________ peaceful than life in big cities.",
+    "options": {
+      "A": "more",
+      "B": "most",
+      "C": "much",
+      "D": "many"
+    },
+    "key": "A",
+    "explanation": "Sử dụng \"more\" trong cấu trúc so sánh hơn với tính từ dài (peaceful)."
+  },
+  {
+    "id": 205,
+    "question": "Please ___________ the music. The baby is sleeping.",
+    "options": {
+      "A": "turn up",
+      "B": "turn down",
+      "C": "turn on",
+      "D": "turn off"
+    },
+    "key": "B",
+    "explanation": "Cụm động từ \"turn down\" có nghĩa là vặn nhỏ âm lượng lại."
+  },
+  {
+    "id": 206,
+    "question": "We decided to ___________ the picnic because of the heavy rain.",
+    "options": {
+      "A": "call off",
+      "B": "put on",
+      "C": "look after",
+      "D": "run out"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"call off\" có nghĩa là hủy bỏ một sự kiện."
+  },
+  {
+    "id": 207,
+    "question": "The girl ___________ bag was stolen is reporting to the police now.",
+    "options": {
+      "A": "who",
+      "B": "whose",
+      "C": "which",
+      "D": "whom"
+    },
+    "key": "B",
+    "explanation": "Dùng \"whose\" để chỉ sở hữu cho danh từ đứng trước (The girl)."
+  },
+  {
+    "id": 208,
+    "question": "This smartphone is ___________ expensive than the one I bought last year.",
+    "options": {
+      "A": "more",
+      "B": "most",
+      "C": "much",
+      "D": "many"
+    },
+    "key": "A",
+    "explanation": "Tiếp tục sử dụng cấu trúc so sánh hơn \"more + adj + than\"."
+  },
+  {
+    "id": 209,
+    "question": "They had to ___________ sugar because the doctor said it was bad for health.",
+    "options": {
+      "A": "cut down on",
+      "B": "look forward to",
+      "C": "take care of",
+      "D": "give up"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"cut down on\" có nghĩa là cắt giảm lượng tiêu thụ."
+  },
+  {
+    "id": 210,
+    "question": "The house ___________ we are going to buy is located near the river.",
+    "options": {
+      "A": "who",
+      "B": "whose",
+      "C": "which",
+      "D": "where"
+    },
+    "key": "C",
+    "explanation": "Dùng \"which\" làm tân ngữ thay thế cho danh từ chỉ vật \"The house\"."
+  },
+  {
+    "id": 211,
+    "question": "___________ it was raining heavily, they still went jogging in the park.",
+    "options": {
+      "A": "Because",
+      "B": "Although",
+      "C": "So",
+      "D": "Therefore"
+    },
+    "key": "B",
+    "explanation": "Dùng \"Although\" để nối hai mệnh đề mang ý nghĩa tương phản nhau."
+  },
+  {
+    "id": 212,
+    "question": "Many old houses ___________ to make way for the new highway last year.",
+    "options": {
+      "A": "pulled down",
+      "B": "were pulled down",
+      "C": "have pulled down",
+      "D": "pull down"
+    },
+    "key": "B",
+    "explanation": "Sử dụng câu bị động ở thì Quá khứ đơn (were + V3/ed)."
+  },
+  {
+    "id": 213,
+    "question": "The government should take measures to ___________ plastic waste in the oceans.",
+    "options": {
+      "A": "reduce",
+      "B": "reduction",
+      "C": "reductive",
+      "D": "reducing"
+    },
+    "key": "A",
+    "explanation": "Sau \"to\" trong cấu trúc mục đích, ta sử dụng động từ nguyên mẫu (reduce)."
+  },
+  {
+    "id": 214,
+    "question": "She is very ___________ about joining the school’s environmental club.",
+    "options": {
+      "A": "excite",
+      "B": "excited",
+      "C": "exciting",
+      "D": "excitement"
+    },
+    "key": "B",
+    "explanation": "Dùng tính từ đuôi -ed (excited) để diễn tả cảm xúc của con người."
+  },
+  {
+    "id": 215,
+    "question": "___________ the traffic is heavy, people still prefer riding motorbikes in the city.",
+    "options": {
+      "A": "Despite",
+      "B": "Although",
+      "C": "Because",
+      "D": "So"
+    },
+    "key": "B",
+    "explanation": "Mệnh đề sau là một câu hoàn chỉnh nên ta dùng liên từ \"Although\"."
+  },
+  {
+    "id": 216,
+    "question": "This traditional dish ___________ mainly of rice, herbs and grilled pork.",
+    "options": {
+      "A": "consists",
+      "B": "includes",
+      "C": "contains",
+      "D": "belongs"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"consist of\" có nghĩa là bao gồm các thành phần."
+  },
+  {
+    "id": 217,
+    "question": "The new law aims to protect endangered animals from ___________ hunting.",
+    "options": {
+      "A": "illegal",
+      "B": "legally",
+      "C": "legality",
+      "D": "legal"
+    },
+    "key": "A",
+    "explanation": "Cần một tính từ (illegal) đứng trước danh từ (hunting) để bổ nghĩa."
+  },
+  {
+    "id": 218,
+    "question": "The teacher asked the students ___________ the meaning of the new word.",
+    "options": {
+      "A": "look up",
+      "B": "to look up",
+      "C": "looking up",
+      "D": "looked up"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc \"ask someone to do something\" (yêu cầu ai làm việc gì)."
+  },
+  {
+    "id": 219,
+    "question": "If we ___________ more trees, air pollution will decrease significantly.",
+    "options": {
+      "A": "plant",
+      "B": "planted",
+      "C": "will plant",
+      "D": "had planted"
+    },
+    "key": "A",
+    "explanation": "Câu điều kiện loại 1: Mệnh đề If dùng thì Hiện tại đơn."
+  },
+  {
+    "id": 220,
+    "question": "Solar energy is a clean and ___________ source of power for the future.",
+    "options": {
+      "A": "renew",
+      "B": "renewable",
+      "C": "renewal",
+      "D": "renewed"
+    },
+    "key": "B",
+    "explanation": "Sử dụng tính từ \"renewable\" để chỉ nguồn năng lượng có thể tái tạo."
+  },
+  {
+    "id": 221,
+    "question": "A: \"Would you like to join our volunteer group this weekend?\" B: \"__________. I’m free on Sunday.\"",
+    "options": {
+      "A": "That sounds great",
+      "B": "Never mind",
+      "C": "You’re welcome",
+      "D": "I’m sorry to hear that"
+    },
+    "key": "A",
+    "explanation": "Lời đáp lịch sự để đồng ý với một lời mời."
+  },
+  {
+    "id": 222,
+    "question": "You have visited Ha Long Bay twice, ___________?",
+    "options": {
+      "A": "haven’t you",
+      "B": "have you",
+      "C": "didn’t you",
+      "D": "don’t you"
+    },
+    "key": "A",
+    "explanation": "Câu hỏi đuôi: Mệnh đề chính khẳng định thì phần đuôi phủ định."
+  },
+  {
+    "id": 223,
+    "question": "I wish I ___________ better at drawing so I could join the art club.",
+    "options": {
+      "A": "am",
+      "B": "was",
+      "C": "were",
+      "D": "will be"
+    },
+    "key": "C",
+    "explanation": "Câu ước ở hiện tại: Dùng \"were\" cho tất cả các ngôi."
+  },
+  {
+    "id": 224,
+    "question": "If it ___________ tomorrow, we will cancel the outdoor activity.",
+    "options": {
+      "A": "rains",
+      "B": "rained",
+      "C": "will rain",
+      "D": "would rain"
+    },
+    "key": "A",
+    "explanation": "Câu điều kiện loại 1 diễn tả khả năng có thể xảy ra ở tương lai."
+  },
+  {
+    "id": 225,
+    "question": "Nam: \"Thanks for lending me your notes.\" Lan: \"___________.\"",
+    "options": {
+      "A": "Never mind",
+      "B": "You’re welcome",
+      "C": "Good luck",
+      "D": "Congratulations"
+    },
+    "key": "B",
+    "explanation": "\"You're welcome\" là câu trả lời phổ biến nhất cho lời cảm ơn."
+  },
+  {
+    "id": 226,
+    "question": "She wishes she ___________ more time to spend with her grandparents.",
+    "options": {
+      "A": "has",
+      "B": "had",
+      "C": "will have",
+      "D": "have had"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc ước ở hiện tại: Lùi thì về Quá khứ đơn (had)."
+  },
+  {
+    "id": 227,
+    "question": "The earlier we start, ___________ we can finish the project.",
+    "options": {
+      "A": "the sooner",
+      "B": "sooner",
+      "C": "the soonest",
+      "D": "soon"
+    },
+    "key": "A",
+    "explanation": "Cấu trúc so sánh kép: \"The earlier..., the sooner...\"."
+  },
+  {
+    "id": 228,
+    "question": "Minh: \"I’m sorry I broke your pen.\" Hoa: \"___________ It was old anyway.\"",
+    "options": {
+      "A": "Don’t worry",
+      "B": "That’s great",
+      "C": "You’re right",
+      "D": "I agree"
+    },
+    "key": "A",
+    "explanation": "\"Don't worry\" dùng để đáp lại lời xin lỗi một cách thân thiện."
+  },
+  {
+    "id": 229,
+    "question": "If everyone ___________ the rules, the environment would be much cleaner.",
+    "options": {
+      "A": "obeys",
+      "B": "obeyed",
+      "C": "will obey",
+      "D": "obey"
+    },
+    "key": "B",
+    "explanation": "Câu điều kiện loại 2 (giả định): Mệnh đề If dùng Quá khứ đơn."
+  },
+  {
+    "id": 230,
+    "question": "We really appreciate all the help you have given us. ___________!",
+    "options": {
+      "A": "You’re welcome",
+      "B": "Good luck",
+      "C": "Congratulations",
+      "D": "Have a nice day"
+    },
+    "key": "B",
+    "explanation": "Dựa vào ngữ cảnh, lời chúc \"Good luck\" thường phù hợp sau lời cảm ơn."
+  },
+  {
+    "id": 231,
+    "question": "I don't have enough money to buy that laptop. I wish I _______ more money.",
+    "options": {
+      "A": "have",
+      "B": "had",
+      "C": "will have",
+      "D": "am having"
+    },
+    "key": "B",
+    "explanation": "Câu ước ở hiện tại dùng cấu trúc \"wish + Quá khứ đơn\" để diễn tả mong muốn."
+  },
+  {
+    "id": 232,
+    "question": "Young people _______ obey their parents to make better decisions and learn important values.",
+    "options": {
+      "A": "must",
+      "B": "may",
+      "C": "can",
+      "D": "will"
+    },
+    "key": "A",
+    "explanation": "Dùng \"must\" để chỉ sự cần thiết hoặc bổn phận phải thực hiện."
+  },
+  {
+    "id": 233,
+    "question": "My friend and I _______ our homework to the teacher now.",
+    "options": {
+      "A": "have submitted",
+      "B": "submitted",
+      "C": "are submitting",
+      "D": "was submitting"
+    },
+    "key": "C",
+    "explanation": "Trạng từ \"now\" là dấu hiệu của thì Hiện tại tiếp diễn (am/is/are + V-ing)."
+  },
+  {
+    "id": 234,
+    "question": "The man _______ dog barks all night lives next to my apartment.",
+    "options": {
+      "A": "who",
+      "B": "which",
+      "C": "whose",
+      "D": "that"
+    },
+    "key": "C",
+    "explanation": "Dùng \"whose\" để thay thế cho danh từ chỉ sở hữu (con chó của người đàn ông)."
+  },
+  {
+    "id": 235,
+    "question": "Oceans, seas, rivers and lakes are different types of water bodies _______ Earth.",
+    "options": {
+      "A": "at",
+      "B": "on",
+      "C": "under",
+      "D": "in"
+    },
+    "key": "B",
+    "explanation": "Cụm từ cố định \"on Earth\" mang nghĩa là trên Trái Đất."
+  },
+  {
+    "id": 236,
+    "question": "My old friend started working on that farm _______ 2018.",
+    "options": {
+      "A": "on",
+      "B": "at",
+      "C": "between",
+      "D": "in"
+    },
+    "key": "D",
+    "explanation": "Sử dụng giới từ \"in\" trước các mốc thời gian là năm."
+  },
+  {
+    "id": 237,
+    "question": "The _______ you exercise, the healthier you become.",
+    "options": {
+      "A": "hardest",
+      "B": "harder",
+      "C": "more hard",
+      "D": "hard"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc so sánh kép \"The + comparative..., the + comparative...\"."
+  },
+  {
+    "id": 238,
+    "question": "The school counsellor advised us _______ carefully before the exam.",
+    "options": {
+      "A": "preparing",
+      "B": "prepare",
+      "C": "to prepare",
+      "D": "prepared"
+    },
+    "key": "C",
+    "explanation": "Cấu trúc \"advise + somebody + to V\" nghĩa là khuyên ai đó làm gì."
+  },
+  {
+    "id": 239,
+    "question": "The doctor recommended _______ more vegetables and drinking plenty of water.",
+    "options": {
+      "A": "to eat",
+      "B": "eat",
+      "C": "eating",
+      "D": "ate"
+    },
+    "key": "C",
+    "explanation": "Sau động từ \"recommend\" ta sử dụng dạng V-ing khi không có tân ngữ."
+  },
+  {
+    "id": 240,
+    "question": "The porter asked the tourist _______.",
+    "options": {
+      "A": "if she needs any help with her luggage",
+      "B": "that she needed any help with her luggage",
+      "C": "if she need any help with her luggage",
+      "D": "whether she needed any help with her luggage"
+    },
+    "key": "D",
+    "explanation": "Trong câu tường thuật dạng câu hỏi Yes/No, ta lùi thì động từ sang quá khứ."
+  },
+  {
+    "id": 241,
+    "question": "If people _______ action to protect the environment, climate change will be worse.",
+    "options": {
+      "A": "won’t take",
+      "B": "took",
+      "C": "take",
+      "D": "don't take"
+    },
+    "key": "D",
+    "explanation": "Câu điều kiện loại 1, mệnh đề \"if\" chia ở thì Hiện tại đơn."
+  },
+  {
+    "id": 242,
+    "question": "The red squirrel is in danger of becoming _______ in England.",
+    "options": {
+      "A": "charming",
+      "B": "extinct",
+      "C": "domestic",
+      "D": "fluent"
+    },
+    "key": "B",
+    "explanation": "Dùng tính từ \"extinct\" (tuyệt chủng) phù hợp với ngữ cảnh bảo vệ động vật."
+  },
+  {
+    "id": 243,
+    "question": "Her _______ smile helped me get back my confidence.",
+    "options": {
+      "A": "attractive",
+      "B": "attract",
+      "C": "attraction",
+      "D": "attractively"
+    },
+    "key": "A",
+    "explanation": "Cần một tính từ (attractive) đứng trước danh từ \"smile\" để bổ nghĩa."
+  },
+  {
+    "id": 244,
+    "question": "My sister _______ as a teacher in Bangkok since 2003.",
+    "options": {
+      "A": "has taught",
+      "B": "was teaching",
+      "C": "will teach",
+      "D": "taught"
+    },
+    "key": "A",
+    "explanation": "Dấu hiệu \"since + mốc thời gian\" yêu cầu sử dụng thì Hiện tại hoàn thành."
+  },
+  {
+    "id": 245,
+    "question": "The _______ the weather becomes, the more people go to the beach.",
+    "options": {
+      "A": "more good",
+      "B": "best",
+      "C": "good",
+      "D": "better"
+    },
+    "key": "D",
+    "explanation": "So sánh kép với tính từ ngắn \"good\" chuyển thành \"the better\"."
+  },
+  {
+    "id": 246,
+    "question": "My grandmother is finding it harder to _______ these days.",
+    "options": {
+      "A": "pass down",
+      "B": "turn off",
+      "C": "get around",
+      "D": "give up"
+    },
+    "key": "C",
+    "explanation": "Cụm động từ \"get around\" có nghĩa là đi lại hoặc di chuyển."
+  },
+  {
+    "id": 247,
+    "question": "I am looking for a book ________ tells about traditional festivals of Asian people.",
+    "options": {
+      "A": "who",
+      "B": "which",
+      "C": "whom",
+      "D": "whose"
+    },
+    "key": "B",
+    "explanation": "Đại từ quan hệ \"which\" dùng để thay thế cho danh từ chỉ vật (book)."
+  },
+  {
+    "id": 248,
+    "question": "The city council is working on a new plan to improve the local ________ system.",
+    "options": {
+      "A": "transport",
+      "B": "transported",
+      "C": "transportation",
+      "D": "transporting"
+    },
+    "key": "A",
+    "explanation": "Cụm danh từ ghép \"transport system\" nghĩa là hệ thống giao thông."
+  },
+  {
+    "id": 249,
+    "question": "A fire-fighter was injured severely while he ________ to put out a fire.",
+    "options": {
+      "A": "was helping",
+      "B": "helped",
+      "C": "has helped",
+      "D": "helps"
+    },
+    "key": "A",
+    "explanation": "Dùng quá khứ tiếp diễn để diễn tả hành động đang xảy ra thì có hành động khác xen vào."
+  },
+  {
+    "id": 250,
+    "question": "He decided ________ an English course before going to work in America.",
+    "options": {
+      "A": "taking",
+      "B": "to take",
+      "C": "take",
+      "D": "takes"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc \"decide + to V\" có nghĩa là quyết định làm một việc gì đó."
+  },
+  {
+    "id": 251,
+    "question": "It was raining heavily, ________ the concert hall was full of people.",
+    "options": {
+      "A": "because",
+      "B": "and",
+      "C": "so",
+      "D": "but"
+    },
+    "key": "D",
+    "explanation": "Liên từ \"but\" dùng để nối hai mệnh đề có ý nghĩa tương phản."
+  },
+  {
+    "id": 252,
+    "question": "Every time Parkas sees a movie made in India, he ________ homesick.",
+    "options": {
+      "A": "is feeling",
+      "B": "felt",
+      "C": "feels",
+      "D": "have felt"
+    },
+    "key": "C",
+    "explanation": "Dùng thì Hiện tại đơn để diễn tả một thói quen hoặc sự thật lặp đi lặp lại."
+  },
+  {
+    "id": 253,
+    "question": "Your brother passed his driving test last week, ________?",
+    "options": {
+      "A": "does he",
+      "B": "did he",
+      "C": "didn't he",
+      "D": "doesn't he"
+    },
+    "key": "C",
+    "explanation": "Câu hỏi đuôi ở quá khứ đơn, mệnh đề chính khẳng định nên đuôi phủ định."
+  },
+  {
+    "id": 254,
+    "question": "I'm interested in ________ to my grandfather. He always tells me great stories.",
+    "options": {
+      "A": "talk",
+      "B": "to talk",
+      "C": "to talking",
+      "D": "talking"
+    },
+    "key": "D",
+    "explanation": "Sau giới từ \"in\" ta sử dụng danh động từ (V-ing)."
+  },
+  {
+    "id": 255,
+    "question": "Vietnamese Independence Day, which is celebrated annually ________ September 2nd, holds great significance for all Vietnamese people.",
+    "options": {
+      "A": "on",
+      "B": "in",
+      "C": "at",
+      "D": "from"
+    },
+    "key": "A",
+    "explanation": "Sử dụng giới từ \"on\" trước các ngày cụ thể trong tháng."
+  },
+  {
+    "id": 256,
+    "question": "I ________ my best friend again since I went abroad five years ago.",
+    "options": {
+      "A": "don't meet",
+      "B": "didn't meet",
+      "C": "haven't met",
+      "D": "had hadn't met"
+    },
+    "key": "C",
+    "explanation": "Mệnh đề với \"since + Quá khứ đơn\" thường đi kèm thì Hiện tại hoàn thành."
+  },
+  {
+    "id": 257,
+    "question": "The computer I bought last week was a bit ________ than I expected, but it was very nice.",
+    "options": {
+      "A": "more expensive",
+      "B": "most expensive",
+      "C": "expensive",
+      "D": "as expensive"
+    },
+    "key": "A",
+    "explanation": "Cấu trúc so sánh hơn với tính từ dài: \"more + adj + than\"."
+  },
+  {
+    "id": 258,
+    "question": "She said she ________ her grandparents the following week.",
+    "options": {
+      "A": "will visit",
+      "B": "visited",
+      "C": "visits",
+      "D": "would visit"
+    },
+    "key": "D",
+    "explanation": "Trong câu tường thuật, \"will\" được lùi thì thành \"would\"."
+  },
+  {
+    "id": 259,
+    "question": "I wish I ________ an electric bike. I'm tired of riding to school every day.",
+    "options": {
+      "A": "have",
+      "B": "will have",
+      "C": "had",
+      "D": "have had"
+    },
+    "key": "C",
+    "explanation": "Câu ước ở hiện tại dùng thì Quá khứ đơn (had) để diễn đạt."
+  },
+  {
+    "id": 260,
+    "question": "If we ________ global warming, more natural disasters will occur.",
+    "options": {
+      "A": "didn't prevent",
+      "B": "don't prevent",
+      "C": "won't prevent",
+      "D": "would wouldn't prevent"
+    },
+    "key": "B",
+    "explanation": "Câu điều kiện loại 1 diễn tả sự việc có thể xảy ra, mệnh đề if chia hiện tại đơn."
+  },
+  {
+    "id": 261,
+    "question": "Canada, the USA, and Russia are big countries, but Russia is ________.",
+    "options": {
+      "A": "bigger",
+      "B": "the bigger",
+      "C": "biggest",
+      "D": "the biggest"
+    },
+    "key": "D",
+    "explanation": "So sánh nhất được dùng khi so sánh từ 3 đối tượng trở lên."
+  },
+  {
+    "id": 262,
+    "question": "David: \"Why don't we go swimming?\" – Tony: \"________. It's too hot here.\"",
+    "options": {
+      "A": "That's a good idea",
+      "B": "Never mind",
+      "C": "You're welcome",
+      "D": "I'm glad you like it"
+    },
+    "key": "A",
+    "explanation": "Lời đáp lịch sự để đồng ý với một lời đề nghị hoặc gợi ý."
+  },
+  {
+    "id": 263,
+    "question": "The city looks like a ________ jungle with ugly buildings and almost no parks.",
+    "options": {
+      "A": "green",
+      "B": "loveable",
+      "C": "tropical",
+      "D": "concrete"
+    },
+    "key": "D",
+    "explanation": "Cụm từ \"concrete jungle\" dùng để chỉ khu đô thị chật chội, nhiều bê tông."
+  },
+  {
+    "id": 264,
+    "question": "The local authority tried to ________ private car use but they didn't succeed.",
+    "options": {
+      "A": "cut down on",
+      "B": "look for",
+      "C": "carry out",
+      "D": "hang out with"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"cut down on\" có nghĩa là cắt giảm hoặc giảm bớt."
+  },
+  {
+    "id": 265,
+    "question": "Find the error: The woman which is wearing the T-shirt is my friend.",
+    "options": {
+      "A": "The",
+      "B": "which",
+      "C": "wearing",
+      "D": "is"
+    },
+    "key": "B",
+    "explanation": "Sai ở \"which\" vì đại từ quan hệ dùng cho người phải là \"who\"."
+  },
+  {
+    "id": 266,
+    "question": "Find the error: One of the biggest problems facing our society are unemployment.",
+    "options": {
+      "A": "One of",
+      "B": "biggest problems",
+      "C": "our",
+      "D": "are"
+    },
+    "key": "D",
+    "explanation": "Chủ ngữ là \"One of...\" nên động từ phải chia số ít (is)."
+  },
+  {
+    "id": 267,
+    "question": "Find the error: I am learning to garnish different dishes to make them more attractively.",
+    "options": {
+      "A": "am",
+      "B": "to garnish",
+      "C": "them",
+      "D": "attractively"
+    },
+    "key": "D",
+    "explanation": "Sau cấu trúc \"make + object\" ta phải dùng tính từ (attractive)."
+  },
+  {
+    "id": 268,
+    "question": "It's the house __________ door is painted pink.",
+    "options": {
+      "A": "which",
+      "B": "who",
+      "C": "whom",
+      "D": "whose"
+    },
+    "key": "D",
+    "explanation": "Dùng \"whose\" để chỉ sở hữu cho cả người và vật (cánh cửa của ngôi nhà)."
+  },
+  {
+    "id": 269,
+    "question": "I would love _________ with you, but I have to go now.",
+    "options": {
+      "A": "stay",
+      "B": "to stay",
+      "C": "staying",
+      "D": "to staying"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc \"would love + to V\" dùng để diễn đạt ý muốn làm gì."
+  },
+  {
+    "id": 270,
+    "question": "The doctor recommended he __________ more exercise.",
+    "options": {
+      "A": "get",
+      "B": "gets",
+      "C": "got",
+      "D": "to get"
+    },
+    "key": "A",
+    "explanation": "Sử dụng thức giả định sau \"recommend\", động từ ở dạng nguyên mẫu không to."
+  },
+  {
+    "id": 271,
+    "question": "________ they are unable to answer, perhaps we should ask someone else.",
+    "options": {
+      "A": "Since",
+      "B": "However",
+      "C": "Although",
+      "D": "But"
+    },
+    "key": "A",
+    "explanation": "Từ \"Since\" ở đây mang nghĩa là \"Bởi vì\", dùng để chỉ nguyên nhân."
+  },
+  {
+    "id": 272,
+    "question": "She didn't know __________ he was telling the truth or not.",
+    "options": {
+      "A": "whether",
+      "B": "where",
+      "C": "what",
+      "D": "who"
+    },
+    "key": "A",
+    "explanation": "Cấu trúc \"whether... or not\" dùng để diễn đạt ý liệu có hay không."
+  },
+  {
+    "id": 273,
+    "question": "She found a gold ring while she ________ her cupboards.",
+    "options": {
+      "A": "cleans",
+      "B": "cleaned",
+      "C": "was cleaning",
+      "D": "has cleaned"
+    },
+    "key": "C",
+    "explanation": "Dùng thì Quá khứ tiếp diễn để chỉ hành động kéo dài đang diễn ra."
+  },
+  {
+    "id": 274,
+    "question": "If the weather ________, we'll go for a walk.",
+    "options": {
+      "A": "improve",
+      "B": "improves",
+      "C": "improved",
+      "D": "will improve"
+    },
+    "key": "B",
+    "explanation": "Mệnh đề \"if\" trong câu điều kiện loại 1 chia ở thì Hiện tại đơn."
+  },
+  {
+    "id": 275,
+    "question": "___________ is 4.5 billion years old, is about 384,400 km from Earth.",
+    "options": {
+      "A": "The moon which",
+      "B": "The moon that",
+      "C": "The moon, which",
+      "D": "The moon, that"
+    },
+    "key": "C",
+    "explanation": "Mệnh đề quan hệ không xác định cần có dấu phẩy và dùng \"which\"."
+  },
+  {
+    "id": 276,
+    "question": "Traffic is ____________ in the city than in the countryside.",
+    "options": {
+      "A": "slower and more stressful",
+      "B": "more slower and stressful",
+      "C": "more stressful and slower",
+      "D": "stressful and more slower"
+    },
+    "key": "C",
+    "explanation": "Sắp xếp đúng các tính từ so sánh hơn theo ngữ cảnh giao thông."
+  },
+  {
+    "id": 277,
+    "question": "The room was light and decorated in a modern style. The word \"light\" is OPPOSITE in meaning to __________.",
+    "options": {
+      "A": "heavy",
+      "B": "strong",
+      "C": "serious",
+      "D": "dark"
+    },
+    "key": "D",
+    "explanation": "Từ trái nghĩa với \"light\" (sáng) trong ngữ cảnh này là \"dark\" (tối)."
+  },
+  {
+    "id": 278,
+    "question": "Tim: ______ was your trip like? – Nick: It was awful. The train didn’t arrive until 3 a.m.",
+    "options": {
+      "A": "How",
+      "B": "Where",
+      "C": "What",
+      "D": "Which"
+    },
+    "key": "C",
+    "explanation": "Cấu trúc \"What was... like?\" dùng để hỏi về tính chất của sự việc."
+  },
+  {
+    "id": 279,
+    "question": "In modern classrooms, students often use various electronic ______ such as tablets and laptops to help with their learning.",
+    "options": {
+      "A": "furniture",
+      "B": "equipment",
+      "C": "methods",
+      "D": "devices"
+    },
+    "key": "D",
+    "explanation": "Cụm từ \"electronic devices\" nghĩa là các thiết bị điện tử."
+  },
+  {
+    "id": 280,
+    "question": "We used ______ martial arts, but now we don’t have time.",
+    "options": {
+      "A": "do",
+      "B": "to do",
+      "C": "did",
+      "D": "doing"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc \"used to + V\" dùng để nói về một thói quen trong quá khứ."
   }
 ];
