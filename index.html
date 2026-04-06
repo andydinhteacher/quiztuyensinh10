@@ -29,7 +29,6 @@
             color: #1e40af;
             box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.1);
         }
-        /* Thanh cuộn nội bộ tinh tế */
         .custom-scroll::-webkit-scrollbar { width: 4px; }
         .custom-scroll::-webkit-scrollbar-track { background: transparent; }
         .custom-scroll::-webkit-scrollbar-thumb { background: #e2e8f0; border-radius: 10px; }
@@ -40,12 +39,10 @@
     <!-- Màn hình chính (Home Screen) -->
     <div id="home-screen" class="w-full max-w-md bg-white h-full md:h-auto md:rounded-[2.5rem] shadow-2xl p-8 flex flex-col items-center text-center border border-slate-100 animate-in fade-in duration-700 justify-center relative">
         
-        <!-- Hiển thị Version ở góc trên màn hình Home -->
         <div class="absolute top-6 right-8 bg-slate-100 text-slate-400 text-[10px] font-bold px-2 py-0.5 rounded-md uppercase tracking-tighter">
-            Ver 2.4
+            Ver 2.5
         </div>
 
-        <!-- Logo -->
         <div class="w-20 h-20 bg-blue-100 rounded-2xl flex items-center justify-center mb-4 flex-shrink-0">
             <i data-lucide="book-open" class="text-blue-600 w-10 h-10"></i>
         </div>
@@ -58,14 +55,14 @@
         </div>
 
         <div class="mb-4 space-y-1">
-            <p class="text-slate-800 text-sm font-bold">Luyện trắc nghiệm từ vựng và ngữ pháp</p>
+            <p class="text-slate-800 text-sm font-bold">Hệ thống học thông minh</p>
             <p class="text-slate-500 text-[12px] leading-relaxed max-w-[260px]">
-                Hệ thống đảo câu hỏi và phương án trả lời ngẫu nhiên.
+                Ưu tiên câu mới và câu bạn đã làm sai ở các lần trước.
             </p>
         </div>
 
         <div class="mb-6 w-full bg-slate-50 rounded-2xl p-4 border border-slate-100 flex flex-col items-center shadow-inner">
-            <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Dữ liệu hiện có</p>
+            <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Dữ liệu ngân hàng</p>
             <div class="flex items-baseline gap-1">
                 <span id="bank-count" class="text-3xl font-black text-blue-600">0</span>
                 <span class="text-[11px] font-bold text-blue-400 uppercase">Câu hỏi</span>
@@ -74,10 +71,13 @@
 
         <div class="w-full space-y-3">
             <button onclick="initQuiz(10)" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-2xl font-bold text-md flex items-center justify-center gap-2 shadow-lg shadow-blue-100 transition-all active:scale-95">
-                Luyện tập 10 câu <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                Luyện tập 10 câu <i data-lucide="zap" class="w-4 h-4"></i>
             </button>
             <button onclick="initQuiz(20)" class="w-full bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-50 py-4 rounded-2xl font-bold text-md flex items-center justify-center gap-2 transition-all active:scale-95">
-                Luyện tập 20 câu <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                Luyện tập 20 câu <i data-lucide="zap" class="w-4 h-4"></i>
+            </button>
+            <button onclick="clearHistory()" class="text-slate-300 text-[10px] font-bold hover:text-red-400 transition-colors uppercase tracking-widest pt-2">
+                Xóa lịch sử làm bài
             </button>
         </div>
         
@@ -86,23 +86,15 @@
 
     <!-- Màn hình làm bài (Quiz Screen) -->
     <div id="quiz-screen" class="hidden w-full h-full max-w-5xl flex flex-col p-2 md:p-4">
-        <!-- Progress Header -->
         <div class="flex items-center justify-between mb-2 flex-shrink-0 px-2 gap-2">
             <div class="flex items-center gap-1">
                 <button onclick="confirmExit()" class="text-slate-400 hover:text-slate-600 p-2 transition-colors"><i data-lucide="x" class="w-6 h-6"></i></button>
-                
-                <!-- Cụm nút tăng giảm Font Size -->
                 <div class="flex bg-white border border-slate-200 rounded-lg p-0.5 ml-1">
-                    <button onclick="changeFontSize(-2)" class="p-1.5 hover:bg-slate-100 rounded text-slate-500 transition-colors" title="Giảm cỡ chữ">
-                        <i data-lucide="minus" class="w-4 h-4"></i>
-                    </button>
+                    <button onclick="changeFontSize(-2)" class="p-1.5 hover:bg-slate-100 rounded text-slate-500 transition-colors"><i data-lucide="minus" class="w-4 h-4"></i></button>
                     <div class="w-px bg-slate-100 my-1"></div>
-                    <button onclick="changeFontSize(2)" class="p-1.5 hover:bg-slate-100 rounded text-slate-500 transition-colors" title="Tăng cỡ chữ">
-                        <i data-lucide="plus" class="w-4 h-4"></i>
-                    </button>
+                    <button onclick="changeFontSize(2)" class="p-1.5 hover:bg-slate-100 rounded text-slate-500 transition-colors"><i data-lucide="plus" class="w-4 h-4"></i></button>
                 </div>
             </div>
-
             <div class="flex-1 mx-2">
                 <div class="flex justify-between text-[10px] font-black text-blue-600 uppercase tracking-widest mb-1">
                     <span id="progress-text">Câu 1/10</span>
@@ -112,28 +104,17 @@
                     <div id="progress-bar" class="h-full bg-blue-600 transition-all duration-300" style="width: 10%"></div>
                 </div>
             </div>
-            <div class="hidden md:block text-[10px] font-bold bg-white px-2 py-1 rounded border border-slate-200 text-slate-400 uppercase tracking-tighter">Ver 2.4</div>
+            <div class="hidden md:block text-[10px] font-bold bg-white px-2 py-1 rounded border border-slate-200 text-slate-400 uppercase tracking-tighter">Smart Mode</div>
         </div>
 
-        <!-- Khung làm bài chính -->
         <div class="bg-white rounded-[1.5rem] md:rounded-[2.5rem] shadow-2xl border border-slate-100 flex-1 flex flex-col overflow-hidden">
-            
-            <!-- Phần Câu hỏi (Gọn hơn để nhường chỗ cho đáp án) -->
             <div class="p-4 md:p-6 md:px-10 border-b border-slate-50 flex-shrink-0 bg-white">
                 <span class="inline-block px-3 py-1 bg-blue-50 text-blue-600 rounded-lg text-[9px] md:text-[10px] font-black uppercase mb-2 md:mb-3 tracking-tighter">Câu hỏi</span>
-                <h2 id="question-text" class="text-xl md:text-3xl font-extrabold text-slate-900 leading-tight transition-all duration-200">
-                    Đang tải câu hỏi...
-                </h2>
+                <h2 id="question-text" class="text-xl md:text-3xl font-extrabold text-slate-900 leading-tight transition-all duration-200">Đang tải...</h2>
             </div>
-
-            <!-- Phần Đáp án (Tối ưu hóa không gian dọc) -->
             <div class="flex-1 overflow-y-auto p-4 md:p-6 md:px-10 custom-scroll bg-slate-50/20">
-                <div id="options-container" class="grid grid-cols-1 gap-2 md:gap-3">
-                    <!-- Đáp án A, B, C, D -->
-                </div>
+                <div id="options-container" class="grid grid-cols-1 gap-2 md:gap-3"></div>
             </div>
-
-            <!-- Điều hướng -->
             <div class="p-4 md:p-6 md:px-10 bg-white border-t border-slate-100 flex gap-3 md:gap-6 flex-shrink-0">
                 <button id="prev-btn" onclick="prevQuestion()" class="flex-1 bg-slate-100 text-slate-600 py-3 md:py-4 rounded-xl md:rounded-2xl font-bold hover:bg-slate-200 transition-all flex items-center justify-center gap-2 text-sm md:text-lg">
                     <i data-lucide="chevron-left" class="w-5 h-5"></i> Trước
@@ -157,7 +138,6 @@
                     <p class="text-slate-400 text-[10px] md:text-xs font-bold uppercase tracking-widest">Kết quả luyện tập</p>
                 </div>
             </div>
-
             <div class="flex items-center gap-4 md:gap-8">
                 <div class="text-right">
                     <p class="text-[10px] font-bold text-blue-400 uppercase mb-0.5 tracking-tighter">Điểm số</p>
@@ -168,15 +148,7 @@
                 </button>
             </div>
         </div>
-
-        <div class="flex-shrink-0 mb-2 px-2 flex justify-between items-center">
-            <p class="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">Xem lại chi tiết & Giải thích</p>
-            <span class="text-[10px] text-slate-300 font-bold uppercase">Ver 2.4</span>
-        </div>
-        
-        <div id="review-container" class="flex-1 overflow-y-auto space-y-4 custom-scroll pr-2 pb-12">
-            <!-- Review items -->
-        </div>
+        <div id="review-container" class="flex-1 overflow-y-auto space-y-4 custom-scroll pr-2 pb-12"></div>
     </div>
 
     <script>
@@ -188,12 +160,102 @@
         let userAnswers = {};
         let currentFontSizeOffset = 0; 
 
+        // Hệ thống lưu trữ lịch sử
+        const STORAGE_KEY_WRONG = 'anh_dinh_quiz_wrong_v1';
+        const STORAGE_KEY_CORRECT = 'anh_dinh_quiz_correct_v1';
+
         window.onload = () => {
             if (typeof ALL_QUESTIONS !== 'undefined') {
                 quizData = ALL_QUESTIONS;
                 document.getElementById('bank-count').innerText = quizData.length;
             }
         };
+
+        function getHistory() {
+            return {
+                wrong: JSON.parse(localStorage.getItem(STORAGE_KEY_WRONG) || '[]'),
+                correct: JSON.parse(localStorage.getItem(STORAGE_KEY_CORRECT) || '[]')
+            };
+        }
+
+        function saveProgress(results) {
+            let history = getHistory();
+            let wrongSet = new Set(history.wrong);
+            let correctSet = new Set(history.correct);
+
+            results.forEach(res => {
+                if (res.isCorrect) {
+                    correctSet.add(res.id);
+                    wrongSet.delete(res.id); // Nếu trước đó sai mà giờ đúng thì xóa khỏi danh sách sai
+                } else {
+                    wrongSet.add(res.id);
+                    correctSet.delete(res.id); // Nếu trước đó đúng mà giờ sai thì cập nhật lại
+                }
+            });
+
+            localStorage.setItem(STORAGE_KEY_WRONG, JSON.stringify(Array.from(wrongSet)));
+            localStorage.setItem(STORAGE_KEY_CORRECT, JSON.stringify(Array.from(correctSet)));
+        }
+
+        function clearHistory() {
+            if(confirm("Xóa toàn bộ lịch sử câu đúng/sai để học lại từ đầu?")) {
+                localStorage.removeItem(STORAGE_KEY_WRONG);
+                localStorage.removeItem(STORAGE_KEY_CORRECT);
+                alert("Đã xóa lịch sử.");
+                location.reload();
+            }
+        }
+
+        function initQuiz(count) {
+            if (!quizData.length) return;
+
+            const history = getHistory();
+            const wrongIds = history.wrong;
+            const correctIds = history.correct;
+            const allAttemptedIds = [...wrongIds, ...correctIds];
+
+            // Phân loại ngân hàng câu hỏi
+            const wrongPool = quizData.filter(q => wrongIds.includes(q.id));
+            const correctPool = quizData.filter(q => correctIds.includes(q.id));
+            const newPool = quizData.filter(q => !allAttemptedIds.includes(q.id));
+
+            // Tính toán số lượng theo Pattern (40% mới - 40% sai - 20% đúng)
+            let targetNew = Math.floor(count * 0.4);
+            let targetWrong = Math.floor(count * 0.4);
+            let targetCorrect = count - targetNew - targetWrong;
+
+            const shuffle = (array) => array.sort(() => Math.random() - 0.5);
+
+            let finalSelection = [];
+
+            // 1. Lấy câu mới
+            let selectedNew = shuffle(newPool).slice(0, targetNew);
+            finalSelection.push(...selectedNew);
+
+            // 2. Lấy câu đã làm sai
+            let selectedWrong = shuffle(wrongPool).slice(0, targetWrong);
+            finalSelection.push(...selectedWrong);
+
+            // 3. Lấy câu đã làm đúng
+            let selectedCorrect = shuffle(correctPool).slice(0, targetCorrect);
+            finalSelection.push(...selectedCorrect);
+
+            // 4. Bù trừ nếu các pool trên không đủ (ví dụ mới chơi lần đầu thì pool sai/đúng sẽ trống)
+            if (finalSelection.length < count) {
+                const remainingNeeded = count - finalSelection.length;
+                const currentIds = finalSelection.map(q => q.id);
+                const leftovers = shuffle(quizData.filter(q => !currentIds.includes(q.id)));
+                finalSelection.push(...leftovers.slice(0, remainingNeeded));
+            }
+
+            selectedQuestions = shuffle(finalSelection); // Đảo lộn thứ tự cuối cùng
+            currentIdx = 0;
+            userAnswers = {};
+            
+            document.getElementById('home-screen').classList.add('hidden');
+            document.getElementById('quiz-screen').classList.remove('hidden');
+            showQuestion();
+        }
 
         function changeFontSize(delta) {
             currentFontSizeOffset += delta;
@@ -213,16 +275,6 @@
                 const baseOpt = window.innerWidth >= 768 ? 22 : 17;
                 el.style.fontSize = (baseOpt + (currentFontSizeOffset * 0.8)) + 'px';
             });
-        }
-
-        function initQuiz(count) {
-            if (!quizData.length) return;
-            selectedQuestions = [...quizData].sort(() => Math.random() - 0.5).slice(0, Math.min(count, quizData.length));
-            currentIdx = 0;
-            userAnswers = {};
-            document.getElementById('home-screen').classList.add('hidden');
-            document.getElementById('quiz-screen').classList.remove('hidden');
-            showQuestion();
         }
 
         function showQuestion() {
@@ -262,8 +314,19 @@
         function finishQuiz() {
             document.getElementById('quiz-screen').classList.add('hidden');
             document.getElementById('result-screen').classList.remove('hidden');
+            
             let correct = 0;
-            selectedQuestions.forEach((q, i) => { if (userAnswers[i] === q.key) correct++; });
+            let resultsToSave = [];
+
+            selectedQuestions.forEach((q, i) => {
+                const isCorrect = userAnswers[i] === q.key;
+                if (isCorrect) correct++;
+                resultsToSave.push({ id: q.id, isCorrect: isCorrect });
+            });
+
+            // Lưu kết quả vào lịch sử
+            saveProgress(resultsToSave);
+
             document.getElementById('final-score').innerText = correct;
             document.getElementById('final-total').innerText = selectedQuestions.length;
             renderReview();
