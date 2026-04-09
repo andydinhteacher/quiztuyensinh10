@@ -8158,5 +8158,4685 @@ const ALL_QUESTIONS = [
     },
     "key": "D",
     "explanation": "Mệnh đề nhượng bộ → Although."
+  },
+  {
+    "id": 681,
+    "question": "If you study harder for the final exam, you ______ a higher score than last time.",
+    "options": {
+      "A": "get",
+      "B": "will get",
+      "C": "got",
+      "D": "would get"
+    },
+    "key": "B",
+    "explanation": "Sử dụng câu điều kiện loại 1 diễn tả một hành động có thể xảy ra ở hiện tại."
+  },
+  {
+    "id": 682,
+    "question": "She decided to buy a ______ bag to use for her long trip abroad next month.",
+    "options": {
+      "A": "leather small brown",
+      "B": "small brown leather",
+      "C": "brown leather small",
+      "D": "small leather brown"
+    },
+    "key": "B",
+    "explanation": "Sắp xếp tính từ theo thứ tự: kích thước (small), màu sắc (brown) và chất liệu (leather)."
+  },
+  {
+    "id": 683,
+    "question": "This bag is much ______ than the one I used to carry to school.",
+    "options": {
+      "A": "more light",
+      "B": "lightest",
+      "C": "as light as",
+      "D": "lighter"
+    },
+    "key": "D",
+    "explanation": "Dùng hình thức so sánh hơn \"lighter\" vì có từ nhận biết \"than\" trong câu."
+  },
+  {
+    "id": 684,
+    "question": "Every morning, my father ______ the newspaper before going to work.",
+    "options": {
+      "A": "read",
+      "B": "reads",
+      "C": "is reading",
+      "D": "has read"
+    },
+    "key": "B",
+    "explanation": "Thì hiện tại đơn diễn tả thói quen lặp đi lặp lại hàng ngày của chủ ngữ số ít."
+  },
+  {
+    "id": 685,
+    "question": "My parents encouraged me ______ English regularly so that I could improve my English skills quickly.",
+    "options": {
+      "A": "practice",
+      "B": "to practice",
+      "C": "practicing",
+      "D": "practiced"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc encourage someone to do something có nghĩa là khuyến khích ai đó làm việc gì."
+  },
+  {
+    "id": 686,
+    "question": "You ______ wear a helmet when you ride a motorbike in this area for your own safety.",
+    "options": {
+      "A": "may",
+      "B": "have to",
+      "C": "could",
+      "D": "might"
+    },
+    "key": "B",
+    "explanation": "Dùng \"have to\" để diễn tả một việc bắt buộc phải làm theo quy định hoặc luật lệ."
+  },
+  {
+    "id": 687,
+    "question": "I wish I ______ more free time to relax and read my favorite books after finishing work.",
+    "options": {
+      "A": "have",
+      "B": "had",
+      "C": "will have",
+      "D": "has"
+    },
+    "key": "B",
+    "explanation": "Câu ước cho hiện tại sử dụng thì quá khứ đơn để diễn tả điều không có thật."
+  },
+  {
+    "id": 688,
+    "question": "The old stories about our village heroes were carefully ______ from generation to generation.",
+    "options": {
+      "A": "passed down",
+      "B": "looked after",
+      "C": "cleaned up",
+      "D": "taken off"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"passed down\" có nghĩa là truyền lại kiến thức hoặc truyền thống cho đời sau."
+  },
+  {
+    "id": 689,
+    "question": "My brother wants to become ______ engineer in the future because he loves building machines.",
+    "options": {
+      "A": "a",
+      "B": "the",
+      "C": "an",
+      "D": "Ø"
+    },
+    "key": "C",
+    "explanation": "Dùng mạo từ \"an\" trước danh từ bắt đầu bằng một nguyên âm như từ \"engineer\"."
+  },
+  {
+    "id": 690,
+    "question": "A dog ______ loyal to its owner if it is well treated.",
+    "options": {
+      "A": "are",
+      "B": "were",
+      "C": "is",
+      "D": "be"
+    },
+    "key": "C",
+    "explanation": "Chủ ngữ số ít \"A dog\" đi kèm với động từ tobe ở dạng \"is\"."
+  },
+  {
+    "id": 691,
+    "question": "She decided to go to school early in the morning ______ she was feeling very tired after staying up late to finish her homework.",
+    "options": {
+      "A": "because",
+      "B": "therefore",
+      "C": "so",
+      "D": "although"
+    },
+    "key": "D",
+    "explanation": "Dùng liên từ \"although\" để nối hai vế câu có ý nghĩa tương phản, đối lập nhau."
+  },
+  {
+    "id": 692,
+    "question": "She always ______ her homework carefully before going to bed.",
+    "options": {
+      "A": "does",
+      "B": "makes",
+      "C": "takes",
+      "D": "gives"
+    },
+    "key": "A",
+    "explanation": "Cụm từ cố định \"do homework\" có nghĩa là làm bài tập về nhà."
+  },
+  {
+    "id": 693,
+    "question": "The local ______ works very hard to help poor families and elderly people in the area.",
+    "options": {
+      "A": "artisan",
+      "B": "community helper",
+      "C": "delivery person",
+      "D": "garbage collector"
+    },
+    "key": "B",
+    "explanation": "Cụm từ \"community helper\" chỉ những người làm công việc giúp đỡ mọi người trong cộng đồng."
+  },
+  {
+    "id": 694,
+    "question": "If she ______ enough money, she will buy a new laptop for her studies.",
+    "options": {
+      "A": "save",
+      "B": "saves",
+      "C": "saved",
+      "D": "will save"
+    },
+    "key": "B",
+    "explanation": "Trong câu điều kiện loại 1, mệnh đề If sử dụng thì hiện tại đơn với chủ ngữ số ít."
+  },
+  {
+    "id": 695,
+    "question": "They are living in a ______ house near a quiet river outside the town.",
+    "options": {
+      "A": "beautiful old French",
+      "B": "old beautiful French",
+      "C": "French beautiful old",
+      "D": "beautiful French old"
+    },
+    "key": "A",
+    "explanation": "Thứ tự tính từ đúng là: ý kiến (beautiful), tuổi tác (old) và nguồn gốc (French)."
+  },
+  {
+    "id": 696,
+    "question": "Of all the students in the class, Mai speaks English ______. ",
+    "options": {
+      "A": "fluently",
+      "B": "more fluently",
+      "C": "the most fluently",
+      "D": "as fluently"
+    },
+    "key": "C",
+    "explanation": "Sử dụng cấu trúc so sánh nhất với trạng từ dài khi so sánh Mai với tất cả học sinh."
+  },
+  {
+    "id": 697,
+    "question": "Look! The children ______ happily together in the playground.",
+    "options": {
+      "A": "play",
+      "B": "played",
+      "C": "are playing",
+      "D": "have played"
+    },
+    "key": "C",
+    "explanation": "Thì hiện tại tiếp diễn dùng để diễn tả một hành động đang xảy ra ngay tại thời điểm nói."
+  },
+  {
+    "id": 698,
+    "question": "The teacher reminded us ______ our assignments before the deadline to avoid losing marks.",
+    "options": {
+      "A": "submit",
+      "B": "to submit",
+      "C": "submitting",
+      "D": "submitted"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc remind someone to do something được dùng để nhắc nhở ai đó làm việc gì."
+  },
+  {
+    "id": 699,
+    "question": "She looks very tired, so she ______ take a short break before continuing her work.",
+    "options": {
+      "A": "mustn't",
+      "B": "can",
+      "C": "will",
+      "D": "should"
+    },
+    "key": "D",
+    "explanation": "Dùng động từ khuyết thiếu \"should\" để đưa ra lời khuyên phù hợp với tình huống."
+  },
+  {
+    "id": 700,
+    "question": "She wishes she ______ closer to her grandparents so she could visit them often.",
+    "options": {
+      "A": "live",
+      "B": "lives",
+      "C": "lived",
+      "D": "living"
+    },
+    "key": "C",
+    "explanation": "Câu ước cho hiện tại dùng thì quá khứ đơn để thể hiện mong muốn trái với thực tế."
+  },
+  {
+    "id": 701,
+    "question": "You should not ______ those important documents because you may need them later.",
+    "options": {
+      "A": "throw away",
+      "B": "put on",
+      "C": "take off",
+      "D": "look for"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"throw away\" có nghĩa là vứt bỏ một thứ gì đó đi."
+  },
+  {
+    "id": 702,
+    "question": "We went to ______ supermarket near our house to buy some food and drinks.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "C",
+    "explanation": "Dùng mạo từ \"the\" vì đối tượng siêu thị đã được xác định cụ thể là gần nhà."
+  },
+  {
+    "id": 703,
+    "question": "The list of names ______ on the teacher's desk.",
+    "options": {
+      "A": "are",
+      "B": "were",
+      "C": "have been",
+      "D": "is"
+    },
+    "key": "D",
+    "explanation": "Động từ chia theo danh từ chính là \"The list\" nên phải ở dạng số ít \"is\"."
+  },
+  {
+    "id": 704,
+    "question": "We stayed at home all day ______ the heavy rain and strong wind that made the roads very dangerous.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "because of",
+      "D": "however"
+    },
+    "key": "C",
+    "explanation": "Dùng \"because of\" đứng trước một cụm danh từ để chỉ nguyên nhân của sự việc."
+  },
+  {
+    "id": 705,
+    "question": "He finally ______ a decision after thinking about the problem for a long time.",
+    "options": {
+      "A": "made",
+      "B": "did",
+      "C": "took",
+      "D": "gave"
+    },
+    "key": "A",
+    "explanation": "Cụm từ cố định \"make a decision\" có nghĩa là đưa ra một quyết định."
+  },
+  {
+    "id": 706,
+    "question": "This village is well-known for its traditional ______ made from clay by skilled workers.",
+    "options": {
+      "A": "pottery",
+      "B": "facility",
+      "C": "suburb",
+      "D": "fragrance"
+    },
+    "key": "A",
+    "explanation": "Từ \"pottery\" có nghĩa là đồ gốm, được làm từ đất sét bởi các nghệ nhân."
+  },
+  {
+    "id": 707,
+    "question": "If they don't leave now, they ______ the last train home.",
+    "options": {
+      "A": "miss",
+      "B": "will miss",
+      "C": "missed",
+      "D": "would miss"
+    },
+    "key": "B",
+    "explanation": "Câu điều kiện loại 1 dùng \"will + V\" ở mệnh đề chính để chỉ kết quả có thể xảy ra."
+  },
+  {
+    "id": 708,
+    "question": "My brother wants a ______ car for his first job in the city.",
+    "options": {
+      "A": "black small modern",
+      "B": "small modern black",
+      "C": "modern small black",
+      "D": "small black modern"
+    },
+    "key": "B",
+    "explanation": "Trật tự tính từ đúng là: kích thước (small), tính chất (modern) và màu sắc (black)."
+  },
+  {
+    "id": 709,
+    "question": "This is ______ movie I have ever seen in my whole life.",
+    "options": {
+      "A": "more interesting",
+      "B": "interesting",
+      "C": "the most interesting",
+      "D": "so interesting"
+    },
+    "key": "C",
+    "explanation": "Dùng cấu trúc so sánh nhất với tính từ dài để nhấn mạnh trải nghiệm từ trước tới nay."
+  },
+  {
+    "id": 710,
+    "question": "Yesterday evening, we ______ a very interesting documentary about wild animals on television together.",
+    "options": {
+      "A": "watch",
+      "B": "watched",
+      "C": "are watching",
+      "D": "have watched"
+    },
+    "key": "B",
+    "explanation": "Dùng thì quá khứ đơn vì có trạng ngữ chỉ thời gian xác định là \"Yesterday evening\"."
+  },
+  {
+    "id": 711,
+    "question": "They decided ______ a new language in order to communicate better with foreign customers.",
+    "options": {
+      "A": "learn",
+      "B": "learned",
+      "C": "learning",
+      "D": "to learn"
+    },
+    "key": "D",
+    "explanation": "Sau động từ \"decide\" chúng ta luôn sử dụng dạng động từ nguyên mẫu có \"to\"."
+  },
+  {
+    "id": 712,
+    "question": "______ you help me carry these heavy boxes upstairs, please?",
+    "options": {
+      "A": "Must",
+      "B": "Should",
+      "C": "Could",
+      "D": "May"
+    },
+    "key": "C",
+    "explanation": "Sử dụng \"Could\" để đưa ra một lời yêu cầu giúp đỡ một cách lịch sự."
+  },
+  {
+    "id": 713,
+    "question": "He wishes he ______ work so late every night because it makes him very tired.",
+    "options": {
+      "A": "doesn't have to",
+      "B": "won't have to",
+      "C": "had hadn't to",
+      "D": "didn't have to"
+    },
+    "key": "D",
+    "explanation": "Câu ước cho thói quen ở hiện tại dùng phủ định của quá khứ đơn \"didn't have to\"."
+  },
+  {
+    "id": 714,
+    "question": "He couldn't go to school today because he has ______ a bad cold.",
+    "options": {
+      "A": "come down with",
+      "B": "carried out",
+      "C": "got around",
+      "D": "cut down on"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"come down with\" có nghĩa là bị mắc một căn bệnh nhẹ nào đó."
+  },
+  {
+    "id": 715,
+    "question": "I saw ______ interesting film on TV last night and told my friends about it.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "B",
+    "explanation": "Dùng mạo từ \"an\" trước từ bắt đầu bằng nguyên âm khi nhắc đến vật lần đầu."
+  },
+  {
+    "id": 716,
+    "question": "My best friend and I ______ English together every weekend.",
+    "options": {
+      "A": "practices",
+      "B": "practice",
+      "C": "am practicing",
+      "D": "practiced"
+    },
+    "key": "B",
+    "explanation": "Chủ ngữ số nhiều \"My best friend and I\" đi với động từ nguyên mẫu ở hiện tại đơn."
+  },
+  {
+    "id": 717,
+    "question": "He studied very hard for many weeks, ______ he still failed the important test last Friday.",
+    "options": {
+      "A": "therefore",
+      "B": "so",
+      "C": "because",
+      "D": "but"
+    },
+    "key": "D",
+    "explanation": "Dùng liên từ \"but\" để kết nối hai mệnh đề mang ý nghĩa trái ngược nhau."
+  },
+  {
+    "id": 718,
+    "question": "Please ______ a photo of us in front of the famous building.",
+    "options": {
+      "A": "take",
+      "B": "make",
+      "C": "do",
+      "D": "give"
+    },
+    "key": "A",
+    "explanation": "Cụm từ cố định \"take a photo\" có nghĩa là chụp một bức ảnh."
+  },
+  {
+    "id": 719,
+    "question": "The city center is very ______, especially during rush hours when everyone is going to work.",
+    "options": {
+      "A": "quiet",
+      "B": "crowded",
+      "C": "original",
+      "D": "special"
+    },
+    "key": "B",
+    "explanation": "Tính từ \"crowded\" diễn tả sự đông đúc, nhộn nhịp của trung tâm thành phố."
+  },
+  {
+    "id": 720,
+    "question": "You will fail the test if you ______ attention in class.",
+    "options": {
+      "A": "don't pay",
+      "B": "won't pay",
+      "C": "didn't pay",
+      "D": "would pay"
+    },
+    "key": "A",
+    "explanation": "Mệnh đề If trong câu điều kiện loại 1 chia ở thì hiện tại đơn dạng phủ định."
+  },
+  {
+    "id": 721,
+    "question": "She wore a ______ dress to the important school ceremony yesterday.",
+    "options": {
+      "A": "lovely long white",
+      "B": "long lovely white",
+      "C": "white lovely long",
+      "D": "lovely white long"
+    },
+    "key": "A",
+    "explanation": "Thứ tự tính từ: ý kiến (lovely), kích thước (long) và màu sắc (white)."
+  },
+  {
+    "id": 722,
+    "question": "My house is ______ from the city centre than yours.",
+    "options": {
+      "A": "more far",
+      "B": "farther",
+      "C": "farthest",
+      "D": "the farthest"
+    },
+    "key": "B",
+    "explanation": "Dùng dạng so sánh hơn đặc biệt \"farther\" của tính từ \"far\" để chỉ khoảng cách."
+  },
+  {
+    "id": 723,
+    "question": "At 8 p.m. last night, she ______ her homework when the power suddenly went out.",
+    "options": {
+      "A": "did",
+      "B": "was doing",
+      "C": "has done",
+      "D": "is doing"
+    },
+    "key": "B",
+    "explanation": "Thì quá khứ tiếp diễn diễn tả hành động đang xảy ra tại một thời điểm cụ thể."
+  },
+  {
+    "id": 724,
+    "question": "I can't stand ______ in long lines when I go shopping at busy supermarkets.",
+    "options": {
+      "A": "wait",
+      "B": "to wait",
+      "C": "waiting",
+      "D": "waited"
+    },
+    "key": "C",
+    "explanation": "Cấu trúc can't stand cộng với động từ thêm -ing có nghĩa là không chịu đựng được việc gì."
+  },
+  {
+    "id": 725,
+    "question": "We ______ finish this report today because the manager needs it tomorrow morning.",
+    "options": {
+      "A": "might",
+      "B": "must",
+      "C": "could",
+      "D": "would"
+    },
+    "key": "B",
+    "explanation": "Dùng động từ khuyết thiếu \"must\" để chỉ sự bắt buộc cần thiết phải hoàn thành."
+  },
+  {
+    "id": 726,
+    "question": "I wish it ______ too hot today so we could go for a walk comfortably.",
+    "options": {
+      "A": "isn't",
+      "B": "has hasn't been",
+      "C": "won't be",
+      "D": "weren't"
+    },
+    "key": "D",
+    "explanation": "Trong câu ước hiện tại, động từ tobe được chia là \"weren't\" cho tất cả các ngôi."
+  },
+  {
+    "id": 727,
+    "question": "The manager decided to ______ a careful investigation into the cause of the accident.",
+    "options": {
+      "A": "carry out",
+      "B": "pass down",
+      "C": "come across",
+      "D": "put off"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"carry out\" mang ý nghĩa là thực hiện hoặc tiến hành một nhiệm vụ."
+  },
+  {
+    "id": 728,
+    "question": "______ Sun rises in the east and sets in the west every day.",
+    "options": {
+      "A": "A",
+      "B": "An",
+      "C": "The",
+      "D": "Ø"
+    },
+    "key": "C",
+    "explanation": "Dùng mạo từ \"the\" trước các danh từ chỉ vật thể duy nhất như mặt trời (Sun)."
+  },
+  {
+    "id": 729,
+    "question": "Every student ______ required to wear the school uniform.",
+    "options": {
+      "A": "are",
+      "B": "were",
+      "C": "is",
+      "D": "have"
+    },
+    "key": "C",
+    "explanation": "Cấu trúc Every + danh từ số ít luôn đi kèm với động từ số ít."
+  },
+  {
+    "id": 730,
+    "question": "The weather was extremely cold and windy; ______, many people went swimming at the beach.",
+    "options": {
+      "A": "because",
+      "B": "so",
+      "C": "however",
+      "D": "despite"
+    },
+    "key": "C",
+    "explanation": "Liên từ \"however\" dùng để nối hai câu có ý nghĩa tương phản về mặt nội dung."
+  },
+  {
+    "id": 731,
+    "question": "You should ______ a rest if you feel tired after studying for hours.",
+    "options": {
+      "A": "take",
+      "B": "make",
+      "C": "do",
+      "D": "break"
+    },
+    "key": "A",
+    "explanation": "Cụm từ cố định \"take a rest\" được dùng phổ biến để chỉ việc nghỉ ngơi."
+  },
+  {
+    "id": 732,
+    "question": "It is necessary to protect the biological ______ of our rainforests.",
+    "options": {
+      "A": "feature",
+      "B": "function",
+      "C": "beauty",
+      "D": "diversity"
+    },
+    "key": "D",
+    "explanation": "Cụm từ \"biological diversity\" có nghĩa là sự đa dạng sinh học trong thiên nhiên."
+  },
+  {
+    "id": 733,
+    "question": "If the weather ______ better tomorrow, we will go on a picnic.",
+    "options": {
+      "A": "is",
+      "B": "was",
+      "C": "will be",
+      "D": "would be"
+    },
+    "key": "A",
+    "explanation": "Thì hiện tại đơn được dùng trong mệnh đề If của câu điều kiện loại 1."
+  },
+  {
+    "id": 734,
+    "question": "He bought a ______ chair to put in his reading corner at home.",
+    "options": {
+      "A": "wooden comfortable brown",
+      "B": "comfortable brown wooden",
+      "C": "brown wooden comfortable",
+      "D": "comfortable wooden brown"
+    },
+    "key": "B",
+    "explanation": "Trật tự tính từ đúng: ý kiến (comfortable), màu sắc (brown) và chất liệu (wooden)."
+  },
+  {
+    "id": 735,
+    "question": "This exercise is ______ than the one we did in class yesterday.",
+    "options": {
+      "A": "the most difficult",
+      "B": "more difficult",
+      "C": "as difficult",
+      "D": "difficulter"
+    },
+    "key": "B",
+    "explanation": "Sử dụng cấu trúc so sánh hơn với tính từ dài \"more difficult\" khi có từ \"than\"."
+  },
+  {
+    "id": 736,
+    "question": "We have bought all the ingredients, so we ______ a special dinner for our guests this evening.",
+    "options": {
+      "A": "cook",
+      "B": "cooked",
+      "C": "are going to cook",
+      "D": "will cook"
+    },
+    "key": "C",
+    "explanation": "Dùng cấu trúc \"be going to\" để chỉ một kế hoạch đã được chuẩn bị sẵn."
+  },
+  {
+    "id": 737,
+    "question": "______ regularly helps students stay healthy and reduce stress after long hours of studying at school.",
+    "options": {
+      "A": "Exercise",
+      "B": "To exercise",
+      "C": "Exercising",
+      "D": "Exercised"
+    },
+    "key": "C",
+    "explanation": "Danh động từ (V-ing) đóng vai trò làm chủ ngữ chỉ hành động tập thể dục."
+  },
+  {
+    "id": 738,
+    "question": "Students ______ use their phones during the exam, according to school rules.",
+    "options": {
+      "A": "don't have to",
+      "B": "must not",
+      "C": "shouldn't",
+      "D": "may not"
+    },
+    "key": "B",
+    "explanation": "Dùng \"must not\" để diễn tả một lệnh cấm tuyệt đối theo quy định nhà trường."
+  },
+  {
+    "id": 739,
+    "question": "They wish they ______ the answer to this difficult question to finish their homework quickly.",
+    "options": {
+      "A": "know",
+      "B": "knew",
+      "C": "will know",
+      "D": "knows"
+    },
+    "key": "B",
+    "explanation": "Động từ sau wish ở hiện tại lùi về thì quá khứ đơn (knew)."
+  },
+  {
+    "id": 740,
+    "question": "We need to ______ sugar if we want to stay healthier and avoid gaining weight.",
+    "options": {
+      "A": "cut down on",
+      "B": "run out of",
+      "C": "put on",
+      "D": "get around"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"cut down on\" có nghĩa là cắt giảm lượng tiêu thụ thứ gì đó."
+  },
+  {
+    "id": 741,
+    "question": "She is ______ only student in our class who can speak fluent French.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "C",
+    "explanation": "Sử dụng mạo từ xác định \"the\" khi đi kèm với từ chỉ sự duy nhất \"only\"."
+  },
+  {
+    "id": 742,
+    "question": "My parents ______ very proud of my achievements.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "was",
+      "D": "has been"
+    },
+    "key": "B",
+    "explanation": "Chủ ngữ số nhiều \"My parents\" cần đi kèm với động từ tobe số nhiều \"are\"."
+  },
+  {
+    "id": 743,
+    "question": "They couldn't join the school trip ______ they had no money to pay for the bus and entrance tickets.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "however",
+      "D": "but"
+    },
+    "key": "A",
+    "explanation": "Liên từ \"because\" dùng để giải thích lý do tại sao họ không thể đi dã ngoại."
+  },
+  {
+    "id": 744,
+    "question": "He failed to ______ the bus and arrived late for the meeting.",
+    "options": {
+      "A": "hold",
+      "B": "get",
+      "C": "have",
+      "D": "catch"
+    },
+    "key": "D",
+    "explanation": "Cụm từ \"catch the bus\" có nghĩa là bắt kịp hoặc đón được xe buýt."
+  },
+  {
+    "id": 745,
+    "question": "The museum is a popular ______ for both local people and foreign tourists.",
+    "options": {
+      "A": "tourist attraction",
+      "B": "suburb",
+      "C": "facility",
+      "D": "community"
+    },
+    "key": "A",
+    "explanation": "Cụm từ \"tourist attraction\" chỉ những địa điểm thu hút khách du lịch đến tham quan."
+  },
+  {
+    "id": 746,
+    "question": "If he doesn't apologize, she ______ forgive him.",
+    "options": {
+      "A": "doesn't",
+      "B": "won't",
+      "C": "didn't",
+      "D": "wouldly"
+    },
+    "key": "B",
+    "explanation": "Câu điều kiện loại 1 dùng \"won't\" (will not) để chỉ kết quả không xảy ra."
+  },
+  {
+    "id": 747,
+    "question": "We stayed in a ______ hotel during our short holiday in Da Nang.",
+    "options": {
+      "A": "new big seaside",
+      "B": "big new seaside",
+      "C": "seaside big new",
+      "D": "big seaside new"
+    },
+    "key": "B",
+    "explanation": "Thứ tự tính từ đúng: kích thước (big), tuổi tác (new) và mục đích (seaside)."
+  },
+  {
+    "id": 748,
+    "question": "She chose ______ dress for the important meeting.",
+    "options": {
+      "A": "the elegantest",
+      "B": "more elegant",
+      "C": "the most elegant",
+      "D": "as elegant"
+    },
+    "key": "C",
+    "explanation": "Sử dụng cấu trúc so sánh nhất với tính từ dài để chỉ sự lựa chọn tốt nhất."
+  },
+  {
+    "id": 749,
+    "question": "I ______ this best-selling novel twice because the story is very meaningful and inspiring.",
+    "options": {
+      "A": "read",
+      "B": "am reading",
+      "C": "will read",
+      "D": "have read"
+    },
+    "key": "D",
+    "explanation": "Thì hiện tại hoàn thành diễn tả trải nghiệm đã từng làm gì đó tính đến hiện tại."
+  },
+  {
+    "id": 750,
+    "question": "She went to the library early this morning ______ more information for her important science project.",
+    "options": {
+      "A": "get",
+      "B": "to get",
+      "C": "getting",
+      "D": "got"
+    },
+    "key": "B",
+    "explanation": "Dùng dạng To-V để chỉ mục đích của hành động đi đến thư viện."
+  },
+  {
+    "id": 751,
+    "question": "You ______ eat so much fast food if you want to stay healthy.",
+    "options": {
+      "A": "shouldn't",
+      "B": "can't",
+      "C": "oughtn't",
+      "D": "needn't"
+    },
+    "key": "A",
+    "explanation": "Dùng \"shouldn't\" để đưa ra một lời khuyên phủ định về sức khỏe."
+  },
+  {
+    "id": 752,
+    "question": "My brother wishes he ______ taller so he could reach the top shelf easily.",
+    "options": {
+      "A": "is",
+      "B": "were",
+      "C": "be",
+      "D": "will be"
+    },
+    "key": "B",
+    "explanation": "Trong câu ước hiện tại, động từ \"to be\" luôn dùng dạng \"were\" cho mọi chủ ngữ."
+  },
+  {
+    "id": 753,
+    "question": "My parents asked me to ______ my little brother while they were away for the weekend.",
+    "options": {
+      "A": "look out",
+      "B": "look for",
+      "C": "look up",
+      "D": "look after"
+    },
+    "key": "D",
+    "explanation": "Cụm động từ \"look after\" có nghĩa là chăm sóc hoặc trông nom một ai đó."
+  },
+  {
+    "id": 754,
+    "question": "My father bought me ______ new bicycle for my birthday.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "A",
+    "explanation": "Dùng mạo từ \"a\" khi nhắc đến một danh từ đếm được số ít lần đầu tiên."
+  },
+  {
+    "id": 755,
+    "question": "The news John told us ______ very shocking to all of us.",
+    "options": {
+      "A": "are",
+      "B": "were",
+      "C": "was",
+      "D": "have"
+    },
+    "key": "C",
+    "explanation": "Danh từ \"The news\" (tin tức) luôn được coi là danh từ số ít không đếm được."
+  },
+  {
+    "id": 756,
+    "question": "She was late for the meeting ______ the terrible traffic jam on the main road this morning.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "because of",
+      "D": "despite"
+    },
+    "key": "C",
+    "explanation": "Dùng \"because of\" đứng trước một cụm danh từ để chỉ nguyên nhân gây trễ giờ."
+  },
+  {
+    "id": 757,
+    "question": "She promised not to ______ the school rules again.",
+    "options": {
+      "A": "break",
+      "B": "do",
+      "C": "make",
+      "D": "take"
+    },
+    "key": "A",
+    "explanation": "Cụm từ \"break the rules\" có nghĩa là vi phạm các quy tắc hoặc luật lệ."
+  },
+  {
+    "id": 758,
+    "question": "Climate ______ is one of the biggest problems facing the world today.",
+    "options": {
+      "A": "change",
+      "B": "balance",
+      "C": "chain",
+      "D": "habitat"
+    },
+    "key": "A",
+    "explanation": "Cụm từ \"climate change\" chỉ hiện tượng biến đổi khí hậu đang diễn ra toàn cầu."
+  },
+  {
+    "id": 759,
+    "question": "If we ______ more carefully, we will avoid making mistakes.",
+    "options": {
+      "A": "work",
+      "B": "will work",
+      "C": "worked",
+      "D": "would work"
+    },
+    "key": "A",
+    "explanation": "Trong câu điều kiện loại 1, mệnh đề If chia ở thì hiện tại đơn với chủ ngữ số nhiều."
+  },
+  {
+    "id": 760,
+    "question": "He gave me a ______ watch as a birthday present.",
+    "options": {
+      "A": "small silver beautiful",
+      "B": "beautiful small silver",
+      "C": "silver beautiful small",
+      "D": "beautiful silver small"
+    },
+    "key": "B",
+    "explanation": "Trật tự tính từ đúng: ý kiến (beautiful), kích thước (small) và chất liệu (silver)."
+  },
+  {
+    "id": 761,
+    "question": "He completed the task ______ than his classmates.",
+    "options": {
+      "A": "the most carefully",
+      "B": "more carefully",
+      "C": "most carefully",
+      "D": "as carefully"
+    },
+    "key": "B",
+    "explanation": "Sử dụng so sánh hơn với trạng từ dài khi so sánh cách làm việc của hai đối tượng."
+  },
+  {
+    "id": 762,
+    "question": "Usually, our English teacher ______ us simple tips to improve our pronunciation in class.",
+    "options": {
+      "A": "give",
+      "B": "gives",
+      "C": "is giving",
+      "D": "gave"
+    },
+    "key": "B",
+    "explanation": "Thì hiện tại đơn diễn tả một hành động thường xuyên diễn ra, đi kèm trạng từ \"usually\"."
+  },
+  {
+    "id": 763,
+    "question": "It is very important ______ enough water every day, especially during hot summer days.",
+    "options": {
+      "A": "drink",
+      "B": "to drink",
+      "C": "drinking",
+      "D": "drank"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc tính từ đi kèm với động từ nguyên mẫu có to: It is + adj + to V."
+  },
+  {
+    "id": 764,
+    "question": "My little brother is only five, but he ______ already read simple English books.",
+    "options": {
+      "A": "must",
+      "B": "might",
+      "C": "should",
+      "D": "can"
+    },
+    "key": "D",
+    "explanation": "Dùng động từ khuyết thiếu \"can\" để chỉ khả năng làm được việc gì của một người."
+  },
+  {
+    "id": 765,
+    "question": "She wishes she ______ a better computer because her current one is very slow.",
+    "options": {
+      "A": "have",
+      "B": "had",
+      "C": "has",
+      "D": "having"
+    },
+    "key": "B",
+    "explanation": "Câu ước hiện tại dùng thì quá khứ đơn để chỉ mong muốn trái với thực tế hiện tại."
+  },
+  {
+    "id": 766,
+    "question": "He promised that he would ______ the meeting until everyone was fully prepared.",
+    "options": {
+      "A": "put off",
+      "B": "take off",
+      "C": "come back",
+      "D": "clean up"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"put off\" có nghĩa là trì hoãn một sự kiện hoặc cuộc hẹn nào đó."
+  },
+  {
+    "id": 767,
+    "question": "Can you pass me ______ salt on the table, please?",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "C",
+    "explanation": "Dùng mạo từ \"the\" vì cả người nói và người nghe đều biết lọ muối cụ thể nào."
+  },
+  {
+    "id": 768,
+    "question": "Neither my brother nor my parents ______ at home right now.",
+    "options": {
+      "A": "is",
+      "B": "was",
+      "C": "are",
+      "D": "has"
+    },
+    "key": "C",
+    "explanation": "Trong cấu trúc neither...nor, động từ chia theo chủ ngữ gần nhất là \"my parents\"."
+  },
+  {
+    "id": 769,
+    "question": "The movie was boring and too long; ______, we decided to leave the cinema before it ended.",
+    "options": {
+      "A": "however",
+      "B": "because",
+      "C": "therefore",
+      "D": "although"
+    },
+    "key": "C",
+    "explanation": "Liên từ \"therefore\" dùng để chỉ kết quả dẫn đến từ sự việc đã nêu phía trước."
+  },
+  {
+    "id": 770,
+    "question": "We need to ______ a plan for our class picnic this weekend.",
+    "options": {
+      "A": "get",
+      "B": "do",
+      "C": "take",
+      "D": "make"
+    },
+    "key": "D",
+    "explanation": "Cụm từ cố định \"make a plan\" có nghĩa là lập ra một kế hoạch."
+  },
+  {
+    "id": 771,
+    "question": "Many animals lose their ______ because forests are being destroyed.",
+    "options": {
+      "A": "habitat",
+      "B": "grassland",
+      "C": "landform",
+      "D": "pole"
+    },
+    "key": "A",
+    "explanation": "Từ \"habitat\" chỉ môi trường sống tự nhiên của các loài động thực vật."
+  },
+  {
+    "id": 772,
+    "question": "She won't pass the interview if she ______ nervous all the time.",
+    "options": {
+      "A": "stays",
+      "B": "will stay",
+      "C": "stayed",
+      "D": "would stay"
+    },
+    "key": "A",
+    "explanation": "Mệnh đề If của câu điều kiện loại 1 chia ở thì hiện tại đơn với chủ ngữ số ít."
+  },
+  {
+    "id": 773,
+    "question": "They live in a ______ apartment in the center of a busy city.",
+    "options": {
+      "A": "modern small Japanese",
+      "B": "small modern Japanese",
+      "C": "Japanese small modern",
+      "D": "modern Japanese small"
+    },
+    "key": "B",
+    "explanation": "Thứ tự tính từ: kích thước (small), tính chất (modern) và nguồn gốc (Japanese)."
+  },
+  {
+    "id": 774,
+    "question": "The film wasn't ______ we had expected.",
+    "options": {
+      "A": "better",
+      "B": "as good as",
+      "C": "the best",
+      "D": "more better"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc so sánh bằng ở dạng phủ định được dùng để so sánh phim với kỳ vọng."
+  },
+  {
+    "id": 775,
+    "question": "At the moment, she ______ for a new job because she wants a better working environment.",
+    "options": {
+      "A": "looks",
+      "B": "looked",
+      "C": "is looking",
+      "D": "has looked"
+    },
+    "key": "C",
+    "explanation": "Dùng thì hiện tại tiếp diễn vì có trạng từ chỉ thời gian \"at the moment\"."
+  },
+  {
+    "id": 776,
+    "question": "______ too much fast food can cause serious health problems in the long run.",
+    "options": {
+      "A": "Eat",
+      "B": "To eat",
+      "C": "Eating",
+      "D": "Eaten"
+    },
+    "key": "C",
+    "explanation": "Danh động từ đứng đầu câu làm chủ ngữ để chỉ hành động ăn uống."
+  },
+  {
+    "id": 777,
+    "question": "We ______ leave early tomorrow to avoid the heavy traffic in the city center.",
+    "options": {
+      "A": "ought to",
+      "B": "can",
+      "C": "may",
+      "D": "would"
+    },
+    "key": "A",
+    "explanation": "Dùng \"ought to\" để đưa ra lời khuyên nên thực hiện hành động nào đó."
+  },
+  {
+    "id": 778,
+    "question": "I wish I ______ so anxious before exams so that I can answer questions more correctly.",
+    "options": {
+      "A": "don't feel",
+      "B": "didn't feel",
+      "C": "had hadn't felt",
+      "D": "won't feel"
+    },
+    "key": "B",
+    "explanation": "Câu ước hiện tại dùng dạng phủ định của thì quá khứ đơn \"didn't feel\"."
+  },
+  {
+    "id": 779,
+    "question": "While walking in the forest, we ______ an old wooden house hidden behind the trees.",
+    "options": {
+      "A": "put on",
+      "B": "ran out of",
+      "C": "carried out",
+      "D": "came across"
+    },
+    "key": "D",
+    "explanation": "Cụm động từ \"came across\" có nghĩa là tình cờ bắt gặp hoặc tìm thấy thứ gì."
+  },
+  {
+    "id": 780,
+    "question": "My mother is cooking ______ dinner for the whole family.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "D",
+    "explanation": "Thông thường không dùng mạo từ trước các danh từ chỉ bữa ăn như dinner, lunch."
+  },
+  {
+    "id": 781,
+    "question": "The quality of these products ______ improved a lot recently.",
+    "options": {
+      "A": "have",
+      "B": "has",
+      "C": "are",
+      "D": "were"
+    },
+    "key": "B",
+    "explanation": "Chủ ngữ là \"The quality\" (số ít) nên động từ trợ phải dùng là \"has\"."
+  },
+  {
+    "id": 782,
+    "question": "______ her young age and little experience, she speaks English very clearly and confidently.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "Despite",
+      "D": "So"
+    },
+    "key": "C",
+    "explanation": "Dùng \"Despite\" đứng trước cụm danh từ để chỉ sự nhượng bộ, trái ngược."
+  },
+  {
+    "id": 783,
+    "question": "He often ______ mistakes when he is in a hurry.",
+    "options": {
+      "A": "makes",
+      "B": "does",
+      "C": "gives",
+      "D": "takes"
+    },
+    "key": "A",
+    "explanation": "Cụm từ cố định \"make mistakes\" có nghĩa là mắc lỗi hoặc làm sai điều gì."
+  },
+  {
+    "id": 784,
+    "question": "Climate change can seriously ______ the balance of nature.",
+    "options": {
+      "A": "help",
+      "B": "observe",
+      "C": "preserve",
+      "D": "affect"
+    },
+    "key": "D",
+    "explanation": "Động từ \"affect\" có nghĩa là tác động hoặc gây ảnh hưởng đến sự cân bằng tự nhiên."
+  },
+  {
+    "id": 785,
+    "question": "If you don't hurry, you ______ late for the meeting.",
+    "options": {
+      "A": "are",
+      "B": "will be",
+      "C": "were",
+      "D": "would be"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc câu điều kiện loại 1 với will be ở mệnh đề chính chỉ kết quả tương lai."
+  },
+  {
+    "id": 786,
+    "question": "I like your ______ shoes; they are perfect for walking every day.",
+    "options": {
+      "A": "black comfortable leather",
+      "B": "comfortable black leather",
+      "C": "leather comfortable black",
+      "D": "black leather comfortable"
+    },
+    "key": "B",
+    "explanation": "Thứ tự tính từ đúng: ý kiến (comfortable), màu sắc (black) và chất liệu (leather)."
+  },
+  {
+    "id": 787,
+    "question": "My brother drives ______ now than he did last year.",
+    "options": {
+      "A": "as safely",
+      "B": "safer",
+      "C": "more safely",
+      "D": "the safest"
+    },
+    "key": "C",
+    "explanation": "Dùng so sánh hơn với trạng từ dài \"more safely\" để chỉ cách thức hành động."
+  },
+  {
+    "id": 788,
+    "question": "Last weekend, they ______ their grandparents who live in a small peaceful village.",
+    "options": {
+      "A": "visit",
+      "B": "visited",
+      "C": "are visiting",
+      "D": "have visited"
+    },
+    "key": "B",
+    "explanation": "Dùng thì quá khứ đơn để diễn tả hành động đã xảy ra và kết thúc vào tuần trước."
+  },
+  {
+    "id": 789,
+    "question": "He saved money for several months ______ a new laptop for his online classes.",
+    "options": {
+      "A": "to buy",
+      "B": "buy",
+      "C": "buying",
+      "D": "bought"
+    },
+    "key": "A",
+    "explanation": "Cấu trúc To-V dùng để chỉ mục đích của việc tiết kiệm tiền."
+  },
+  {
+    "id": 790,
+    "question": "I'm not sure, but it ______ be snowy later in the afternoon.",
+    "options": {
+      "A": "must",
+      "B": "should",
+      "C": "might",
+      "D": "can"
+    },
+    "key": "C",
+    "explanation": "Dùng \"might\" để chỉ khả năng có thể xảy ra nhưng không chắc chắn 100%."
+  },
+  {
+    "id": 791,
+    "question": "We wish our classroom ______ bigger and brighter to study more comfortably.",
+    "options": {
+      "A": "were",
+      "B": "was",
+      "C": "is",
+      "D": "be"
+    },
+    "key": "A",
+    "explanation": "Trong câu ước cho hiện tại, động từ tobe luôn là \"were\" cho tất cả các ngôi."
+  },
+  {
+    "id": 792,
+    "question": "I am still ______ my keys, which I lost somewhere on the way home.",
+    "options": {
+      "A": "putting on",
+      "B": "coming across",
+      "C": "taking care of",
+      "D": "looking for"
+    },
+    "key": "D",
+    "explanation": "Cụm động từ \"looking for\" dùng khi bạn đang cố gắng tìm kiếm một vật bị mất."
+  },
+  {
+    "id": 793,
+    "question": "I need to buy ______ umbrella because it looks like it will rain soon.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "B",
+    "explanation": "Sử dụng mạo từ \"an\" trước từ \"umbrella\" vì nó bắt đầu bằng âm nguyên âm."
+  },
+  {
+    "id": 794,
+    "question": "One of my classmates ______ very good at solving math problems.",
+    "options": {
+      "A": "are",
+      "B": "were",
+      "C": "is",
+      "D": "have"
+    },
+    "key": "C",
+    "explanation": "Cấu trúc \"One of + N số nhiều\" đi với động từ số ít \"is\"."
+  },
+  {
+    "id": 795,
+    "question": "I really enjoy listening to music in the evening, ______ my brother prefers watching TV instead.",
+    "options": {
+      "A": "therefore",
+      "B": "so",
+      "C": "but",
+      "D": "because of"
+    },
+    "key": "C",
+    "explanation": "Liên từ \"but\" dùng để nối hai mệnh đề diễn tả sở thích trái ngược nhau."
+  },
+  {
+    "id": 796,
+    "question": "They decided to ______ a party for her birthday.",
+    "options": {
+      "A": "hold",
+      "B": "do",
+      "C": "make",
+      "D": "take"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"hold a party\" có nghĩa là đứng ra tổ chức một buổi tiệc."
+  },
+  {
+    "id": 797,
+    "question": "It is ______ to save endangered animals from extinction.",
+    "options": {
+      "A": "vital",
+      "B": "fascinating",
+      "C": "repetitive",
+      "D": "unnecessary"
+    },
+    "key": "A",
+    "explanation": "Tính từ \"vital\" có nghĩa là cực kỳ quan trọng và cần thiết."
+  },
+  {
+    "id": 798,
+    "question": "We will cancel the trip if it ______ heavily this afternoon.",
+    "options": {
+      "A": "rain",
+      "B": "rains",
+      "C": "rained",
+      "D": "will rain"
+    },
+    "key": "B",
+    "explanation": "Mệnh đề điều kiện If loại 1 chia ở thì hiện tại đơn với chủ ngữ It."
+  },
+  {
+    "id": 799,
+    "question": "She is looking for a ______ coat to wear in winter.",
+    "options": {
+      "A": "cheap long wool",
+      "B": "long cheap wool",
+      "C": "wool cheap long",
+      "D": "cheap wool long"
+    },
+    "key": "A",
+    "explanation": "Thứ tự tính từ: chất lượng/giá cả (cheap), kích thước (long) và chất liệu (wool)."
+  },
+  {
+    "id": 800,
+    "question": "Of the three options, this one seems ______ to understand.",
+    "options": {
+      "A": "as easy",
+      "B": "easier",
+      "C": "the easiest",
+      "D": "the most easy"
+    },
+    "key": "C",
+    "explanation": "Dùng so sánh nhất khi so sánh giữa ba lựa chọn với nhau."
+  },
+  {
+    "id": 801,
+    "question": "Next year, my brother ______ high school and apply for a university in the city.",
+    "options": {
+      "A": "finishes",
+      "B": "will finish",
+      "C": "finished",
+      "D": "has finished"
+    },
+    "key": "B",
+    "explanation": "Thì tương lai đơn diễn tả một sự việc sẽ diễn ra vào năm sau."
+  },
+  {
+    "id": 802,
+    "question": "Peter denied ______ his mobile phone during the final exam.",
+    "options": {
+      "A": "using",
+      "B": "to use",
+      "C": "uses",
+      "D": "used"
+    },
+    "key": "A",
+    "explanation": "Sau động từ \"deny\" (phủ nhận), động từ theo sau luôn chia ở dạng thêm -ing."
+  },
+  {
+    "id": 803,
+    "question": "You ______ bring an umbrella because the weather forecast says it will be sunny.",
+    "options": {
+      "A": "mustn't",
+      "B": "needn't",
+      "C": "shouldn't",
+      "D": "can't"
+    },
+    "key": "B",
+    "explanation": "Dùng \"needn't\" để chỉ sự không cần thiết phải làm gì đó."
+  },
+  {
+    "id": 804,
+    "question": "He wishes he ______ a car like his friends to go to work more conveniently.",
+    "options": {
+      "A": "can drive",
+      "B": "could drive",
+      "C": "drives",
+      "D": "drove"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc ước ở hiện tại dùng could + V để chỉ khả năng không có thật."
+  },
+  {
+    "id": 805,
+    "question": "The children helped their parents ______ the messy living room after the party.",
+    "options": {
+      "A": "get around",
+      "B": "come down",
+      "C": "hand down",
+      "D": "clean up"
+    },
+    "key": "D",
+    "explanation": "Cụm động từ \"clean up\" có nghĩa là dọn dẹp cho sạch sẽ và ngăn nắp."
+  },
+  {
+    "id": 806,
+    "question": "My sister went to ______ USA to learn English.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "C",
+    "explanation": "Mạo từ \"the\" luôn đứng trước tên quốc gia có chứa từ \"USA\"."
+  },
+  {
+    "id": 807,
+    "question": "Singing English songs every day ______ a fun and effective way to improve pronunciation.",
+    "options": {
+      "A": "are",
+      "B": "were",
+      "C": "is",
+      "D": "have been"
+    },
+    "key": "C",
+    "explanation": "Chủ ngữ bắt đầu bằng danh động từ (V-ing) được tính là số ít."
+  },
+  {
+    "id": 808,
+    "question": "He didn't feel well after lunch; ______, he went to work to finish his tasks.",
+    "options": {
+      "A": "Therefore",
+      "B": "However",
+      "C": "Because",
+      "D": "So"
+    },
+    "key": "B",
+    "explanation": "Dùng \"However\" để chỉ sự nhượng bộ, dù mệt nhưng vẫn đi làm."
+  },
+  {
+    "id": 809,
+    "question": "My father always ______ me a lift to school when it rains.",
+    "options": {
+      "A": "gives",
+      "B": "makes",
+      "C": "does",
+      "D": "takes"
+    },
+    "key": "A",
+    "explanation": "Cụm từ \"give someone a lift\" có nghĩa là cho ai đó đi nhờ xe."
+  },
+  {
+    "id": 810,
+    "question": "The teacher asked her students to ______ a new idea for the project.",
+    "options": {
+      "A": "listen",
+      "B": "copy",
+      "C": "observe",
+      "D": "propose"
+    },
+    "key": "D",
+    "explanation": "Động từ \"propose\" có nghĩa là đề xuất hoặc đưa ra một ý tưởng mới."
+  },
+  {
+    "id": 811,
+    "question": "I will wash the dishes if you ______ the cooking.",
+    "options": {
+      "A": "will do",
+      "B": "do",
+      "C": "would do",
+      "D": "did"
+    },
+    "key": "B",
+    "explanation": "Mệnh đề If loại 1 chia ở thì hiện tại đơn với chủ ngữ là \"you\"."
+  },
+  {
+    "id": 812,
+    "question": "The museum is famous for ______ that show the history of the city.",
+    "options": {
+      "A": "beautiful buildings its",
+      "B": "its buildings beautiful",
+      "C": "its beautiful buildings",
+      "D": "beautiful its buildings"
+    },
+    "key": "C",
+    "explanation": "Cấu trúc cụm danh từ: Tính từ sở hữu + Tính từ + Danh từ."
+  },
+  {
+    "id": 813,
+    "question": "The more you practice speaking English, ______ you will become.",
+    "options": {
+      "A": "more confident",
+      "B": "the most confident",
+      "C": "most confident",
+      "D": "the more confident"
+    },
+    "key": "D",
+    "explanation": "Sử dụng cấu trúc so sánh kép \"the more... the more...\" để chỉ sự biến đổi tương ứng."
+  },
+  {
+    "id": 814,
+    "question": "My friends and I ______ the new shopping mall this weekend as planned.",
+    "options": {
+      "A": "will visit",
+      "B": "visit",
+      "C": "are going to visit",
+      "D": "have visited"
+    },
+    "key": "C",
+    "explanation": "Dùng \"be going to\" để diễn tả một dự định đã được lên kế hoạch trước."
+  },
+  {
+    "id": 815,
+    "question": "You can improve your mental and physical health by ______ regular exercise.",
+    "options": {
+      "A": "taking",
+      "B": "take",
+      "C": "to take",
+      "D": "taken"
+    },
+    "key": "A",
+    "explanation": "Sau giới từ \"by\", động từ theo sau phải được chia ở dạng V-ing."
+  },
+  {
+    "id": 816,
+    "question": "You look tired. You ______ take a break and relax for a while.",
+    "options": {
+      "A": "should",
+      "B": "will",
+      "C": "shouldn't",
+      "D": "mustn't"
+    },
+    "key": "A",
+    "explanation": "Sử dụng \"should\" để đưa ra lời khuyên hữu ích cho người đang mệt mỏi."
+  },
+  {
+    "id": 817,
+    "question": "I wish I ______ more time to finish my project.",
+    "options": {
+      "A": "have",
+      "B": "had",
+      "C": "will have",
+      "D": "am having"
+    },
+    "key": "B",
+    "explanation": "Câu ước cho điều không có thật ở hiện tại lùi động từ về quá khứ đơn."
+  },
+  {
+    "id": 818,
+    "question": "Can you ______ the fan? It's very hot in here.",
+    "options": {
+      "A": "look for",
+      "B": "take off",
+      "C": "turn on",
+      "D": "put down"
+    },
+    "key": "C",
+    "explanation": "Cụm động từ \"turn on\" có nghĩa là khởi động hoặc bật một thiết bị điện."
+  },
+  {
+    "id": 819,
+    "question": "Mrs. Green often buys ______ vegetable at this supermarket.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "D",
+    "explanation": "Thông thường không dùng mạo từ trước danh từ không đếm được hoặc số nhiều chung chung."
+  },
+  {
+    "id": 820,
+    "question": "There ______ many people waiting to buy the tickets now.",
+    "options": {
+      "A": "are",
+      "B": "is",
+      "C": "were",
+      "D": "was"
+    },
+    "key": "A",
+    "explanation": "Động từ tobe chia ở số nhiều \"are\" để phù hợp với chủ ngữ \"many people\"."
+  },
+  {
+    "id": 821,
+    "question": "______ the test was not very difficult, my students didn't do it well.",
+    "options": {
+      "A": "Because",
+      "B": "Despite",
+      "C": "Although",
+      "D": "In spite of"
+    },
+    "key": "C",
+    "explanation": "Dùng \"Although\" đứng trước một mệnh đề để chỉ sự đối lập về kết quả."
+  },
+  {
+    "id": 822,
+    "question": "You should ______ advantage of free online courses to improve your English skills.",
+    "options": {
+      "A": "make",
+      "B": "take",
+      "C": "use",
+      "D": "have"
+    },
+    "key": "B",
+    "explanation": "Cụm từ cố định \"take advantage of\" có nghĩa là tận dụng cơ hội tốt nào đó."
+  },
+  {
+    "id": 823,
+    "question": "Vietnam is home to many different ______, each with its own traditions, clothing styles, and festivals.",
+    "options": {
+      "A": "local foods",
+      "B": "ethnic groups",
+      "C": "city markets",
+      "D": "travel plans"
+    },
+    "key": "B",
+    "explanation": "Cụm từ \"ethnic groups\" chỉ các nhóm dân tộc anh em cùng sinh sống tại Việt Nam."
+  },
+  {
+    "id": 824,
+    "question": "Unless Tina ______ the ticket in advance, she won't be able to get a good seat.",
+    "options": {
+      "A": "books",
+      "B": "doesn't book",
+      "C": "booked",
+      "D": "book"
+    },
+    "key": "A",
+    "explanation": "Cấu trúc Unless tương đương với If...not, động từ vế này dùng ở dạng khẳng định."
+  },
+  {
+    "id": 825,
+    "question": "Sheila said she would show us around ______ when we visited her.",
+    "options": {
+      "A": "her city beautiful",
+      "B": "beautiful her city",
+      "C": "city beautiful her",
+      "D": "her beautiful city"
+    },
+    "key": "D",
+    "explanation": "Sắp xếp theo thứ tự: Tính từ sở hữu (her) + Tính từ miêu tả (beautiful) + Danh từ (city)."
+  },
+  {
+    "id": 826,
+    "question": "\"Red Rain\" is one of ______ movie I've ever seen.",
+    "options": {
+      "A": "the more moving",
+      "B": "the most moving",
+      "C": "most moving",
+      "D": "more moving"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc so sánh nhất với tính từ dài dùng để chỉ bộ phim cảm động nhất."
+  },
+  {
+    "id": 827,
+    "question": "We ______ in the park when it started to rain heavily.",
+    "options": {
+      "A": "danced",
+      "B": "are dancing",
+      "C": "were dancing",
+      "D": "dance"
+    },
+    "key": "C",
+    "explanation": "Thì quá khứ tiếp diễn diễn tả hành động đang xảy ra thì một hành động khác xen vào."
+  },
+  {
+    "id": 828,
+    "question": "The teacher encouraged the students ______ part in the English debate contest.",
+    "options": {
+      "A": "to take",
+      "B": "take",
+      "C": "taking",
+      "D": "taken"
+    },
+    "key": "A",
+    "explanation": "Cấu trúc encourage someone to do something có nghĩa là khuyến khích ai đó tham gia."
+  },
+  {
+    "id": 829,
+    "question": "Billy was so worried about the test that he ______ sleep last night.",
+    "options": {
+      "A": "wouldn't",
+      "B": "mustn't",
+      "C": "couldn't",
+      "D": "shouldn't"
+    },
+    "key": "C",
+    "explanation": "Dùng \"couldn't\" để chỉ sự bất lực, không thể làm gì trong quá khứ."
+  },
+  {
+    "id": 830,
+    "question": "The poor couple wish they ______ a house to live in.",
+    "options": {
+      "A": "have",
+      "B": "would have",
+      "C": "will have",
+      "D": "had"
+    },
+    "key": "D",
+    "explanation": "Câu ước cho hiện tại lùi thì về quá khứ đơn để chỉ một ước muốn chưa thực hiện được."
+  },
+  {
+    "id": 831,
+    "question": "The mother told her children to ______ their toys and get ready for dinner.",
+    "options": {
+      "A": "look for",
+      "B": "put away",
+      "C": "turn off",
+      "D": "take up"
+    },
+    "key": "B",
+    "explanation": "Cụm động từ \"put away\" có nghĩa là cất dọn đồ vật vào đúng nơi quy định."
+  },
+  {
+    "id": 832,
+    "question": "Playing ______ musical instrument is a good way to spend your free time.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "B",
+    "explanation": "Dùng mạo từ \"an\" trước từ bắt đầu bằng nguyên âm khi nói về một loại nhạc cụ."
+  },
+  {
+    "id": 833,
+    "question": "Neither John nor his cousins ______ interested in the film, so they left early.",
+    "options": {
+      "A": "was",
+      "B": "are",
+      "C": "were",
+      "D": "is"
+    },
+    "key": "C",
+    "explanation": "Động từ chia theo chủ ngữ gần nhất là \"his cousins\" nên dùng dạng số nhiều \"were\"."
+  },
+  {
+    "id": 834,
+    "question": "It was ______ bad weather that they decided to cancel their picnic.",
+    "options": {
+      "A": "so",
+      "B": "very",
+      "C": "too",
+      "D": "such"
+    },
+    "key": "D",
+    "explanation": "Cấu trúc Such + (adj) + Danh từ dùng để nhấn mạnh tính chất dẫn đến kết quả."
+  },
+  {
+    "id": 835,
+    "question": "The boy she's tutoring is ______ significant progress in his English speaking skills.",
+    "options": {
+      "A": "doing",
+      "B": "making",
+      "C": "getting",
+      "D": "taking"
+    },
+    "key": "B",
+    "explanation": "Cụm từ cố định \"make progress\" có nghĩa là đạt được sự tiến bộ trong học tập."
+  },
+  {
+    "id": 836,
+    "question": "The rise in plastic waste can ______ many sea animals that accidentally eat it.",
+    "options": {
+      "A": "endanger",
+      "B": "protect",
+      "C": "improve",
+      "D": "support"
+    },
+    "key": "A",
+    "explanation": "Động từ \"endanger\" có nghĩa là gây nguy hiểm hoặc đe dọa đến sự sống của động vật."
+  },
+  {
+    "id": 837,
+    "question": "She'll be late for work if she ______ the bus.",
+    "options": {
+      "A": "miss",
+      "B": "misses",
+      "C": "will miss",
+      "D": "would miss"
+    },
+    "key": "B",
+    "explanation": "Mệnh đề If của câu điều kiện loại 1 dùng thì hiện tại đơn với chủ ngữ số ít."
+  },
+  {
+    "id": 838,
+    "question": "Tony live in ______ in the city center because it's near his office.",
+    "options": {
+      "A": "house small a",
+      "B": "a house small",
+      "C": "small a house",
+      "D": "a small house"
+    },
+    "key": "D",
+    "explanation": "Thứ tự từ trong cụm danh từ: Mạo từ (a) + Tính từ (small) + Danh từ (house)."
+  },
+  {
+    "id": 839,
+    "question": "The more you practice speaking in public, ______ you become.",
+    "options": {
+      "A": "the more confident",
+      "B": "the most confident",
+      "C": "more confident",
+      "D": "most confident"
+    },
+    "key": "A",
+    "explanation": "Cấu trúc so sánh kép \"the more... the more...\" chỉ sự phát triển của lòng tự tin."
+  },
+  {
+    "id": 840,
+    "question": "This is the most fascinating movie Julie ______. ",
+    "options": {
+      "A": "sees",
+      "B": "saw",
+      "C": "has seen",
+      "D": "had seen"
+    },
+    "key": "C",
+    "explanation": "Thì hiện tại hoàn thành dùng kèm với cấu trúc so sánh nhất để chỉ trải nghiệm."
+  },
+  {
+    "id": 841,
+    "question": "The tour guide offered ______ the tourists around the ancient temple before sunset so they could take photos peacefully.",
+    "options": {
+      "A": "showing",
+      "B": "to show",
+      "C": "show",
+      "D": "shown"
+    },
+    "key": "B",
+    "explanation": "Sau động từ \"offer\" (đề nghị), chúng ta sử dụng hình thức động từ To-V."
+  },
+  {
+    "id": 842,
+    "question": "Students ______ use their mobile phones during important examinations unless the teacher gives special permission.",
+    "options": {
+      "A": "must",
+      "B": "mustn't",
+      "C": "needn't",
+      "D": "may"
+    },
+    "key": "B",
+    "explanation": "Dùng \"mustn't\" để chỉ sự cấm đoán không được làm gì trong phòng thi."
+  },
+  {
+    "id": 843,
+    "question": "I wish my brother ______ so loudly when I am trying to study for important final examinations.",
+    "options": {
+      "A": "doesn't talk",
+      "B": "has hasn't talked",
+      "C": "didn't talk",
+      "D": "won't talk"
+    },
+    "key": "C",
+    "explanation": "Câu ước hiện tại diễn tả mong muốn thay đổi một thói quen gây khó chịu."
+  },
+  {
+    "id": 844,
+    "question": "The school promised to ______ the students' complaints carefully before making any changes to the current timetable.",
+    "options": {
+      "A": "look after",
+      "B": "look for",
+      "C": "look up",
+      "D": "look into"
+    },
+    "key": "D",
+    "explanation": "Cụm động từ \"look into\" có nghĩa là xem xét kỹ lưỡng hoặc điều tra một vấn đề."
+  },
+  {
+    "id": 845,
+    "question": "She bought ______ umbrella because it suddenly started raining on her way home from school.",
+    "options": {
+      "A": "a",
+      "B": "the",
+      "C": "Ø",
+      "D": "an"
+    },
+    "key": "D",
+    "explanation": "Dùng mạo từ \"an\" cho danh từ số ít bắt đầu bằng nguyên âm khi nhắc tới lần đầu."
+  },
+  {
+    "id": 846,
+    "question": "Every student in this class ______ required to submit the project before the final deadline.",
+    "options": {
+      "A": "are",
+      "B": "were",
+      "C": "is",
+      "D": "have"
+    },
+    "key": "C",
+    "explanation": "Chủ ngữ đi kèm với từ \"Every\" luôn chia động từ ở dạng số ít \"is\"."
+  },
+  {
+    "id": 847,
+    "question": "______ he was very tired after school, he still finished all his homework carefully.",
+    "options": {
+      "A": "Because",
+      "B": "Although",
+      "C": "Therefore",
+      "D": "However"
+    },
+    "key": "B",
+    "explanation": "Liên từ \"Although\" chỉ sự nhượng bộ giữa hai hành động trái ngược về tính chất."
+  },
+  {
+    "id": 848,
+    "question": "You should ______ a short break after studying for two hours to relax your eyes.",
+    "options": {
+      "A": "make",
+      "B": "pay",
+      "C": "take",
+      "D": "give"
+    },
+    "key": "C",
+    "explanation": "Cụm từ cố định \"take a break\" có nghĩa là tạm nghỉ ngơi trong chốc lát."
+  },
+  {
+    "id": 849,
+    "question": "During our holiday in the countryside, we decided to ______ through a narrow mountain road to reach a small local village.",
+    "options": {
+      "A": "drive a bus",
+      "B": "take a taxi",
+      "C": "ride a jeep",
+      "D": "travel by train"
+    },
+    "key": "C",
+    "explanation": "Việc lái xe jeep (ride a jeep) là phù hợp nhất khi đi trên đường núi gồ ghề và hẹp."
+  },
+  {
+    "id": 850,
+    "question": "She will feel healthier if she ______ enough water every day.",
+    "options": {
+      "A": "drink",
+      "B": "drinks",
+      "C": "will drink",
+      "D": "drank"
+    },
+    "key": "B",
+    "explanation": "Mệnh đề If loại 1 với chủ ngữ số ít She thì động từ phải thêm đuôi -s."
+  },
+  {
+    "id": 851,
+    "question": "My family is looking for ______ near the new shopping mall.",
+    "options": {
+      "A": "apartment modern a",
+      "B": "a apartment modern",
+      "C": "modern a apartment",
+      "D": "a modern apartment"
+    },
+    "key": "D",
+    "explanation": "Cấu trúc danh từ đúng: mạo từ \"a\" đứng trước tính từ và sau đó là danh từ."
+  },
+  {
+    "id": 852,
+    "question": "This exercise is not ______ difficult as the one we did yesterday in class.",
+    "options": {
+      "A": "so",
+      "B": "more",
+      "C": "most",
+      "D": "too"
+    },
+    "key": "A",
+    "explanation": "Cấu trúc so sánh không bằng: not so + tính từ + as."
+  },
+  {
+    "id": 853,
+    "question": "My father usually ______ to work by bus every morning.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "is going",
+      "D": "went"
+    },
+    "key": "B",
+    "explanation": "Thì hiện tại đơn diễn tả một thói quen được thực hiện thường xuyên mỗi sáng."
+  },
+  {
+    "id": 854,
+    "question": "She often has trouble ______ her homework on time because she spends many hours chatting with friends online.",
+    "options": {
+      "A": "to finish",
+      "B": "finishing",
+      "C": "finish",
+      "D": "finished"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc have trouble doing something có nghĩa là gặp khó khăn khi làm việc gì."
+  },
+  {
+    "id": 855,
+    "question": "You ______ bring any food today because the school cafeteria will provide free lunch for all students.",
+    "options": {
+      "A": "must",
+      "B": "can't",
+      "C": "needn't",
+      "D": "should"
+    },
+    "key": "C",
+    "explanation": "Dùng \"needn't\" để chỉ một việc không bắt buộc hoặc không cần phải thực hiện."
+  },
+  {
+    "id": 856,
+    "question": "She wishes she ______ more free time to join after-school clubs and community volunteer activities.",
+    "options": {
+      "A": "has",
+      "B": "will have",
+      "C": "would have",
+      "D": "had"
+    },
+    "key": "D",
+    "explanation": "Trong câu ước cho hiện tại, động từ \"have\" được lùi về dạng quá khứ \"had\"."
+  },
+  {
+    "id": 857,
+    "question": "They decided to ______ the meeting until next week because several important members were absent today.",
+    "options": {
+      "A": "put off",
+      "B": "put on",
+      "C": "turn off",
+      "D": "take off"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"put off\" dùng để chỉ việc hoãn lại một sự kiện sang thời điểm khác."
+  },
+  {
+    "id": 858,
+    "question": "There is ______ university near my house that offers many useful evening courses.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "A",
+    "explanation": "Dùng \"a\" vì từ \"university\" bắt đầu bằng một phụ âm âm /j/ khi phát âm."
+  },
+  {
+    "id": 859,
+    "question": "Both of my brothers ______ interested in watching football matches on television.",
+    "options": {
+      "A": "were",
+      "B": "are",
+      "C": "is",
+      "D": "has"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc \"Both of\" đi với danh từ số nhiều thì động từ cũng chia ở số nhiều."
+  },
+  {
+    "id": 860,
+    "question": "She stayed at home today ______ she had a bad headache in the morning.",
+    "options": {
+      "A": "although",
+      "B": "because",
+      "C": "so",
+      "D": "however"
+    },
+    "key": "B",
+    "explanation": "Sử dụng liên từ \"because\" để kết nối nguyên nhân gây ra việc ở nhà."
+  },
+  {
+    "id": 861,
+    "question": "My younger sister usually ______ her homework immediately after coming home from school.",
+    "options": {
+      "A": "takes",
+      "B": "has",
+      "C": "makes",
+      "D": "does"
+    },
+    "key": "D",
+    "explanation": "Cụm từ \"do homework\" là cách kết hợp từ cố định trong tiếng Anh."
+  },
+  {
+    "id": 862,
+    "question": "Many families choose to live on the ______ of the city because houses there are cheaper and the air is cleaner.",
+    "options": {
+      "A": "center",
+      "B": "suburbs",
+      "C": "outskirts",
+      "D": "downtown"
+    },
+    "key": "B",
+    "explanation": "Danh từ \"suburbs\" chỉ vùng ngoại ô nơi có môi trường yên tĩnh và giá rẻ hơn."
+  },
+  {
+    "id": 863,
+    "question": "If you study harder, you ______ better results in your final examinations.",
+    "options": {
+      "A": "will get",
+      "B": "got",
+      "C": "would get",
+      "D": "won't get"
+    },
+    "key": "A",
+    "explanation": "Câu điều kiện loại 1 dùng will + V để chỉ kết quả tốt đẹp có thể xảy ra."
+  },
+  {
+    "id": 864,
+    "question": "They are staying in ______ during their summer holiday in Da Nang.",
+    "options": {
+      "A": "hotel comfortable a",
+      "B": "a comfortable hotel",
+      "C": "comfortable a hotel",
+      "D": "a hotel comfortable"
+    },
+    "key": "B",
+    "explanation": "Thứ tự từ trong tiếng Anh: Mạo từ + Tính từ + Danh từ."
+  },
+  {
+    "id": 865,
+    "question": "______ the weather becomes, the more people stay indoors during winter days.",
+    "options": {
+      "A": "Cold",
+      "B": "The coldest",
+      "C": "The colder",
+      "D": "Colder"
+    },
+    "key": "C",
+    "explanation": "Cấu trúc so sánh kép \"The + so sánh hơn..., the + so sánh hơn...\"."
+  },
+  {
+    "id": 866,
+    "question": "She ______ TV when the phone rang suddenly last night.",
+    "options": {
+      "A": "watched",
+      "B": "is watching",
+      "C": "was watching",
+      "D": "watches"
+    },
+    "key": "C",
+    "explanation": "Thì quá khứ tiếp diễn dùng cho hành động đang xảy ra tại một thời điểm quá khứ."
+  },
+  {
+    "id": 867,
+    "question": "The company plans ______ a training course next month to improve communication skills among newly hired office workers.",
+    "options": {
+      "A": "organizing",
+      "B": "organized",
+      "C": "organize",
+      "D": "to organize"
+    },
+    "key": "D",
+    "explanation": "Động từ \"plan\" (lên kế hoạch) luôn đi kèm với hình thức động từ To-V."
+  },
+  {
+    "id": 868,
+    "question": "You ______ see a doctor if your headache continues for more than three days.",
+    "options": {
+      "A": "can",
+      "B": "may",
+      "C": "should",
+      "D": "mustn't"
+    },
+    "key": "C",
+    "explanation": "Dùng động từ khuyết thiếu \"should\" để khuyên ai đó đi khám bác sĩ."
+  },
+  {
+    "id": 869,
+    "question": "We wish our classroom ______ larger because it becomes very crowded during group discussion activities.",
+    "options": {
+      "A": "is",
+      "B": "were",
+      "C": "had been",
+      "D": "will be"
+    },
+    "key": "B",
+    "explanation": "Trong câu ước hiện tại, động từ \"to be\" luôn dùng \"were\" để chỉ sự không thật."
+  },
+  {
+    "id": 870,
+    "question": "The doctor advised him to ______ sugary drinks to improve his overall health and energy levels.",
+    "options": {
+      "A": "cut down on",
+      "B": "keep up with",
+      "C": "look up to",
+      "D": "come down with"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"cut down on\" có nghĩa là giảm bớt lượng tiêu dùng một thứ gì đó."
+  },
+  {
+    "id": 871,
+    "question": "My father works as ______ engineer in a large construction company in the city center.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "B",
+    "explanation": "Dùng mạo từ \"an\" trước danh từ chỉ nghề nghiệp bắt đầu bằng một nguyên âm."
+  },
+  {
+    "id": 872,
+    "question": "A number of students ______ joined the environmental club this semester.",
+    "options": {
+      "A": "has",
+      "B": "is",
+      "C": "was",
+      "D": "have"
+    },
+    "key": "D",
+    "explanation": "Cấu trúc \"A number of + N số nhiều\" luôn đi với động từ chia ở số nhiều \"have\"."
+  },
+  {
+    "id": 873,
+    "question": "The bus did not arrive on time; ______, many students were late for their first class.",
+    "options": {
+      "A": "but",
+      "B": "however",
+      "C": "therefore",
+      "D": "although"
+    },
+    "key": "C",
+    "explanation": "Từ nối \"therefore\" dùng để chỉ hậu quả tất yếu từ nguyên nhân xe buýt đến trễ."
+  },
+  {
+    "id": 874,
+    "question": "He prefers to ______ a shower in the evening rather than early in the morning.",
+    "options": {
+      "A": "do",
+      "B": "have",
+      "C": "make",
+      "D": "get"
+    },
+    "key": "B",
+    "explanation": "Cụm từ \"have a shower\" là cụm từ cố định có nghĩa là đi tắm vòi sen."
+  },
+  {
+    "id": 875,
+    "question": "Please take a travel ______ at the front desk to learn more about the tour and hotel services.",
+    "options": {
+      "A": "brochure",
+      "B": "paper",
+      "C": "notice",
+      "D": "poster"
+    },
+    "key": "A",
+    "explanation": "Từ \"brochure\" chỉ loại ấn phẩm quảng cáo cung cấp thông tin về du lịch và dịch vụ."
+  },
+  {
+    "id": 876,
+    "question": "You will miss the meeting if you ______ late again tomorrow morning.",
+    "options": {
+      "A": "arrive",
+      "B": "will arrive",
+      "C": "arrived",
+      "D": "would arrive"
+    },
+    "key": "B",
+    "explanation": "Sử dụng cấu trúc câu điều kiện loại 1 để nói về khả năng xảy ra."
+  },
+  {
+    "id": 877,
+    "question": "He wants to buy ______ to use for his online classes.",
+    "options": {
+      "A": "computer fast a",
+      "B": "a computer fast",
+      "C": "fast a computer",
+      "D": "a fast computer"
+    },
+    "key": "D",
+    "explanation": "Sắp xếp theo trật tự: mạo từ (a) + tính từ (fast) + danh từ (computer)."
+  },
+  {
+    "id": 878,
+    "question": "My sister is ______ tall as my cousin, so they often borrow each other's clothes.",
+    "options": {
+      "A": "same",
+      "B": "so",
+      "C": "as",
+      "D": "more"
+    },
+    "key": "C",
+    "explanation": "Sử dụng cấu trúc so sánh bằng \"as... as\" để so sánh hai đối tượng."
+  },
+  {
+    "id": 879,
+    "question": "The box looks heavy. I ______ help you carry it.",
+    "options": {
+      "A": "am going to",
+      "B": "was going to",
+      "C": "will",
+      "D": "am helping"
+    },
+    "key": "A",
+    "explanation": "Dùng \"be going to\" để đưa ra dự đoán dựa trên dấu hiệu hiện tại."
+  },
+  {
+    "id": 880,
+    "question": "We expect ______ the results of the entrance examination before the end of this stressful academic semester.",
+    "options": {
+      "A": "receiving",
+      "B": "to receive",
+      "C": "receive",
+      "D": "received"
+    },
+    "key": "B",
+    "explanation": "Sau động từ \"expect\", chúng ta sử dụng động từ ở dạng to-V nguyên mẫu."
+  },
+  {
+    "id": 881,
+    "question": "You ______ stay up too late if you want to feel energetic during your important presentation tomorrow morning.",
+    "options": {
+      "A": "shouldn't",
+      "B": "won't",
+      "C": "can",
+      "D": "may"
+    },
+    "key": "A",
+    "explanation": "Dùng \"shouldn't\" để đưa ra lời khuyên không nên làm một việc gì đó."
+  },
+  {
+    "id": 882,
+    "question": "He wishes he ______ closer to school so he would not spend so much time traveling daily.",
+    "options": {
+      "A": "lives",
+      "B": "had lived",
+      "C": "has lived",
+      "D": "lived"
+    },
+    "key": "D",
+    "explanation": "Câu ước cho hiện tại sử dụng thì quá khứ đơn cho động từ chính."
+  },
+  {
+    "id": 883,
+    "question": "My keys finally ______ in the kitchen drawer after I searched everywhere for almost two hours.",
+    "options": {
+      "A": "took off",
+      "B": "cut down",
+      "C": "turned up",
+      "D": "went off"
+    },
+    "key": "C",
+    "explanation": "Cụm động từ \"turned up\" có nghĩa là xuất hiện hoặc được tìm thấy."
+  },
+  {
+    "id": 884,
+    "question": "Children should not watch ______ television for too many hours every day.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "D",
+    "explanation": "Không dùng mạo từ trước danh từ không đếm được như \"television\"."
+  },
+  {
+    "id": 885,
+    "question": "The number of cars in this city ______ increasing rapidly because more people can afford vehicles now.",
+    "options": {
+      "A": "are",
+      "B": "have",
+      "C": "is",
+      "D": "were"
+    },
+    "key": "C",
+    "explanation": "Cấu trúc \"The number of\" luôn đi với động từ chia ở số ít."
+  },
+  {
+    "id": 886,
+    "question": "______ the heavy rain, the football match continued until the final whistle.",
+    "options": {
+      "A": "Because",
+      "B": "Despite",
+      "C": "Although",
+      "D": "Therefore"
+    },
+    "key": "B",
+    "explanation": "Dùng \"Despite\" đứng trước cụm danh từ để diễn tả sự nhượng bộ."
+  },
+  {
+    "id": 887,
+    "question": "We need to ______ ready quickly because the bus will leave in ten minutes.",
+    "options": {
+      "A": "make",
+      "B": "do",
+      "C": "have",
+      "D": "get"
+    },
+    "key": "D",
+    "explanation": "Cụm từ \"get ready\" có nghĩa là chuẩn bị sẵn sàng để làm gì."
+  },
+  {
+    "id": 888,
+    "question": "The hotel is ______ near the beach, so guests can walk to the sea in only five minutes.",
+    "options": {
+      "A": "placed",
+      "B": "found",
+      "C": "built",
+      "D": "located"
+    },
+    "key": "D",
+    "explanation": "Từ \"located\" dùng để chỉ vị trí tọa lạc của một công trình, địa điểm."
+  },
+  {
+    "id": 889,
+    "question": "If we ______ early, we will catch the first bus to the city center.",
+    "options": {
+      "A": "leave",
+      "B": "left",
+      "C": "will leave",
+      "D": "don't live"
+    },
+    "key": "A",
+    "explanation": "Mệnh đề If của câu điều kiện loại 1 sử dụng thì hiện tại đơn."
+  },
+  {
+    "id": 890,
+    "question": "My sister is wearing ______ to the school festival tonight.",
+    "options": {
+      "A": "dress beautiful a",
+      "B": "a dress beautiful",
+      "C": "beautiful a dress",
+      "D": "a beautiful dress"
+    },
+    "key": "D",
+    "explanation": "Cấu trúc cụm danh từ: mạo từ + tính từ + danh từ."
+  },
+  {
+    "id": 891,
+    "question": "Traveling by train is ______ comfortable than traveling by bus on long journeys.",
+    "options": {
+      "A": "very",
+      "B": "much",
+      "C": "more",
+      "D": "most"
+    },
+    "key": "C",
+    "explanation": "Dùng \"more\" trong cấu trúc so sánh hơn với tính từ dài."
+  },
+  {
+    "id": 892,
+    "question": "The train ______ at six o'clock every morning.",
+    "options": {
+      "A": "leave",
+      "B": "leaves",
+      "C": "left",
+      "D": "is leaving"
+    },
+    "key": "B",
+    "explanation": "Thì hiện tại đơn diễn tả lịch trình tàu chạy cố định hàng ngày."
+  },
+  {
+    "id": 893,
+    "question": "Many students prefer ______ at home rather than in noisy cafés when preparing seriously for important final examinations.",
+    "options": {
+      "A": "studying",
+      "B": "to studying",
+      "C": "to study",
+      "D": "study"
+    },
+    "key": "C",
+    "explanation": "Cấu trúc \"prefer to do something\" diễn tả sự yêu thích làm việc gì hơn."
+  },
+  {
+    "id": 894,
+    "question": "You ______ wear your school uniform on Mondays because it is required by the school administration.",
+    "options": {
+      "A": "can",
+      "B": "must",
+      "C": "may",
+      "D": "should"
+    },
+    "key": "B",
+    "explanation": "Dùng \"must\" để diễn tả một sự bắt buộc theo nội quy, quy định."
+  },
+  {
+    "id": 895,
+    "question": "They wish their parents ______ more understanding when they make mistakes at home sometimes.",
+    "options": {
+      "A": "were",
+      "B": "are",
+      "C": "was",
+      "D": "will be"
+    },
+    "key": "A",
+    "explanation": "Câu ước cho hiện tại dùng động từ \"were\" cho tất cả các ngôi."
+  },
+  {
+    "id": 896,
+    "question": "She waited for over an hour, but her best friend did not ______ at the café as planned.",
+    "options": {
+      "A": "put down",
+      "B": "look into",
+      "C": "go off",
+      "D": "turn up"
+    },
+    "key": "D",
+    "explanation": "Cụm động từ \"turn up\" có nghĩa là đến một điểm hẹn nào đó."
+  },
+  {
+    "id": 897,
+    "question": "He usually travels to ______ work by bus because the office is far from his home.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "D",
+    "explanation": "Cụm từ \"go to work\" (đi làm) không cần sử dụng mạo từ."
+  },
+  {
+    "id": 898,
+    "question": "There ______ several interesting books on the shelf near the classroom door.",
+    "options": {
+      "A": "is",
+      "B": "was",
+      "C": "are",
+      "D": "has"
+    },
+    "key": "C",
+    "explanation": "Động từ tobe chia ở số nhiều \"are\" để phù hợp với \"several books\"."
+  },
+  {
+    "id": 899,
+    "question": "They arrived late ______ an accident on the main road near the city center.",
+    "options": {
+      "A": "although",
+      "B": "because of",
+      "C": "because",
+      "D": "so"
+    },
+    "key": "B",
+    "explanation": "Dùng \"because of\" đứng trước cụm danh từ chỉ nguyên nhân sự việc."
+  },
+  {
+    "id": 900,
+    "question": "Please pay ______ to the teacher's instructions before starting the final exam.",
+    "options": {
+      "A": "attention",
+      "B": "a fine",
+      "C": "a visit",
+      "D": "a price"
+    },
+    "key": "A",
+    "explanation": "Cụm từ cố định \"pay attention to\" có nghĩa là chú ý vào điều gì."
+  },
+  {
+    "id": 901,
+    "question": "During the exam week, many students feel nervous, so teachers try to ______ them by giving extra practice and advice.",
+    "options": {
+      "A": "prevent",
+      "B": "refuse",
+      "C": "disturb",
+      "D": "support"
+    },
+    "key": "D",
+    "explanation": "Động từ \"support\" mang ý nghĩa hỗ trợ và khích lệ học sinh."
+  },
+  {
+    "id": 902,
+    "question": "They will not finish the project on time if they ______ carefully.",
+    "options": {
+      "A": "don't plan",
+      "B": "didn't plan",
+      "C": "won't plan",
+      "D": "wouldly plan"
+    },
+    "key": "A",
+    "explanation": "Mệnh đề If trong câu điều kiện loại 1 chia ở thì hiện tại đơn."
+  },
+  {
+    "id": 903,
+    "question": "They rented ______ near the railway station.",
+    "options": {
+      "A": "room cheap a",
+      "B": "a room cheap",
+      "C": "cheap a room",
+      "D": "a cheap room"
+    },
+    "key": "D",
+    "explanation": "Sắp xếp cụm danh từ: mạo từ (a) + tính từ (cheap) + danh từ (room)."
+  },
+  {
+    "id": 904,
+    "question": "The ______ you practice English, the better your pronunciation becomes.",
+    "options": {
+      "A": "many",
+      "B": "much",
+      "C": "more",
+      "D": "most"
+    },
+    "key": "C",
+    "explanation": "Cấu trúc so sánh kép \"The more... the better...\" chỉ sự thay đổi tương ứng."
+  },
+  {
+    "id": 905,
+    "question": "While we ______ dinner, the lights suddenly went out.",
+    "options": {
+      "A": "are having",
+      "B": "have",
+      "C": "were having",
+      "D": "had"
+    },
+    "key": "C",
+    "explanation": "Thì quá khứ tiếp diễn diễn tả hành động đang diễn ra trong quá khứ."
+  },
+  {
+    "id": 906,
+    "question": "She is confident enough ______ in front of hundreds of students during the annual school talent show.",
+    "options": {
+      "A": "speaking",
+      "B": "speak",
+      "C": "spoken",
+      "D": "to speak"
+    },
+    "key": "D",
+    "explanation": "Cấu trúc \"enough\" đi kèm với động từ nguyên mẫu có to (to V)."
+  },
+  {
+    "id": 907,
+    "question": "We ______ wear safety helmets when riding motorbikes on busy city roads.",
+    "options": {
+      "A": "may",
+      "B": "have to",
+      "C": "could",
+      "D": "needn't"
+    },
+    "key": "B",
+    "explanation": "Dùng \"have to\" để chỉ sự bắt buộc phải thực hiện vì lý do an toàn."
+  },
+  {
+    "id": 908,
+    "question": "I wish my best friend ______ more carefully before making important decisions that affect many people.",
+    "options": {
+      "A": "thought",
+      "B": "think",
+      "C": "has thought",
+      "D": "will think"
+    },
+    "key": "A",
+    "explanation": "Câu ước cho hiện tại sử dụng thì quá khứ đơn (thought)."
+  },
+  {
+    "id": 909,
+    "question": "The plane will ______ in ten minutes, so passengers are asked to fasten their seat belts now.",
+    "options": {
+      "A": "take off",
+      "B": "go off",
+      "C": "pick up",
+      "D": "put off"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"take off\" được dùng khi máy bay bắt đầu rời mặt đất."
+  },
+  {
+    "id": 910,
+    "question": "Can you turn off ______ television please? I am trying to finish my assignment.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "Ø",
+      "D": "the"
+    },
+    "key": "D",
+    "explanation": "Dùng mạo từ \"the\" khi nói về một chiếc ti vi cụ thể đang bật."
+  },
+  {
+    "id": 911,
+    "question": "Each of the teachers ______ responsible for preparing materials for their own classes.",
+    "options": {
+      "A": "are",
+      "B": "have",
+      "C": "is",
+      "D": "were"
+    },
+    "key": "C",
+    "explanation": "Cấu trúc \"Each of + N số nhiều\" đi với động từ số ít \"is\"."
+  },
+  {
+    "id": 912,
+    "question": "It was raining heavily, ______ we decided to cancel the outdoor school picnic.",
+    "options": {
+      "A": "although",
+      "B": "so",
+      "C": "however",
+      "D": "because"
+    },
+    "key": "B",
+    "explanation": "Liên từ \"so\" dùng để chỉ kết quả dẫn đến từ sự việc trước đó."
+  },
+  {
+    "id": 913,
+    "question": "The manager promised to ______ responsibility for the mistake that caused the company serious losses.",
+    "options": {
+      "A": "take",
+      "B": "do",
+      "C": "make",
+      "D": "get"
+    },
+    "key": "A",
+    "explanation": "Cụm từ \"take responsibility\" có nghĩa là chịu trách nhiệm cho việc gì đó."
+  },
+  {
+    "id": 914,
+    "question": "Many ______ enjoy visiting the beach in summer to relax and spend time with their families.",
+    "options": {
+      "A": "travel plans",
+      "B": "holiday makers",
+      "C": "tourist attractions",
+      "D": "local markets"
+    },
+    "key": "B",
+    "explanation": "Cụm từ \"holiday makers\" chỉ những người đang đi nghỉ mát, du lịch."
+  },
+  {
+    "id": 915,
+    "question": "If you take this medicine after meals, you ______ better soon.",
+    "options": {
+      "A": "feel",
+      "B": "felt",
+      "C": "will feel",
+      "D": "wouldly feel"
+    },
+    "key": "C",
+    "explanation": "Trong câu điều kiện loại 1, mệnh đề chính sử dụng thì tương lai đơn."
+  },
+  {
+    "id": 916,
+    "question": "We sat under ______ to avoid the strong sunlight at noon.",
+    "options": {
+      "A": "tree big a",
+      "B": "a big tree",
+      "C": "big a tree",
+      "D": "a tree big"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc danh từ đúng: mạo từ (a) + tính từ (big) + danh từ (tree)."
+  },
+  {
+    "id": 917,
+    "question": "This is the ______ movie I have ever watched with my family at home.",
+    "options": {
+      "A": "more interesting",
+      "B": "interesting",
+      "C": "most interesting",
+      "D": "very interesting"
+    },
+    "key": "C",
+    "explanation": "Dùng so sánh nhất với tính từ dài để chỉ sự vật nổi bật nhất."
+  },
+  {
+    "id": 918,
+    "question": "They ______ their grandparents this Saturday afternoon.",
+    "options": {
+      "A": "visited",
+      "B": "visit",
+      "C": "are visiting",
+      "D": "will visiting"
+    },
+    "key": "C",
+    "explanation": "Thì hiện tại tiếp diễn được dùng để nói về một kế hoạch chắc chắn."
+  },
+  {
+    "id": 919,
+    "question": "The little girl adores ______ bedtime stories because they make her feel safe and relaxed every night.",
+    "options": {
+      "A": "listening",
+      "B": "to listen",
+      "C": "listen",
+      "D": "listened"
+    },
+    "key": "A",
+    "explanation": "Sau động từ \"adore\" (yêu thích), chúng ta sử dụng động từ thêm đuôi -ing."
+  },
+  {
+    "id": 920,
+    "question": "You ______ leave early today if you finish all your assignments before the lunch break.",
+    "options": {
+      "A": "must",
+      "B": "should",
+      "C": "will",
+      "D": "may"
+    },
+    "key": "D",
+    "explanation": "Dùng \"may\" để đưa ra sự cho phép ai đó làm việc gì."
+  },
+  {
+    "id": 921,
+    "question": "We wish our teacher ______ less homework on Fridays so we could relax at home.",
+    "options": {
+      "A": "gives",
+      "B": "gave",
+      "C": "had given",
+      "D": "will give"
+    },
+    "key": "B",
+    "explanation": "Câu ước ở hiện tại dùng thì quá khứ đơn để thể hiện mong muốn."
+  },
+  {
+    "id": 922,
+    "question": "She couldn't attend school yesterday because she ______ a bad cold after staying out in the rain.",
+    "options": {
+      "A": "looked forward to",
+      "B": "came down with",
+      "C": "dropped out of",
+      "D": "got along with"
+    },
+    "key": "B",
+    "explanation": "Cụm động từ \"come down with\" có nghĩa là bị ốm hoặc mắc bệnh."
+  },
+  {
+    "id": 923,
+    "question": "Most of the students in our class find ______ Maths very difficult to learn.",
+    "options": {
+      "A": "Ø",
+      "B": "a",
+      "C": "an",
+      "D": "the"
+    },
+    "key": "A",
+    "explanation": "Thông thường không dùng mạo từ đứng trước tên các môn học (Maths)."
+  },
+  {
+    "id": 924,
+    "question": "Everyone in the classroom ______ asked to remain silent during the important school meeting.",
+    "options": {
+      "A": "were",
+      "B": "have",
+      "C": "was",
+      "D": "are"
+    },
+    "key": "C",
+    "explanation": "Đại từ bất định \"Everyone\" luôn đi kèm với động từ chia ở số ít."
+  },
+  {
+    "id": 925,
+    "question": "The hotel looked expensive; ______, it was actually quite affordable for many travelers.",
+    "options": {
+      "A": "So",
+      "B": "However",
+      "C": "Because",
+      "D": "Therefore"
+    },
+    "key": "B",
+    "explanation": "Dùng \"However\" để nối hai vế câu mang ý nghĩa tương phản nhau."
+  },
+  {
+    "id": 926,
+    "question": "She is trying to ______ an effort to improve her English speaking skills this semester.",
+    "options": {
+      "A": "do",
+      "B": "make",
+      "C": "take",
+      "D": "have"
+    },
+    "key": "B",
+    "explanation": "Cụm từ cố định \"make an effort\" có nghĩa là nỗ lực làm việc gì."
+  },
+  {
+    "id": 927,
+    "question": "Many students use ______ to practice English at home because they are easy to download and very useful.",
+    "options": {
+      "A": "online apps",
+      "B": "local schools",
+      "C": "paper books",
+      "D": "free lessons"
+    },
+    "key": "A",
+    "explanation": "Cụm từ \"online apps\" chỉ các ứng dụng trực tuyến hỗ trợ học tập."
+  },
+  {
+    "id": 928,
+    "question": "We will stay at home if the weather ______ too cold tonight.",
+    "options": {
+      "A": "become",
+      "B": "becomes",
+      "C": "became",
+      "D": "will become"
+    },
+    "key": "B",
+    "explanation": "Thì hiện tại đơn được dùng trong mệnh đề If của câu điều kiện loại 1."
+  },
+  {
+    "id": 929,
+    "question": "He is reading ______ about world natural wonders.",
+    "options": {
+      "A": "book interesting an",
+      "B": "an book interesting",
+      "C": "interesting an book",
+      "D": "an interesting book"
+    },
+    "key": "D",
+    "explanation": "Mạo từ \"an\" đứng trước tính từ bắt đầu bằng nguyên âm (interesting)."
+  },
+  {
+    "id": 930,
+    "question": "My brother cooks ______ well as my mother does on special family occasions.",
+    "options": {
+      "A": "too",
+      "B": "as",
+      "C": "more",
+      "D": "most"
+    },
+    "key": "B",
+    "explanation": "Sử dụng cấu trúc so sánh bằng \"as + adv + as\" với trạng từ \"well\"."
+  },
+  {
+    "id": 931,
+    "question": "This soup smells very good. My mother ______ it.",
+    "options": {
+      "A": "has cooked",
+      "B": "cooked",
+      "C": "was cooking",
+      "D": "is going to cook"
+    },
+    "key": "D",
+    "explanation": "Dùng \"is going to\" để chỉ một sự việc sắp xảy ra có dấu hiệu rõ ràng."
+  },
+  {
+    "id": 932,
+    "question": "He stopped ______ coffee in the evening because he wanted to sleep better before important morning meetings.",
+    "options": {
+      "A": "to drink",
+      "B": "drink",
+      "C": "drinking",
+      "D": "drunk"
+    },
+    "key": "C",
+    "explanation": "Cấu trúc \"stop + V-ing\" dùng để nói về việc chấm dứt hẳn một hành động."
+  },
+  {
+    "id": 933,
+    "question": "My younger brother ______ swim very well even though he is only seven years old.",
+    "options": {
+      "A": "must",
+      "B": "can",
+      "C": "should",
+      "D": "might"
+    },
+    "key": "B",
+    "explanation": "Động từ khuyết thiếu \"can\" dùng để diễn tả khả năng của một người."
+  },
+  {
+    "id": 934,
+    "question": "He wishes he ______ more confident when speaking English in front of foreign visitors at school.",
+    "options": {
+      "A": "is",
+      "B": "had been",
+      "C": "will be",
+      "D": "were"
+    },
+    "key": "D",
+    "explanation": "Dùng \"were\" sau câu ước để diễn tả mong muốn không có thật ở hiện tại."
+  },
+  {
+    "id": 935,
+    "question": "She had to ______ the invitation because she was already busy preparing for her final examinations.",
+    "options": {
+      "A": "turn down",
+      "B": "put on",
+      "C": "take off",
+      "D": "bring up"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"turn down\" mang ý nghĩa là khước từ hoặc từ chối lời mời."
+  },
+  {
+    "id": 936,
+    "question": "There is a good film ______ cinema tonight. Would you like to go with me?",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "C",
+    "explanation": "Cụm từ \"at the cinema\" dùng để chỉ rạp chiếu phim nói chung."
+  },
+  {
+    "id": 937,
+    "question": "Neither the teacher nor the students ______ aware of the sudden change in the exam schedule.",
+    "options": {
+      "A": "is",
+      "B": "was",
+      "C": "are",
+      "D": "has"
+    },
+    "key": "C",
+    "explanation": "Động từ chia theo chủ ngữ gần nhất là số nhiều \"the students\"."
+  },
+  {
+    "id": 938,
+    "question": "It was ______ a difficult exercise the many students could not finish it on time.",
+    "options": {
+      "A": "too",
+      "B": "so",
+      "C": "very",
+      "D": "such"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc \"so + adj + a/an + N + that\" dùng để nhấn mạnh tính chất sự vật."
+  },
+  {
+    "id": 939,
+    "question": "They plan to ______ a discussion about environmental protection in their next class meeting.",
+    "options": {
+      "A": "make",
+      "B": "take",
+      "C": "have",
+      "D": "get"
+    },
+    "key": "C",
+    "explanation": "Cụm từ cố định \"have a discussion\" có nghĩa là tiến hành một cuộc thảo luận."
+  },
+  {
+    "id": 940,
+    "question": "We decided to stay at a ______ near the lake so that we could sleep in tents and enjoy the fresh air.",
+    "options": {
+      "A": "campsite",
+      "B": "museum",
+      "C": "airport",
+      "D": "factory"
+    },
+    "key": "A",
+    "explanation": "Từ \"campsite\" chỉ địa điểm thích hợp để cắm trại và ngủ trong lều."
+  },
+  {
+    "id": 941,
+    "question": "If it ______ tomorrow, we will cancel the picnic to the mountains.",
+    "options": {
+      "A": "rained",
+      "B": "has rained",
+      "C": "rains",
+      "D": "will rain"
+    },
+    "key": "C",
+    "explanation": "Mệnh đề If loại 1 luôn sử dụng thì hiện tại đơn cho sự việc có thể xảy ra."
+  },
+  {
+    "id": 942,
+    "question": "She received a ______ bracelet from her grandmother.",
+    "options": {
+      "A": "silver beautiful old",
+      "B": "old beautiful silver",
+      "C": "beautiful old silver",
+      "D": "silver old beautiful"
+    },
+    "key": "C",
+    "explanation": "Trật tự tính từ: ý kiến (beautiful), tuổi tác (old) và chất liệu (silver)."
+  },
+  {
+    "id": 943,
+    "question": "This exercise is ______ than the one we did yesterday.",
+    "options": {
+      "A": "difficult",
+      "B": "the most difficult",
+      "C": "more difficult",
+      "D": "as difficult"
+    },
+    "key": "C",
+    "explanation": "Dùng \"more difficult\" trong so sánh hơn vì đây là tính từ dài."
+  },
+  {
+    "id": 944,
+    "question": "Look! The children ______ football in the schoolyard now.",
+    "options": {
+      "A": "play",
+      "B": "played",
+      "C": "are playing",
+      "D": "have played"
+    },
+    "key": "C",
+    "explanation": "Dấu hiệu \"now\" cho thấy hành động đang diễn ra nên dùng hiện tại tiếp diễn."
+  },
+  {
+    "id": 945,
+    "question": "She is keen on ______ English songs in her free time.",
+    "options": {
+      "A": "to listen",
+      "B": "listened",
+      "C": "listen",
+      "D": "listening"
+    },
+    "key": "D",
+    "explanation": "Cấu trúc \"be keen on\" luôn đi kèm với động từ thêm -ing."
+  },
+  {
+    "id": 946,
+    "question": "It's getting dark. You ______ turn on the lights now.",
+    "options": {
+      "A": "couldn't",
+      "B": "shouldn't",
+      "C": "should",
+      "D": "could"
+    },
+    "key": "C",
+    "explanation": "Dùng \"should\" để đưa ra một lời khuyên cần thiết trong tình huống này."
+  },
+  {
+    "id": 947,
+    "question": "He can't join the team because he's too short. He wishes he ______ taller.",
+    "options": {
+      "A": "is",
+      "B": "will be",
+      "C": "were",
+      "D": "has been"
+    },
+    "key": "C",
+    "explanation": "Câu ước ở hiện tại dùng \"were\" để chỉ mong muốn không thật hiện tại."
+  },
+  {
+    "id": 948,
+    "question": "The tour guide told the students to ______ the bus quickly because to start the journey.",
+    "options": {
+      "A": "take on",
+      "B": "get on",
+      "C": "get in",
+      "D": "take over"
+    },
+    "key": "B",
+    "explanation": "Cụm động từ \"get on\" có nghĩa là bước lên một phương tiện giao thông lớn."
+  },
+  {
+    "id": 949,
+    "question": "She wants to buy ______ new laptop because her old one is too slow.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "A",
+    "explanation": "Dùng mạo từ \"a\" trước danh từ số ít bắt đầu bằng một phụ âm."
+  },
+  {
+    "id": 950,
+    "question": "The number of students in my class ______ increasing this year.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "have been"
+    },
+    "key": "A",
+    "explanation": "Chủ ngữ là \"The number of\" nên động từ chia ở ngôi thứ ba số ít."
+  },
+  {
+    "id": 951,
+    "question": "It was raining heavily, ______ we decided to stay indoors.",
+    "options": {
+      "A": "although",
+      "B": "because",
+      "C": "but",
+      "D": "so"
+    },
+    "key": "D",
+    "explanation": "Dùng liên từ \"so\" để chỉ kết quả dẫn tới từ nguyên nhân mưa to."
+  },
+  {
+    "id": 952,
+    "question": "She always tries to ______ her best in every exam.",
+    "options": {
+      "A": "make",
+      "B": "do",
+      "C": "take",
+      "D": "give"
+    },
+    "key": "B",
+    "explanation": "Cụm từ \"do one's best\" có nghĩa là cố gắng hết sức mình làm việc gì."
+  },
+  {
+    "id": 953,
+    "question": "The Internet allows students to ______ information quickly and easily.",
+    "options": {
+      "A": "admit",
+      "B": "invent",
+      "C": "conduct",
+      "D": "access"
+    },
+    "key": "D",
+    "explanation": "Động từ \"access\" mang ý nghĩa là truy cập vào các nguồn thông tin."
+  },
+  {
+    "id": 954,
+    "question": "If it ______ tomorrow, we'll go on a field trip.",
+    "options": {
+      "A": "won't rain",
+      "B": "has rained",
+      "C": "doesn't rain",
+      "D": "didn't rain"
+    },
+    "key": "C",
+    "explanation": "Dùng hiện tại đơn phủ định \"doesn't rain\" trong mệnh đề If loại 1."
+  },
+  {
+    "id": 955,
+    "question": "She bought a ______ leather bag during her trip to Italy last summer.",
+    "options": {
+      "A": "stylish black large",
+      "B": "stylish large black",
+      "C": "black large stylish",
+      "D": "stylish black large"
+    },
+    "key": "B",
+    "explanation": "Trật tự tính từ: ý kiến (stylish), kích thước (large) và màu sắc (black)."
+  },
+  {
+    "id": 956,
+    "question": "Tokyo is one of ______ cities in the world.",
+    "options": {
+      "A": "more crowded",
+      "B": "as crowded as",
+      "C": "the most crowded",
+      "D": "most crowded"
+    },
+    "key": "C",
+    "explanation": "Dùng so sánh nhất với tính từ dài để chỉ thành phố đông đúc nhất."
+  },
+  {
+    "id": 957,
+    "question": "My sister usually goes to school by bike, but today she ______ a bus.",
+    "options": {
+      "A": "takes",
+      "B": "is taking",
+      "C": "took",
+      "D": "has taken"
+    },
+    "key": "B",
+    "explanation": "Dùng hiện tại tiếp diễn cho hành động tạm thời khác với thói quen hàng ngày."
+  },
+  {
+    "id": 958,
+    "question": "My father promised ______ me with my project this evening.",
+    "options": {
+      "A": "helping",
+      "B": "to help",
+      "C": "help",
+      "D": "helped"
+    },
+    "key": "B",
+    "explanation": "Sau động từ \"promise\", chúng ta sử dụng động từ ở dạng to-V nguyên mẫu."
+  },
+  {
+    "id": 959,
+    "question": "Students ______ wear uniforms according to school rules.",
+    "options": {
+      "A": "mightn't",
+      "B": "might",
+      "C": "mustn't",
+      "D": "must"
+    },
+    "key": "D",
+    "explanation": "Sử dụng \"must\" để diễn tả quy định bắt buộc của nhà trường."
+  },
+  {
+    "id": 960,
+    "question": "She can't talk with tourists because she doesn't speak French. She wishes she ______ French.",
+    "options": {
+      "A": "knows",
+      "B": "knew",
+      "C": "has known",
+      "D": "will know"
+    },
+    "key": "B",
+    "explanation": "Câu ước cho điều không có thật ở hiện tại lùi động từ về quá khứ đơn."
+  },
+  {
+    "id": 961,
+    "question": "The lights suddenly ______ during the storm, so we had to use candles.",
+    "options": {
+      "A": "got by",
+      "B": "take off",
+      "C": "went out",
+      "D": "put away"
+    },
+    "key": "C",
+    "explanation": "Cụm động từ \"went out\" được dùng khi đèn hoặc lửa bị tắt đi."
+  },
+  {
+    "id": 962,
+    "question": "______ Eiffel Tower is one of the most famous landmarks in the world.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "C",
+    "explanation": "Sử dụng mạo từ \"the\" trước tên các công trình kiến trúc nổi tiếng thế giới."
+  },
+  {
+    "id": 963,
+    "question": "A pair of gloves ______ on the table in the kitchen.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "have been"
+    },
+    "key": "A",
+    "explanation": "Chủ ngữ là \"A pair of\" nên động từ được chia ở ngôi số ít."
+  },
+  {
+    "id": 964,
+    "question": "She studied very hard ______ she wanted to get a scholarship to Oxford University.",
+    "options": {
+      "A": "but",
+      "B": "however",
+      "C": "because",
+      "D": "although"
+    },
+    "key": "B",
+    "explanation": "Liên từ \"because\" được dùng để giải thích lý do cho hành động học tập."
+  },
+  {
+    "id": 965,
+    "question": "My father usually ______ a short rest after lunch.",
+    "options": {
+      "A": "does",
+      "B": "takes",
+      "C": "gives",
+      "D": "makes"
+    },
+    "key": "B",
+    "explanation": "Cụm từ cố định \"take a rest\" có nghĩa là nghỉ ngơi một chút."
+  },
+  {
+    "id": 966,
+    "question": "Many teenagers try to reduce plastic waste by choosing eco-friendly ____..",
+    "options": {
+      "A": "schedules",
+      "B": "programs",
+      "C": "packaging",
+      "D": "itinerary"
+    },
+    "key": "C",
+    "explanation": "Từ \"packaging\" chỉ các loại bao bì thân thiện với môi trường để giảm rác thải."
+  },
+  {
+    "id": 967,
+    "question": "If you study harder, you ______ better results.",
+    "options": {
+      "A": "got",
+      "B": "will get",
+      "C": "getting",
+      "D": "had got"
+    },
+    "key": "B",
+    "explanation": "Mệnh đề chính của câu điều kiện loại 1 chia ở thì tương lai đơn."
+  },
+  {
+    "id": 968,
+    "question": "They adopted a ______ puppy from the rescue center last weekend.",
+    "options": {
+      "A": "brown tiny lovely",
+      "B": "lovely tiny brown",
+      "C": "tiny lovely brown",
+      "D": "tiny brown lovely"
+    },
+    "key": "B",
+    "explanation": "Trật tự tính từ: ý kiến (lovely), kích thước (tiny) và màu sắc (brown)."
+  },
+  {
+    "id": 969,
+    "question": "My sister sings ______ than I do.",
+    "options": {
+      "A": "best",
+      "B": "the best",
+      "C": "better",
+      "D": "well"
+    },
+    "key": "C",
+    "explanation": "Dùng \"better\" trong so sánh hơn giữa hai người chị và tôi."
+  },
+  {
+    "id": 970,
+    "question": "I ______ this movie three times, so I don't want to watch it again.",
+    "options": {
+      "A": "watch",
+      "B": "watched",
+      "C": "am watching",
+      "D": "have watched"
+    },
+    "key": "D",
+    "explanation": "Thì hiện tại hoàn thành diễn tả trải nghiệm đã xem phim nhiều lần."
+  },
+  {
+    "id": 971,
+    "question": "They decided ______ to the countryside for the weekend.",
+    "options": {
+      "A": "to go",
+      "B": "went",
+      "C": "going",
+      "D": "have gone"
+    },
+    "key": "A",
+    "explanation": "Động từ \"decide\" luôn đi kèm với dạng nguyên mẫu có to (to V)."
+  },
+  {
+    "id": 972,
+    "question": "I'm not sure, but she ______ be at the library now.",
+    "options": {
+      "A": "could",
+      "B": "might",
+      "C": "should",
+      "D": "must"
+    },
+    "key": "B",
+    "explanation": "Dùng \"might\" để nói về khả năng có thể xảy ra nhưng không chắc chắn."
+  },
+  {
+    "id": 973,
+    "question": "I don't have enough money to buy that phone. I wish I ______ more money.",
+    "options": {
+      "A": "had",
+      "B": "will have",
+      "C": "am having",
+      "D": "have"
+    },
+    "key": "A",
+    "explanation": "Câu ước cho điều không có ở hiện tại dùng thì quá khứ đơn (had)."
+  },
+  {
+    "id": 974,
+    "question": "You should ______ this word in the dictionary if you don't understand it.",
+    "options": {
+      "A": "look for",
+      "B": "look up",
+      "C": "look after",
+      "D": "look over"
+    },
+    "key": "B",
+    "explanation": "Cụm động từ \"look up\" có nghĩa là tra cứu thông tin hoặc từ vựng."
+  },
+  {
+    "id": 975,
+    "question": "He is ______ honest man who always tells the truth.",
+    "options": {
+      "A": "a",
+      "B": "the",
+      "C": "an",
+      "D": "Ø"
+    },
+    "key": "C",
+    "explanation": "Dùng mạo từ \"an\" vì từ \"honest\" bắt đầu bằng một âm nguyên âm câm."
+  },
+  {
+    "id": 976,
+    "question": "Neither my friends nor my teacher ______ happy with the project.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "be"
+    },
+    "key": "A",
+    "explanation": "Động từ chia theo chủ ngữ gần nhất là số ít \"my teacher\"."
+  },
+  {
+    "id": 977,
+    "question": "I wanted to join the trip, ______ I didn't have enough money.",
+    "options": {
+      "A": "although",
+      "B": "because",
+      "C": "but",
+      "D": "so"
+    },
+    "key": "C",
+    "explanation": "Liên từ \"but\" diễn tả sự trái ngược giữa mong muốn và thực tế."
+  },
+  {
+    "id": 978,
+    "question": "We need to ______ a decision soon because the deadline is tomorrow.",
+    "options": {
+      "A": "get",
+      "B": "do",
+      "C": "take",
+      "D": "make"
+    },
+    "key": "D",
+    "explanation": "Cụm từ cố định \"make a decision\" có nghĩa là đưa ra quyết định."
+  },
+  {
+    "id": 979,
+    "question": "The scientist made an important ______ about climate change.",
+    "options": {
+      "A": "invitation",
+      "B": "discovery",
+      "C": "decoration",
+      "D": "direction"
+    },
+    "key": "B",
+    "explanation": "Từ \"discovery\" mang nghĩa là một khám phá hoặc phát hiện quan trọng."
+  },
+  {
+    "id": 980,
+    "question": "If she ______ early, she won't miss the bus.",
+    "options": {
+      "A": "left",
+      "B": "didn't leave",
+      "C": "leaves",
+      "D": "was leaving"
+    },
+    "key": "C",
+    "explanation": "Thì hiện tại đơn được dùng trong mệnh đề If của câu điều kiện loại 1."
+  },
+  {
+    "id": 981,
+    "question": "My aunt lives in a ______ house near the riverbank.",
+    "options": {
+      "A": "wooden charming small",
+      "B": "small charming wooden",
+      "C": "charming small wooden",
+      "D": "small wooden charming"
+    },
+    "key": "C",
+    "explanation": "Trật tự tính từ: ý kiến (charming), kích thước (small) và chất liệu (wooden)."
+  },
+  {
+    "id": 982,
+    "question": "Today's weather is ______ than yesterday's.",
+    "options": {
+      "A": "as cold",
+      "B": "the coldest",
+      "C": "colder",
+      "D": "the colder"
+    },
+    "key": "C",
+    "explanation": "Sử dụng hình thức so sánh hơn \"colder\" của tính từ ngắn \"cold\"."
+  },
+  {
+    "id": 983,
+    "question": "When the power went out, we ______ dinner.",
+    "options": {
+      "A": "are cooking",
+      "B": "were cooking",
+      "C": "have cooked",
+      "D": "cook"
+    },
+    "key": "B",
+    "explanation": "Thì quá khứ tiếp diễn dùng để chỉ hành động đang diễn ra lúc mất điện."
+  },
+  {
+    "id": 984,
+    "question": "I'm looking forward to ______ you again soon.",
+    "options": {
+      "A": "see",
+      "B": "to see",
+      "C": "seen",
+      "D": "seeing"
+    },
+    "key": "D",
+    "explanation": "Cấu trúc \"look forward to\" luôn đi kèm với động từ thêm -ing."
+  },
+  {
+    "id": 985,
+    "question": "This sign says you ______ park here. It's a no-parking area.",
+    "options": {
+      "A": "can",
+      "B": "mustn't",
+      "C": "shouldn't",
+      "D": "may"
+    },
+    "key": "B",
+    "explanation": "Dùng \"mustn't\" để chỉ một sự cấm đoán tuyệt đối theo biển báo."
+  },
+  {
+    "id": 986,
+    "question": "They live far from school, so they wake up early every day. They wish they ______ closer.",
+    "options": {
+      "A": "live",
+      "B": "lived",
+      "C": "will live",
+      "D": "are living"
+    },
+    "key": "B",
+    "explanation": "Câu ước cho điều trái ngược với hiện tại dùng thì quá khứ đơn."
+  },
+  {
+    "id": 987,
+    "question": "My sister ______ her little brother when my parents are away.",
+    "options": {
+      "A": "looks after",
+      "B": "looks at",
+      "C": "looks around",
+      "D": "looks into"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"looks after\" mang ý nghĩa chăm sóc một ai đó."
+  },
+  {
+    "id": 988,
+    "question": "We visited ______ museum that opened last month.",
+    "options": {
+      "A": "the",
+      "B": "a",
+      "C": "an",
+      "D": "Ø"
+    },
+    "key": "A",
+    "explanation": "Dùng mạo từ \"the\" cho bảo tàng cụ thể đã được xác định ở vế sau."
+  },
+  {
+    "id": 989,
+    "question": "Each of the boys ______ to wear a uniform.",
+    "options": {
+      "A": "have",
+      "B": "have had",
+      "C": "are having",
+      "D": "has"
+    },
+    "key": "D",
+    "explanation": "Cấu trúc \"Each of\" đi với danh từ số nhiều nhưng động từ chia số ít."
+  },
+  {
+    "id": 990,
+    "question": "______ he was sick, he still went to school.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "So",
+      "D": "Therefore"
+    },
+    "key": "A",
+    "explanation": "Liên từ \"Although\" nối hai vế câu có sự tương phản về nội dung."
+  },
+  {
+    "id": 991,
+    "question": "You should ______ attention to the teacher during the lesson.",
+    "options": {
+      "A": "make",
+      "B": "give",
+      "C": "pay",
+      "D": "do"
+    },
+    "key": "C",
+    "explanation": "Cụm từ cố định \"pay attention\" có nghĩa là tập trung chú ý vào giáo viên."
+  },
+  {
+    "id": 992,
+    "question": "Tom worked very hard to ______ his dream.",
+    "options": {
+      "A": "destroy",
+      "B": "forget",
+      "C": "reduce",
+      "D": "achieve"
+    },
+    "key": "D",
+    "explanation": "Động từ \"achieve\" có nghĩa là đạt được mục tiêu hoặc ước mơ của mình."
+  },
+  {
+    "id": 993,
+    "question": "If we ______ enough money, we will buy new equipment.",
+    "options": {
+      "A": "will have",
+      "B": "have",
+      "C": "had",
+      "D": "were having"
+    },
+    "key": "B",
+    "explanation": "Dùng hiện tại đơn trong mệnh đề If của câu điều kiện loại 1."
+  },
+  {
+    "id": 994,
+    "question": "She bought a ______ handbag at the weekend market.",
+    "options": {
+      "A": "Italian red small",
+      "B": "red small Italian",
+      "C": "small red Italian",
+      "D": "Italian small red"
+    },
+    "key": "C",
+    "explanation": "Sắp xếp tính từ: kích thước (small), màu sắc (red) và nguồn gốc (Italian)."
+  },
+  {
+    "id": 995,
+    "question": "A smartphone is usually ______ than a basic mobile phone.",
+    "options": {
+      "A": "the most expensive",
+      "B": "as expensive",
+      "C": "more expensive",
+      "D": "most expensive"
+    },
+    "key": "C",
+    "explanation": "Dùng so sánh hơn với tính từ dài \"more expensive\" khi có từ \"than\"."
+  },
+  {
+    "id": 996,
+    "question": "Don't worry, I ______ you with your homework later.",
+    "options": {
+      "A": "help",
+      "B": "am helping",
+      "C": "helped",
+      "D": "will help"
+    },
+    "key": "D",
+    "explanation": "Thì tương lai đơn diễn tả một lời hứa sẽ giúp đỡ ai đó."
+  },
+  {
+    "id": 997,
+    "question": "The teacher encouraged us ______ part in the speaking contest.",
+    "options": {
+      "A": "taking",
+      "B": "to take",
+      "C": "take",
+      "D": "taken"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc \"encourage someone to do something\" để khuyến khích ai làm gì."
+  },
+  {
+    "id": 998,
+    "question": "You look tired. You ______ take a short break.",
+    "options": {
+      "A": "mustn't",
+      "B": "ought",
+      "C": "should",
+      "D": "may not"
+    },
+    "key": "C",
+    "explanation": "Dùng \"should\" để đưa ra lời khuyên phù hợp với tình trạng mệt mỏi."
+  },
+  {
+    "id": 999,
+    "question": "She doesn't have time to join the picnic. She wishes she ______ more free time.",
+    "options": {
+      "A": "has",
+      "B": "had",
+      "C": "will have",
+      "D": "wouldly have"
+    },
+    "key": "B",
+    "explanation": "Câu ước cho điều không có thật hiện tại dùng thì quá khứ đơn (had)."
+  },
+  {
+    "id": 1000,
+    "question": "The students need to ______ their homework before the deadline.",
+    "options": {
+      "A": "hand out",
+      "B": "hand in",
+      "C": "hand up",
+      "D": "hand over"
+    },
+    "key": "B",
+    "explanation": "Cụm động từ \"hand in\" có nghĩa là nộp bài hoặc nộp báo cáo."
+  },
+  {
+    "id": 1001,
+    "question": "I usually drink ______ coffee before going to school.",
+    "options": {
+      "A": "the",
+      "B": "a",
+      "C": "an",
+      "D": "Ø"
+    },
+    "key": "D",
+    "explanation": "Không dùng mạo từ trước danh từ không đếm được mang nghĩa chung chung."
+  },
+  {
+    "id": 1002,
+    "question": "Either you or your sisters ______ to complete the form.",
+    "options": {
+      "A": "have",
+      "B": "are",
+      "C": "is",
+      "D": "has"
+    },
+    "key": "A",
+    "explanation": "Động từ chia theo chủ ngữ gần nhất là số nhiều \"your sisters\"."
+  },
+  {
+    "id": 1003,
+    "question": "She didn't join the competition ______ she didn't feel confident.",
+    "options": {
+      "A": "although",
+      "B": "because",
+      "C": "so",
+      "D": "therefore"
+    },
+    "key": "B",
+    "explanation": "Sử dụng liên từ \"because\" để giải thích lý do không tham gia cuộc thi."
+  },
+  {
+    "id": 1004,
+    "question": "You need to ______ exercise regularly to stay healthy.",
+    "options": {
+      "A": "take",
+      "B": "make",
+      "C": "do",
+      "D": "give"
+    },
+    "key": "A",
+    "explanation": "Cụm từ cố định \"take exercise\" có nghĩa là tập luyện thể dục."
+  },
+  {
+    "id": 1005,
+    "question": "She didn't buy the dress because it didn't ______ her style.",
+    "options": {
+      "A": "match",
+      "B": "confuse",
+      "C": "imagine",
+      "D": "suit"
+    },
+    "key": "D",
+    "explanation": "Động từ \"suit\" có nghĩa là phù hợp với phong cách hoặc sở thích."
+  },
+  {
+    "id": 1006,
+    "question": "If they don't hurry, they ______ the train.",
+    "options": {
+      "A": "missed",
+      "B": "misses",
+      "C": "will be missing",
+      "D": "will miss"
+    },
+    "key": "D",
+    "explanation": "Mệnh đề chính của câu điều kiện loại 1 chia ở thì tương lai đơn."
+  },
+  {
+    "id": 1007,
+    "question": "They stayed in a ______ hotel during their holiday in France.",
+    "options": {
+      "A": "modern luxurious tall",
+      "B": "luxurious tall modern",
+      "C": "tall modern luxurious",
+      "D": "tall luxurious modern"
+    },
+    "key": "D",
+    "explanation": "Trật tự tính từ: kích thước (tall), chất lượng (luxurious) và kiểu dáng (modern)."
+  },
+  {
+    "id": 1008,
+    "question": "That was ______ movie I have ever watched.",
+    "options": {
+      "A": "more exciting",
+      "B": "exciting",
+      "C": "as exciting as",
+      "D": "the most exciting"
+    },
+    "key": "D",
+    "explanation": "Cấu trúc so sánh nhất được dùng khi có dấu hiệu \"I have ever watched\"."
+  },
+  {
+    "id": 1009,
+    "question": "I think it ______ tomorrow because the sky is very cloudy.",
+    "options": {
+      "A": "rains",
+      "B": "rained",
+      "C": "is raining",
+      "D": "is going to rain"
+    },
+    "key": "D",
+    "explanation": "Dùng \"is going to\" để đưa ra dự đoán dựa trên bằng chứng hiện tại."
+  },
+  {
+    "id": 1010,
+    "question": "He stopped ______ junk food because he wanted to lose weight.",
+    "options": {
+      "A": "eat",
+      "B": "eating",
+      "C": "to eat",
+      "D": "eaten"
+    },
+    "key": "B",
+    "explanation": "Cấu trúc \"stop + V-ing\" dùng để nói về việc từ bỏ thói quen ăn đồ vặt."
+  },
+  {
+    "id": 1011,
+    "question": "He practices a lot, so he ______ play the guitar very well.",
+    "options": {
+      "A": "can't",
+      "B": "should",
+      "C": "can",
+      "D": "shouldn't"
+    },
+    "key": "C",
+    "explanation": "Động từ khuyết thiếu \"can\" diễn tả năng lực làm việc gì của một người."
+  },
+  {
+    "id": 1012,
+    "question": "He's not good at English speaking. He wishes he ______ more fluent.",
+    "options": {
+      "A": "is",
+      "B": "were",
+      "C": "will be",
+      "D": "be"
+    },
+    "key": "B",
+    "explanation": "Dùng \"were\" sau câu ước để diễn tả điều mong muốn không thật hiện tại."
+  },
+  {
+    "id": 1013,
+    "question": "He tried to ______ smoking because of health problems.",
+    "options": {
+      "A": "give up",
+      "B": "give away",
+      "C": "give off",
+      "D": "give out"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"give up\" có nghĩa là bỏ hẳn một thói quen xấu nào đó."
+  },
+  {
+    "id": 1014,
+    "question": "Do you have ______ umbrella? It's raining outside.",
+    "options": {
+      "A": "the",
+      "B": "a",
+      "C": "an",
+      "D": "Ø"
+    },
+    "key": "C",
+    "explanation": "Mạo từ \"an\" được dùng trước danh từ đếm được bắt đầu bằng nguyên âm."
+  },
+  {
+    "id": 1015,
+    "question": "Ten kilometers ______ too far to walk.",
+    "options": {
+      "A": "have",
+      "B": "are",
+      "C": "is",
+      "D": "has been"
+    },
+    "key": "C",
+    "explanation": "Danh từ chỉ đơn vị đo khoảng cách luôn đi kèm với động từ số ít."
+  },
+  {
+    "id": 1016,
+    "question": "We must hurry ______ we will miss the bus.",
+    "options": {
+      "A": "or",
+      "B": "because",
+      "C": "so",
+      "D": "but"
+    },
+    "key": "A",
+    "explanation": "Dùng liên từ \"or\" với nghĩa là nếu không thì (cảnh báo kết quả)."
+  },
+  {
+    "id": 1017,
+    "question": "Her parents always ______ a hand when she faces difficulties.",
+    "options": {
+      "A": "pay",
+      "B": "give",
+      "C": "make",
+      "D": "take"
+    },
+    "key": "B",
+    "explanation": "Cụm từ \"give a hand\" có nghĩa là giúp đỡ ai đó vượt qua khó khăn."
+  },
+  {
+    "id": 1018,
+    "question": "The new policy aims to ______ pollution levels.",
+    "options": {
+      "A": "repeat",
+      "B": "increase",
+      "C": "reduce",
+      "D": "collect"
+    },
+    "key": "C",
+    "explanation": "Động từ \"reduce\" có nghĩa là cắt giảm bớt mức độ ô nhiễm môi trường."
+  },
+  {
+    "id": 1019,
+    "question": "If the weather is good, we ______ a barbecue this weekend.",
+    "options": {
+      "A": "have",
+      "B": "will have",
+      "C": "had",
+      "D": "were having"
+    },
+    "key": "B",
+    "explanation": "Câu điều kiện loại 1 dùng \"will\" ở mệnh đề chính chỉ khả năng xảy ra."
+  },
+  {
+    "id": 1020,
+    "question": "We stayed overnight in a ______ cabin deep in the forest.",
+    "options": {
+      "A": "cosy wooden small",
+      "B": "small cosy wooden",
+      "C": "wooden cosy small",
+      "D": "cosy small wooden"
+    },
+    "key": "B",
+    "explanation": "Trật tự tính từ đúng: kích thước (small), ý kiến (cosy) và chất liệu (wooden)."
+  },
+  {
+    "id": 1021,
+    "question": "This route is ______ way to get to the airport.",
+    "options": {
+      "A": "the quicker",
+      "B": "quicker",
+      "C": "the quickest",
+      "D": "as quick"
+    },
+    "key": "C",
+    "explanation": "Sử dụng cấu trúc so sánh nhất để chỉ con đường nhanh nhất."
+  },
+  {
+    "id": 1022,
+    "question": "She ______ in this company since 2020.",
+    "options": {
+      "A": "worked",
+      "B": "is working",
+      "C": "has worked",
+      "D": "works"
+    },
+    "key": "C",
+    "explanation": "Dùng thì hiện tại hoàn thành khi câu có từ nhận biết là \"since\"."
+  },
+  {
+    "id": 1023,
+    "question": "We suggested ______ a taxi because it was getting late.",
+    "options": {
+      "A": "take",
+      "B": "taking",
+      "C": "to take",
+      "D": "taken"
+    },
+    "key": "B",
+    "explanation": "Sau động từ \"suggest\", chúng ta luôn sử dụng động từ ở dạng thêm -ing."
+  },
+  {
+    "id": 1024,
+    "question": "We ______ finish the report today; the deadline is tomorrow morning.",
+    "options": {
+      "A": "must",
+      "B": "may",
+      "C": "could",
+      "D": "might"
+    },
+    "key": "A",
+    "explanation": "Sử dụng \"must\" để diễn tả một sự bắt buộc cần thiết phải thực hiện."
+  },
+  {
+    "id": 1025,
+    "question": "I can't cook well to help my mom. I wish I ______ how to cook.",
+    "options": {
+      "A": "know",
+      "B": "knew",
+      "C": "have known",
+      "D": "knowing"
+    },
+    "key": "B",
+    "explanation": "Câu ước ở hiện tại lùi động từ về thì quá khứ đơn (knew)."
+  },
+  {
+    "id": 1026,
+    "question": "The teacher asked us to ______ the form carefully before filling it in.",
+    "options": {
+      "A": "go through",
+      "B": "go over",
+      "C": "go off",
+      "D": "go on"
+    },
+    "key": "A",
+    "explanation": "Cụm động từ \"go through\" mang ý nghĩa xem xét hoặc kiểm tra kỹ lưỡng."
+  },
+  {
+    "id": 1027,
+    "question": "My brother wants to become ______ engineer in the future.",
+    "options": {
+      "A": "the",
+      "B": "a",
+      "C": "an",
+      "D": "Ø"
+    },
+    "key": "C",
+    "explanation": "Mạo từ \"an\" đứng trước danh từ bắt đầu bằng nguyên âm khi nói nghề nghiệp."
+  },
+  {
+    "id": 1028,
+    "question": "The news on TV ______ quite shocking.",
+    "options": {
+      "A": "be",
+      "B": "are",
+      "C": "is",
+      "D": "has"
+    },
+    "key": "C",
+    "explanation": "Danh từ \"news\" (tin tức) luôn đi kèm với động từ tobe ở dạng số ít."
+  },
+  {
+    "id": 1029,
+    "question": "He looked tired, ______ he had worked all night.",
+    "options": {
+      "A": "although",
+      "B": "so",
+      "C": "and",
+      "D": "because"
+    },
+    "key": "D",
+    "explanation": "Dùng liên từ \"because\" để giải thích nguyên nhân gây ra sự mệt mỏi."
+  },
+  {
+    "id": 1030,
+    "question": "My sister wants to ______ a course in graphic design.",
+    "options": {
+      "A": "take",
+      "B": "make",
+      "C": "get",
+      "D": "do"
+    },
+    "key": "A",
+    "explanation": "Cụm từ cố định \"take a course\" có nghĩa là đăng ký học một khóa học."
+  },
+  {
+    "id": 1031,
+    "question": "The campaign aims to raise public ______ about water conservation.",
+    "options": {
+      "A": "attention",
+      "B": "discussion",
+      "C": "awareness",
+      "D": "permission"
+    },
+    "key": "C",
+    "explanation": "Cụm từ \"raise awareness\" có nghĩa là nâng cao nhận thức của cộng đồng."
+  },
+  {
+    "id": 1032,
+    "question": "If we leave now, we ______ the beginning of the movie.",
+    "options": {
+      "A": "missed",
+      "B": "were missing",
+      "C": "won't miss",
+      "D": "haven't missed"
+    },
+    "key": "C",
+    "explanation": "Dùng \"won't miss\" ở mệnh đề chính của câu điều kiện loại 1."
+  },
+  {
+    "id": 1033,
+    "question": "She bought a ______ picture at the art contest.",
+    "options": {
+      "A": "nice French big",
+      "B": "French nice big",
+      "C": "nice big French",
+      "D": "big nice French"
+    },
+    "key": "C",
+    "explanation": "Trật tự tính từ: ý kiến (nice), kích thước (big) và nguồn gốc (French)."
+  },
+  {
+    "id": 1034,
+    "question": "This café is ______ one in the area.",
+    "options": {
+      "A": "more popular",
+      "B": "as popular as",
+      "C": "the most popular",
+      "D": "most popular"
+    },
+    "key": "C",
+    "explanation": "Sử dụng cấu trúc so sánh nhất để chỉ sự vật nổi tiếng nhất vùng."
+  },
+  {
+    "id": 1035,
+    "question": "My grandparents ______ in the countryside and love the peaceful life.",
+    "options": {
+      "A": "are living",
+      "B": "live",
+      "C": "lived",
+      "D": "have lived"
+    },
+    "key": "B",
+    "explanation": "Thì hiện tại đơn diễn tả một trạng thái sống lâu dài và ổn định."
+  },
+  {
+    "id": 1036,
+    "question": "The doctor told him ______ more often.",
+    "options": {
+      "A": "exercised",
+      "B": "exercising",
+      "C": "exercise",
+      "D": "to exercise"
+    },
+    "key": "D",
+    "explanation": "Cấu trúc \"tell someone to do something\" để truyền đạt một lời dặn dò."
+  },
+  {
+    "id": 1037,
+    "question": "You ______ try the new restaurant. The food is amazing.",
+    "options": {
+      "A": "mustn't",
+      "B": "might",
+      "C": "shouldn't",
+      "D": "should"
+    },
+    "key": "D",
+    "explanation": "Sử dụng \"should\" để đưa ra lời gợi ý hoặc lời khuyên hữu ích."
+  },
+  {
+    "id": 1038,
+    "question": "She lives far from her family and feels homesick. She wishes she ______ with them.",
+    "options": {
+      "A": "lives",
+      "B": "lived",
+      "C": "has lived",
+      "D": "will live"
+    },
+    "key": "B",
+    "explanation": "Câu ước ở hiện tại dùng thì quá khứ đơn để chỉ điều không thật hiện tại."
+  },
+  {
+    "id": 1039,
+    "question": "After hours of talking, they finally ______ a solution to the problem.",
+    "options": {
+      "A": "took care of",
+      "B": "put up with",
+      "C": "got along with",
+      "D": "came up with"
+    },
+    "key": "D",
+    "explanation": "Cụm động từ \"came up with\" có nghĩa là nảy ra hoặc nghĩ ra ý tưởng."
+  },
+  {
+    "id": 1040,
+    "question": "We had ______ wonderful time at the festival.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "A",
+    "explanation": "Cụm từ cố định \"have a wonderful time\" có nghĩa là tận hưởng thời gian vui vẻ."
+  },
+  {
+    "id": 1041,
+    "question": "The police ______ for the missing child.",
+    "options": {
+      "A": "has searched",
+      "B": "searches",
+      " Milford": "are searching",
+      "D": "is searching"
+    },
+    "key": "C",
+    "explanation": "Danh từ \"The police\" luôn được coi là danh từ tập hợp đi với số nhiều."
+  },
+  {
+    "id": 1042,
+    "question": "He was late for the meeting ______ his car broke down.",
+    "options": {
+      "A": "although",
+      "B": "so",
+      "C": "but",
+      "D": "because"
+    },
+    "key": "D",
+    "explanation": "Liên từ \"because\" giải thích lý do cụ thể khiến anh ấy bị trễ họp."
+  },
+  {
+    "id": 1043,
+    "question": "My aim is to ______ progress in speaking English.",
+    "options": {
+      "A": "do",
+      "B": "make",
+      "C": "take",
+      "D": "get"
+    },
+    "key": "B",
+    "explanation": "Cụm từ \"make progress\" có nghĩa là đạt được sự tiến bộ trong học tập."
+  },
+  {
+    "id": 1044,
+    "question": "Solar energy is a renewable ______ that comes from the Sun.",
+    "options": {
+      "A": "opinion",
+      "B": "direction",
+      "C": "source",
+      "D": "signal"
+    },
+    "key": "C",
+    "explanation": "Cụm từ \"renewable source\" chỉ nguồn năng lượng có thể tái tạo được."
+  },
+  {
+    "id": 1045,
+    "question": "If the company offers a discount, more customers ______.",
+    "options": {
+      "A": "will come",
+      "B": "have come",
+      "C": "came",
+      "D": "were coming"
+    },
+    "key": "A",
+    "explanation": "Mệnh đề chính của câu điều kiện loại 1 diễn tả kết quả trong tương lai."
+  },
+  {
+    "id": 1046,
+    "question": "They visited a ______ castle during their trip to Germany.",
+    "options": {
+      "A": "large famous German",
+      "B": "large German famous",
+      "C": "famous large German",
+      "D": "famous German large"
+    },
+    "key": "C",
+    "explanation": "Trật tự tính từ: ý kiến (famous), kích thước (large) và nguồn gốc (German)."
+  },
+  {
+    "id": 1047,
+    "question": "Linda is ______ at Math than English.",
+    "options": {
+      "A": "the better",
+      "B": "the best",
+      "C": "better",
+      "D": "as good as"
+    },
+    "key": "C",
+    "explanation": "Dùng dạng so sánh hơn đặc biệt \"better\" của tính từ \"good\"."
+  },
+  {
+    "id": 1048,
+    "question": "I ______ my best friend yesterday after months of being busy.",
+    "options": {
+      "A": "have seen",
+      "B": "see",
+      "C": "saw",
+      "D": "were seeing"
+    },
+    "key": "C",
+    "explanation": "Thì quá khứ đơn dùng cho hành động đã kết thúc trọn vẹn trong quá khứ."
+  },
+  {
+    "id": 1049,
+    "question": "She agreed ______ part in the charity event.",
+    "options": {
+      "A": "to taking",
+      "B": "take",
+      "C": "to take",
+      "D": "taking"
+    },
+    "key": "C",
+    "explanation": "Động từ \"agree\" luôn đi kèm với dạng nguyên mẫu có to (to V)."
+  },
+  {
+    "id": 1050,
+    "question": "It's optional; you ______ join the workshop if you want.",
+    "options": {
+      "A": "must",
+      "B": "mustn't",
+      "C": "can't",
+      "D": "can"
+    },
+    "key": "D",
+    "explanation": "Sử dụng \"can\" để diễn tả sự cho phép hoặc khả năng lựa chọn tự do."
+  },
+  {
+    "id": 1051,
+    "question": "He isn't confident when speaking English. He wishes he ______ more confident.",
+    "options": {
+      "A": "is",
+      "B": "has been",
+      "C": "were",
+      "D": "will be"
+    },
+    "key": "C",
+    "explanation": "Câu ước cho điều không có thật hiện tại dùng \"were\" cho tất cả các ngôi."
+  },
+  {
+    "id": 1052,
+    "question": "The students ______ the bus in front of the school.",
+    "options": {
+      "A": "get up",
+      "B": "get off",
+      "C": "take in",
+      "D": "take over"
+    },
+    "key": "B",
+    "explanation": "Cụm động từ \"get off\" có nghĩa là bước xuống khỏi xe buýt hoặc tàu."
+  },
+  {
+    "id": 1053,
+    "question": "My neighbour plays ______ piano very well.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "C",
+    "explanation": "Dùng mạo từ \"the\" đứng trước tên các loại nhạc cụ khi chơi chúng."
+  },
+  {
+    "id": 1054,
+    "question": "Three hours ______ enough to finish the test.",
+    "options": {
+      "A": "isn't",
+      "B": "aren't",
+      "C": "weren't",
+      "D": "haven't been"
+    },
+    "key": "A",
+    "explanation": "Khoảng thời gian (Three hours) luôn được coi là một đơn vị số ít."
+  },
+  {
+    "id": 1055,
+    "question": "She overslept this morning, ______ she went to class late.",
+    "options": {
+      "A": "although",
+      "B": "because",
+      "C": "but",
+      "D": "so"
+    },
+    "key": "D",
+    "explanation": "Liên từ \"so\" dùng để chỉ kết quả dẫn đến từ việc ngủ quên."
+  },
+  {
+    "id": 1056,
+    "question": "They hope to ______ experience through part-time jobs.",
+    "options": {
+      "A": "make",
+      "B": "gain",
+      "C": "give",
+      "D": "put"
+    },
+    "key": "B",
+    "explanation": "Động từ \"gain\" thường đi với từ \"experience\" để chỉ việc tích lũy kinh nghiệm."
+  },
+  {
+    "id": 1057,
+    "question": "It is important to ______ all options before deciding.",
+    "options": {
+      "A": "cancel",
+      "B": "separate",
+      "C": "consider",
+      "D": "deliver"
+    },
+    "key": "C",
+    "explanation": "Động từ \"consider\" có nghĩa là xem xét hoặc cân nhắc kỹ mọi lựa chọn."
+  },
+  {
+    "id": 1058,
+    "question": "If you practice speaking every day, your English ______ quickly.",
+    "options": {
+      "A": "improved",
+      "B": "has improved",
+      "C": "will improve",
+      "D": "is improving"
+    },
+    "key": "C",
+    "explanation": "Mệnh đề chính của câu điều kiện loại 1 dùng thì tương lai đơn (will improve)."
+  },
+  {
+    "id": 1059,
+    "question": "He bought a ______ lamp for his study desk.",
+    "options": {
+      "A": "small nice Japanese",
+      "B": "nice Japanese small",
+      "C": "Japanese small nice",
+      "D": "nice small Japanese"
+    },
+    "key": "D",
+    "explanation": "Trật tự tính từ đúng: ý kiến (nice), kích thước (small) và nguồn gốc (Japanese)."
+  },
+  {
+    "id": 1060,
+    "question": "He arrived ______ of all the participants.",
+    "options": {
+      "A": "the earlier",
+      "B": "earlier",
+      "C": "as early as",
+      "D": "the earliest"
+    },
+    "key": "D",
+    "explanation": "Sử dụng hình thức so sánh nhất để chỉ người đến sớm nhất trong nhóm."
+  },
+  {
+    "id": 1061,
+    "question": "They ______ their project presentation yet.",
+    "options": {
+      "A": "didn't finish",
+      "B": "haven't finished",
+      "C": "don't finish",
+      "D": "aren't finishing"
+    },
+    "key": "B",
+    "explanation": "Thì hiện tại hoàn thành đi kèm với từ nhận biết là \"yet\" ở cuối câu."
+  },
+  {
+    "id": 1062,
+    "question": "My daughter tries to avoid ______ much time on social media.",
+    "options": {
+      "A": "to listen",
+      "B": "listened",
+      "C": "listen",
+      "D": "wasting"
+    },
+    "key": "D",
+    "explanation": "Sau động từ \"avoid\", chúng ta luôn sử dụng động từ ở dạng thêm đuôi -ing."
+  },
+  {
+    "id": 1063,
+    "question": "Because of the fog, drivers ______ drive more carefully.",
+    "options": {
+      "A": "mustn't",
+      "B": "should",
+      "C": "might",
+      "D": "can't"
+    },
+    "key": "B",
+    "explanation": "Dùng \"should\" để đưa ra lời khuyên lái xe an toàn khi trời có sương mù."
+  },
+  {
+    "id": 1064,
+    "question": "I don't have a bike to go to school. I wish I ______ a bike.",
+    "options": {
+      "A": "have",
+      "B": "had",
+      "C": "will have",
+      "D": "am having"
+    },
+    "key": "B",
+    "explanation": "Câu ước ở hiện tại dùng thì quá khứ đơn để chỉ mong muốn trái thực tế."
+  },
+  {
+    "id": 1065,
+    "question": "Please ______ the volume so I can concentrate on my homework.",
+    "options": {
+      "A": "get down",
+      "B": "get off",
+      "C": "turn round",
+      "D": "turn down"
+    },
+    "key": "D",
+    "explanation": "Cụm động từ \"turn down\" có nghĩa là vặn nhỏ âm lượng của thiết bị."
+  },
+  {
+    "id": 1066,
+    "question": "I don't usually eat ______ meat because I'm vegetarian.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "Ø"
+    },
+    "key": "D",
+    "explanation": "Không dùng mạo từ đứng trước danh từ không đếm được chỉ thực phẩm nói chung."
+  },
+  {
+    "id": 1067,
+    "question": "500 dollars ______ enough to cover the cost of the course.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "have been"
+    },
+    "key": "A",
+    "explanation": "Số tiền (500 dollars) được xem là một đơn vị và đi với động từ số ít."
+  },
+  {
+    "id": 1068,
+    "question": "I will buy this jacket ______ it's expensive.",
+    "options": {
+      "A": "because",
+      "B": "so",
+      "C": "although",
+      "D": "therefore"
+    },
+    "key": "C",
+    "explanation": "Sử dụng liên từ \"although\" để chỉ sự đối lập giữa giá cả và hành động mua."
+  },
+  {
+    "id": 1069,
+    "question": "She is trying to ______ weight by eating healthier food.",
+    "options": {
+      "A": "lose",
+      "B": "get",
+      "C": "take",
+      "D": "make"
+    },
+    "key": "A",
+    "explanation": "Cụm từ cố định \"lose weight\" có nghĩa là giảm trọng lượng cơ thể."
+  },
+  {
+    "id": 1070,
+    "question": "The school organized a charity event to ______ money.",
+    "options": {
+      "A": "hide",
+      "B": "waste",
+      "C": "express",
+      "D": "raise"
+    },
+    "key": "D",
+    "explanation": "Cụm từ \"raise money\" có nghĩa là gây quỹ hoặc quyên góp tiền từ thiện."
   }
 ];
